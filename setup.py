@@ -11,6 +11,7 @@ setup(
     description='UOC practica 1. Tipologia i cicle de vida.  ',
     install_requires=[
         'BeautifulSoup',
-        'requests'
+        'requests',
+        'urllib3'
     ],
 )
