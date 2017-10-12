@@ -24,6 +24,8 @@ def start_scraping():
     for url in URLS:
         scraping_url(BASE_URL + url[0], url[1])
 
+    print('Success!!!')
+
 
 def scraping_url(url, name):
     rows = []
@@ -55,6 +57,8 @@ def scraping_url(url, name):
 
     append_title_row(rows)
 
+    print('Init scraping in url '+ url)
+
     for tr in trs:
         row = []
 
@@ -70,6 +74,8 @@ def scraping_url(url, name):
     with open(get_file_name(name, now), 'w') as f_output:
         csv_output = csv.writer(f_output)
         csv_output.writerows(rows)
+
+    print('Finish url' + url)
 
 
 def append_text(row, td):
