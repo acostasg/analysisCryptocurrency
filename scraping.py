@@ -1,30 +1,31 @@
-import BeautifulSoup
+import BeautifulSoup as bs
 import requests
 import re
 import csv
+import datetime
 
 
 def start_scraping():
     urls = [
-        'IBEX-35',
-        'mercado-continuo',
-        'IGBM',
-        'ECO10',
-        'IBEX-DIVIDENDO',
+        ['IBEX-35', 'ibex_35'],
+        ['mercado-continuo', 'mercat_continuo'],
+        ['IGBM', 'igbm'],
+        ['ECO10', 'eco10'],
+        ['IBEX-DIVIDENDO','ibex_divident'],
     ]
     base = 'http://www.eleconomista.es/indice/'
 
     for url in urls:
-        scraping_url(base + url)
+        scraping_url(base + url[0], url[1])
 
 
-def scraping_url(url):
+def scraping_url(url, name):
     rows = []
     for i in range(1, 56):
         print(i)
         r = requests.get(url.format(i))
         data = r.text
-        cat = BeautifulSoup(data, "html.parser")
+        cat = bs.BeautifulSoup(data, "html.parser")
         links = []
 
         for link in cat.find_all('a', href=re.compile('selectedid=')):
@@ -33,7 +34,7 @@ def scraping_url(url):
         for link in links:
             r = requests.get(link)
             data = r.text
-            cat = BeautifulSoup(data, "html.parser")
+            cat = bs.BeautifulSoup(data, "html.parser")
             lspans = cat.find_all('span')
             cs = cat.find_all("table")[0].find_all("td", headers="name/1")
             elected = []
@@ -50,8 +51,9 @@ def scraping_url(url):
                 len(elected),
                 cs[0].contents[0].strip().encode('latin-1')
             ])
+    now = datetime.datetime.now()
 
-    with open('./output/bytcon.csv', 'w', newline='') as f_output:
+    with open('./output/'+name+'_'+now.day+'_'+now.month+'_'+now.year+'.csv', 'w', newline='') as f_output:
         csv_output = csv.writer(f_output)
         csv_output.writerows(rows)
 
