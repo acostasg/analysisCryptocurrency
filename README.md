@@ -1,3 +1,29 @@
 # Scraping
 
-UOC practica 1. Tipologia i cicle de vida 
+UOC practica 1. Tipologia i cicle de vida.
+
+# Fitxers
+
+* Document PDF amb les respostes de les preguntes i els noms dels components del grup.
+* Carpeta amb el codi Pyhton per obtenir les dades
+* Fixer CSV amb les dades
+
+# Links
+
+Repositori github: https://github.com/acostasg/scraping/blob/master/README.md
+
+Repositori kaggle Opne data: https://www.kaggle.com/datasets
+
+# Autors
+
+Albert Costas Gutierrez acostasg@uoc.edu
+
+# Llicència
+
+Database released under Open Database License, individual contents under   Database   Contents   License.
+
+# Referencies
+
+* https://stackoverflow.com/questions/6159900/correct-way-to-write-line-to-file-in-python
+* Llibre manual: Richard Lawson. Web Scraping with Python. Packt Publishing Ltd, October 2015. 174 p. ISBN 9781782164371
+* https://docs.python.org/2/tutorial/inputoutput.html
