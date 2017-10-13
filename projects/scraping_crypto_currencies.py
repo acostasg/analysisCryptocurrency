@@ -11,7 +11,7 @@ UP = 'pujada'
 UP_NAME_GIF = '/imag3/fsube2.gif'
 
 URLS = [
-    ['/all/views/all/', 'cryoto_currencies'],
+    ['/all/views/all/', 'crypto_currencies'],
 ]
 BASE_URL = 'https://coinmarketcap.com'
 
@@ -92,7 +92,7 @@ def append_title_row(rows):
 
 
 def get_file_name(name, now):
-    dir = './output/crypoto_currencies/' + now.day.__str__() + '_' + now.month.__str__() + '_' + now.year.__str__()
+    dir = './output/'+ name
     if not os.path.exists(dir):
         os.makedirs(dir)
-    return dir + '/' + name + '.csv'
+    return dir + '/' +  now.day.__str__() + '_' + now.month.__str__() + '_' + now.year.__str__() + '_' + name + '.csv'

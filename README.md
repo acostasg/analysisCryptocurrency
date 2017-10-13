@@ -10,9 +10,11 @@ UOC practica 1. Tipologia i cicle de vida.
 
 # Links
 
-Repositori github: https://github.com/acostasg/scraping/blob/master/README.md
+Repositori github: https://github.com/acostasg/scraping
 
-Repositori kaggle Opne data: https://www.kaggle.com/datasets
+Repositori kaggle Open data: 
+* https://www.kaggle.com/acostasg/stock-index/
+* https://www.kaggle.com/acostasg/crypto-currencies
 
 # Autors
 
