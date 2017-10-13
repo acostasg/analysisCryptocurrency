@@ -29,3 +29,22 @@ Database released under Open Database License, individual contents under   Datab
 * https://stackoverflow.com/questions/6159900/correct-way-to-write-line-to-file-in-python
 * Llibre manual: Richard Lawson. Web Scraping with Python. Packt Publishing Ltd, October 2015. 174 p. ISBN 9781782164371
 * https://docs.python.org/2/tutorial/inputoutput.html
+
+# Estructura
+
+```
+scraping
+├── csv
+│   ├── cypto_currencies
+│   │   └── ... # fitxers csv 
+│   └── stock_index
+│       └── ... # directoris per data amb els csv
+│   
+├── projects
+│   ├── scraping_crypto_currencies.py # scraping url criptomoneda
+│   └── scraping_stock_indexs.py # scraping url el economista
+├── README.md
+├── scraping.py # fitxer python incial
+└── setup.py 
+
+```

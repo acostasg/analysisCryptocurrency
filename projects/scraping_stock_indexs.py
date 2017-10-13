@@ -111,7 +111,7 @@ def append_title_row(rows):
 
 
 def get_file_name(name, now):
-    dir = './output/stock_index/' + now.day.__str__() + '_' + now.month.__str__() + '_' + now.year.__str__()
+    dir = './csv/stock_index/' + now.day.__str__() + '_' + now.month.__str__() + '_' + now.year.__str__()
     if not os.path.exists(dir):
         os.makedirs(dir)
     return dir + '/' + name + '.csv'

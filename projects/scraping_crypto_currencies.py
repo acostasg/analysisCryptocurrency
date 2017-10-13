@@ -92,7 +92,7 @@ def append_title_row(rows):
 
 
 def get_file_name(name, now):
-    dir = './output/'+ name
+    dir = './csv/' + name
     if not os.path.exists(dir):
         os.makedirs(dir)
     return dir + '/' +  now.day.__str__() + '_' + now.month.__str__() + '_' + now.year.__str__() + '_' + name + '.csv'
