@@ -43,6 +43,7 @@ scraping
 ├── projects
 │   ├── scraping_crypto_currencies.py # scraping url criptomoneda
 │   └── scraping_stock_indexs.py # scraping url el economista
+│   
 ├── README.md
 ├── scraping.py # fitxer python incial
 └── setup.py 
