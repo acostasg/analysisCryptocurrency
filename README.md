@@ -22,7 +22,13 @@ Albert Costas Gutierrez acostasg@uoc.edu
 
 # Llicència
 
-Database released under Open Database License, individual contents under   Database   Contents   License.
+Database released under Open Database License, individual contents under Database Contents License.
+
+## Fonts de dades
+* http://www.eleconomista.es
+* https://coinmarketcap.com
+
+Les dades estan sota llicència de les webs respectivament.
 
 # Referencies
 
