@@ -15,6 +15,7 @@ LITERAL_ERROR_EMPTY_HTML = "Error empty html for "
 LITERAL_INVALID_LINK = "Invalid url "
 LITERAL_DOWN = 'baixada'
 LITERAL_UP = 'pujada'
+LITERAL_INDEX = 'Success stock index\'s!!!'
 
 # verbs
 GET = 'GET'
@@ -56,7 +57,7 @@ class StockIndex:
         for url in URLS:
             self.scraping_url(BASE_URL + url[0], url[1])
 
-        print('Success stock index\'s!!!')
+        print(LITERAL_INDEX)
 
     def scraping_url(self, url, name):
         rows = []

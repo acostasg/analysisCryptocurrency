@@ -122,4 +122,5 @@ class CryptoCurrencies:
         folder = CSV_PATH + name
         if not os.path.exists(folder):
             os.makedirs(folder)
-        return folder + SEPARATOR + now.day.__str__() + UNDERLINE + now.month.__str__() + UNDERLINE + now.year.__str__() + UNDERLINE + name + CSV
+        return folder + SEPARATOR + now.day.__str__() + UNDERLINE + now.month.__str__() \
+               + UNDERLINE + now.year.__str__() + UNDERLINE + name + CSV
