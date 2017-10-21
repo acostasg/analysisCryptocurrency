@@ -2,14 +2,41 @@ import csv
 import datetime
 import os
 
-import BeautifulSoup as bs
+import BeautifulSoup as ScrapingModule
 import urllib3 as urllib
 
-UTF8 = 'utf-8'
-DOWN = 'baixada'
-UP = 'pujada'
+# output paths
+OUTPUT_INDEX_CSV = './csv/stock_index/'
+
+# literals to print
+LITERAL_FINISH_URL = 'Finish url '
+LITERAL_INIT_SCRAPING_IN_URL = 'Init scraping in url '
+LITERAL_ERROR_EMPTY_HTML = "Error empty html for "
+LITERAL_INVALID_LINK = "Invalid url "
+LITERAL_DOWN = 'baixada'
+LITERAL_UP = 'pujada'
+
+# verbs
+GET = 'GET'
+
+# html elements
+UNDERLINE = '_'
+SEPARATOR = '/'
+CSV = '.csv'
+IMG = 'img'
+SRC = 'src'
+TD = 'td'
+CLASS = 'class'
+TR = 'tr'
+TABLE = 'table'
+TBODY = 'tbody'
+TABLALISTA = 'tablalista'
 UP_NAME_GIF = '/imag3/fsube2.gif'
 
+# standards
+UTF8 = 'utf-8'
+
+# urls to scraping
 URLS = [
     ['IBEX-35', 'ibex_35'],
     ['mercado-continuo', 'mercat_continuo'],
@@ -20,102 +47,98 @@ URLS = [
 BASE_URL = 'http://www.eleconomista.es/indice/'
 
 
-def start_scraping():
-    for url in URLS:
-        scraping_url(BASE_URL + url[0], url[1])
+class StockIndex:
 
-    print('Success stock indexs!!!')
+    def __init__(self):
+        pass
 
+    def start_scraping(self):
+        for url in URLS:
+            self.scraping_url(BASE_URL + url[0], url[1])
 
-def scraping_url(url, name):
-    rows = []
+        print('Success stock index\'s!!!')
 
-    http = urllib.PoolManager()
+    def scraping_url(self, url, name):
+        rows = []
 
-    response = http.request('GET', url)
+        http = urllib.PoolManager()
 
-    if response.status != 200:
-        print("Invalid url " + url)
-        return
+        response = http.request(GET, url)
 
-    html = response.data.decode(UTF8)
+        if response.status != 200:
+            print(LITERAL_INVALID_LINK + url)
+            return
 
-    if html == "":
-        print("Error empty html for " + url)
-        return
+        html = response.data.decode(UTF8)
 
-    soup = bs.BeautifulSoup(html)
+        if html == "":
+            print(LITERAL_ERROR_EMPTY_HTML + url)
+            return
 
-    table_list = soup.find('table', attrs={'class': 'tablalista'}).find('tbody')
-    trs = table_list.findAll('tr')
+        soup = ScrapingModule.BeautifulSoup(html)
 
-    # first trs is titles
-    trs.pop(0)
+        table_list = soup.find(TABLE, attrs={CLASS: TABLALISTA}).find(TBODY)
+        trs = table_list.findAll(TR)
 
-    # last trs is invalid
-    trs.pop(len(trs) - 1)
+        # first trs is titles
+        trs.pop(0)
 
-    append_title_row(rows)
+        # last trs is invalid
+        trs.pop(len(trs) - 1)
 
-    print('Init scraping in url '+ url)
+        self.append_title_row(rows)
 
-    for tr in trs:
-        row = []
+        print(LITERAL_INIT_SCRAPING_IN_URL + url)
 
-        for td in tr.findAll('td'):
-            append_text(row, td)
+        for tr in trs:
+            row = []
 
+            for td in tr.findAll(TD):
+                self.append_text(row, td)
+
+            rows.append(
+                row
+            )
+
+        now = datetime.datetime.now()
+
+        with open(self.get_file_name(name, now), 'w') as f_output:
+            csv_output = csv.writer(f_output)
+            csv_output.writerows(rows)
+
+        print(LITERAL_FINISH_URL + url)
+
+    def append_text(self, row, td):
+        text = td.text.encode(UTF8)
+        if text:
+            row.append(text)
+        else:
+            self.get_status_name(row, td)
+
+    def get_status_name(self, row, td):
+        if td.find(IMG, attrs={SRC: UP_NAME_GIF}):
+            row.append(LITERAL_UP)
+        else:
+            row.append(LITERAL_DOWN)
+
+    def append_title_row(self, rows):
         rows.append(
-            row
+            [
+                "Nom",
+                "Preu",
+                "Estat",
+                "Var. per cent",
+                "Var. en euros",
+                "Volum en euros",
+                "Capitalizacio (milions euros)",
+                "Per",
+                "Rent./Div",
+                "Hora"
+            ]
         )
 
-    now = datetime.datetime.now()
-
-    with open(get_file_name(name, now), 'w') as f_output:
-        csv_output = csv.writer(f_output)
-        csv_output.writerows(rows)
-
-    print('Finish url' + url)
-
-
-def append_text(row, td):
-    text = td.text.encode(UTF8)
-    if text:
-        row.append(text)
-    else:
-        get_status_name(row, td)
-
-
-def get_status_name(row, td):
-    if td.find('img', attrs={'src': UP_NAME_GIF}):
-        row.append(UP)
-    else:
-        row.append(DOWN)
-
-
-def append_title_row(rows):
-    rows.append(
-        [
-            "Nom",
-            "Preu",
-            "Estat",
-            "Var. per cent",
-            "Var. en euros",
-            "Volum en euros",
-            "Capitalizacio (milions euros)",
-            "Per",
-            "Rent./Div",
-            "Hora"
-        ]
-    )
-
-
-def get_file_name(name, now):
-    dir = './csv/stock_index/' + now.day.__str__() + '_' + now.month.__str__() + '_' + now.year.__str__()
-    if not os.path.exists(dir):
-        os.makedirs(dir)
-    return dir + '/' + name + '.csv'
-
-
-if __name__ == "__main__":
-    start_scraping()
+    def get_file_name(self, name, now):
+        folder = OUTPUT_INDEX_CSV + now.day.__str__() + UNDERLINE + now.month.__str__() + UNDERLINE + now.year.__str__()
+        if not os.path.exists(folder):
+            os.makedirs(folder)
+        return folder + SEPARATOR + name + CSV

@@ -5,94 +5,121 @@ import os
 import BeautifulSoup as bs
 import urllib3 as urllib
 
-UTF8 = 'utf-8'
-DOWN = 'baixada'
-UP = 'pujada'
-UP_NAME_GIF = '/imag3/fsube2.gif'
+# verbs
+GET = 'GET'
 
+# path
+CSV = '.csv'
+UNDERLINE = '_'
+SEPARATOR = '/'
+CSV_PATH = './csv/'
+
+# standards
+UTF8 = 'utf-8'
+
+# literals to print
+LITERAL_DOWN = 'baixada'
+LITERAL_UP = 'pujada'
+LITERAL_ERROR_URL = "Error empty html for "
+LITERAL_INVALID_URL = "Invalid url "
+LITERAL_FINISH_URL = 'Finish url '
+LITERAL_INIT_SCRAPING_IN_URL = 'Init scraping in url '
+LITERAL_CRYPTO_CURRENCIES = 'Success crypto currencies!!!'
+
+# html elements
+UP_NAME_GIF = '/imag3/fsube2.gif'
+TR = 'tr'
+ID = 'id'
+TD = 'td'
+TBODY = 'tbody'
+CURRENCIES_ALL = 'currencies-all'
+TABLE = 'table'
+
+# urls to scraping
 URLS = [
     ['/all/views/all/', 'crypto_currencies'],
 ]
 BASE_URL = 'https://coinmarketcap.com'
 
 
-def start_scraping():
-    urllib.disable_warnings()
+class CryptoCurrencies:
 
-    for url in URLS:
-        scraping_url(BASE_URL + url[0], url[1])
+    def __init__(self):
+        pass
 
-    print('Success crypto currencies!!!')
+    def start_scraping(self):
+        urllib.disable_warnings()
 
+        for url in URLS:
+            self.scraping_url(BASE_URL + url[0], url[1])
 
-def scraping_url(url, name):
-    rows = []
+        print(LITERAL_CRYPTO_CURRENCIES)
 
-    http = urllib.PoolManager()
+    def scraping_url(self, url, name):
+        rows = []
 
-    response = http.request('GET', url)
+        http = urllib.PoolManager()
 
-    if response.status != 200:
-        print("Invalid url " + url)
-        return
+        response = http.request(GET, url)
 
-    html = response.data.decode(UTF8)
+        if response.status != 200:
+            print(LITERAL_INVALID_URL + url)
+            return
 
-    if html == "":
-        print("Error empty html for " + url)
-        return
+        html = response.data.decode(UTF8)
 
-    soup = bs.BeautifulSoup(html)
+        if html == "":
+            print(LITERAL_ERROR_URL + url)
+            return
 
-    table_list = soup.find('table', attrs={'id': 'currencies-all'}).find('tbody')
-    trs = table_list.findAll('tr')
+        soup = bs.BeautifulSoup(html)
 
-    append_title_row(rows)
+        table_list = soup.find(TABLE, attrs={ID: CURRENCIES_ALL}).find(TBODY)
+        trs = table_list.findAll(TR)
 
-    print('Init scraping in url ' + url)
+        self.append_title_row(rows)
 
-    for tr in trs:
-        row = []
+        print(LITERAL_INIT_SCRAPING_IN_URL + url)
 
-        for td in tr.findAll('td'):
-            append_text(row, td)
+        for tr in trs:
+            row = []
 
+            for td in tr.findAll(TD):
+                self.append_text(row, td)
+
+            rows.append(
+                row
+            )
+
+        now = datetime.datetime.now()
+
+        with open(self.get_file_name(name, now), 'w') as f_output:
+            csv_output = csv.writer(f_output)
+            csv_output.writerows(rows)
+
+        print(LITERAL_FINISH_URL + url)
+
+    def append_text(self, row, td):
+        row.append(td.text.encode(UTF8))
+
+    def append_title_row(self, rows):
         rows.append(
-            row
+            [
+                "Numero",
+                "Nom",
+                "Simbol",
+                "Cap de mercat",
+                "Preu",
+                "Oferta circulant",
+                "Volum 24 hores",
+                "% 1h",
+                "% 2h",
+                "% 7d"
+            ]
         )
 
-    now = datetime.datetime.now()
-
-    with open(get_file_name(name, now), 'w') as f_output:
-        csv_output = csv.writer(f_output)
-        csv_output.writerows(rows)
-
-    print('Finish url' + url)
-
-
-def append_text(row, td):
-    row.append(td.text.encode(UTF8))
-
-
-def append_title_row(rows):
-    rows.append(
-        [
-            "Numero",
-            "Nom",
-            "Simbol",
-            "Cap de mercat",
-            "Preu",
-            "Oferta circulant",
-            "Volum 24 hores",
-            "% 1h",
-            "% 2h",
-            "% 7d"
-        ]
-    )
-
-
-def get_file_name(name, now):
-    dir = './csv/' + name
-    if not os.path.exists(dir):
-        os.makedirs(dir)
-    return dir + '/' +  now.day.__str__() + '_' + now.month.__str__() + '_' + now.year.__str__() + '_' + name + '.csv'
+    def get_file_name(self, name, now):
+        folder = CSV_PATH + name
+        if not os.path.exists(folder):
+            os.makedirs(folder)
+        return folder + SEPARATOR + now.day.__str__() + UNDERLINE + now.month.__str__() + UNDERLINE + now.year.__str__() + UNDERLINE + name + CSV
