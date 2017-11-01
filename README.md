@@ -9,14 +9,17 @@ Datasets per la comparació de moviments i patrons entre els principals indexs b
 # Fitxers
 
 * Document PDF amb les respostes de les preguntes i els noms dels components del grup.
-* Carpeta amb el codi Pyhton per obtenir les dades
-* Fixer CSV amb les dades
+* Fitxer amb el codi Pyhton per obtenir les dades
+* Carpeta CSV amb les dades
 
 # Estructura
 
 ```
 scraping
-├── csv
+├── pdf
+│   └── acostasg-PRACTICA_1.pdf  # Document pdf amb les respostes a les preguntes i els noms del componentes del grup
+│ 
+├── csv  # datasets
 │   ├── cypto_currencies
 │   │   └── ... # fitxers csv 
 │   └── stock_index
