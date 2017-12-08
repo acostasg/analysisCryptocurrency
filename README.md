@@ -45,7 +45,6 @@ scraping
 ├── cleanData.py # fitxer neteja i transformació
 └── setup.py 
 
-
 ```
 
 # Links
@@ -78,11 +77,6 @@ Hi ha un estudi anterior el qual s'insipra aquest project:
 
 Tot i aixo, en aquest cas el «trading» en cryptomoneda és relativament nou, força popular per la seva formulació com a mitja digital d’intercanvi, utilitzant un protocol que garanteix la seguretat, integritat i equilibri del seu estat de compte per mitjà d’un entramat d’agents.
 
-La comunitat podrà respondre, entre altres preguntes, a:
-
-* Està afectant o hi ha patrons comuns en les cotitzacions de cryptomonedes i el mercat de valors principals del país d'Espanya?
-* Els efectes o agents externs afecten per igual a les accions o cryptomonedes?
-* Hi ha relacions cause efecte entre les acciones i cryptomonedes?
 
 # Descripció
 
@@ -95,16 +89,16 @@ Hem seleccionat diferents fonts de dades per generar fitxers «csv», guardar di
 En aquest cas el «trading» en cryptomoneda és relativament nou, força popular per la seva formulació com a mitja digital d’intercanvi, utilitzant un protocol que garanteix la seguretat, integritat i equilibri del seu estat de compte per mitjà d’un entramat d’agents.
 
 La comunitat podrà respondre, entre altres preguntes, a:
-    • Està afectant o hi ha patrons comuns en les cotitzacions de cryptomonedes i el mercat de valors principals del país d'Espanya?
-    • Els efectes o agents externs afecten per igual a les accions o cryptomonedes 
-    • Hi ha relacions cause efecte entre les acciones i cryptomonedes?
+    • Està afectant o hi ha **patrons comuns en les cotitzacions de cryptomonedes i el mercat de valors** principals del país d'Espanya?
+    • Els efectes o agents externs **afecten per igual** a les accions o cryptomonedes 
+    • Hi ha **relacions** cause efecte entre les acciones i cryptomonedes?
 
 # Camps
 
-    • Nom: Nom empresa o cryptomoneda.
-    • Preu: Valor en euros d’una acció o una cryptomoneda (transformarem la moneda a euros en el cas de estigui en dòlars amb l'última cotització (un dollar a 0,8501 euro)
-    • Volum: En euros/volum 24 hores,acumulat de les transaccions diàries en milions d’euros
-    • Tipus: Generarem aquest per agrupar identificar cryptomonedes de index de borsa, tindra 2 valors: cryptomoneda/borsa.
+* **Nom**: Nom empresa o cryptomoneda.
+* **Preu**: Valor en euros d’una acció o una cryptomoneda (transformarem la moneda a euros en el cas de estigui en dòlars amb l'última cotització (un dollar a 0,8501 euro)
+* **Símbol**: Símbol de la moneda o del index borsatil, per realizar grafic posteriorment d’una forma mes senzilla que el nom.
+* **Tipus**: Generarem aquest per agrupar identificar cryptomonedes de index de borsa, tindra 2 valors: cryptomoneda/borsa.
 
 # Referencies
 
