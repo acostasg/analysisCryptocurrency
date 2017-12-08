@@ -12,6 +12,7 @@ setup(
     install_requires=[
         'BeautifulSoup',
         'requests',
-        'urllib3'
+        'urllib3',
+        'scandir'
     ],
 )
