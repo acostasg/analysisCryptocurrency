@@ -31,18 +31,18 @@ scraping
 │   ├── stock_index
 │   │         └── ... # directoris per data amb els csv
 │   └── dataset
-│        └── dataset.csv # dataset preparat per al script R unifica els anteriors
+│        └── dataset.csv ### dataset preparat per al script R unifica els anteriors
 │   
 ├── projects
 │   ├── scraping_crypto_currencies.py # scraping url criptomoneda
 │   ├── scraping_stock_indexs.py # scraping url el economista
 │   └── cleanAndTransform.py # script para limpiar i unificar en un dataset
 ├── R
-│     └── script.r# script R  i amb correlació d’atributs i model
+│     └── script.r ### script R  i amb correlació d’atributs i model
 │ 
 ├── README.md
 ├── scraping.py # fitxer python incial
-├── cleanData.py # fitxer neteja i transformació
+├── cleanData.py ### fitxer neteja i transformació
 └── setup.py 
 
 ```
@@ -99,6 +99,7 @@ La comunitat podrà respondre, entre altres preguntes, a:
 * **Preu**: Valor en euros d’una acció o una cryptomoneda (transformarem la moneda a euros en el cas de estigui en dòlars amb l'última cotització (un dollar a 0,8501 euro)
 * **Símbol**: Símbol de la moneda o del index borsatil, per realizar grafic posteriorment d’una forma mes senzilla que el nom.
 * **Tipus**: Generarem aquest per agrupar identificar cryptomonedes de index de borsa, tindra 2 valors: cryptomoneda/borsa.
+* **Tipus_cotitzacio**: Valor nou que agregarem per discretitzar entre la cotització: baix (0 i 1), normal (1 i 100), alt (100 i 1000), molt_alt (>1000)
 
 # Referencies
 

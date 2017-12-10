@@ -5,7 +5,7 @@ from os import scandir, getcwd
 
 OUTPUT_CSV_PATH = "./csv/dataset/dataset.csv"
 FORMAT_DATA = '%d_%m_%Y'
-HEADERS = ['Data', 'Tipus', 'Nom', 'Simbol', 'Preu (Euros)']
+HEADERS = ['Data', 'Tipus', 'Nom', 'Simbol', 'Preu (Euros)', 'Tipus_cotitzacio']
 CRYPTO_MONEDA = 'crypto_moneda'
 STOCK_INDEX = 'index_borsatil'
 EURO_VALUE_FROM_DOLAR = 0.849747625
@@ -25,8 +25,8 @@ def get_date_value(match):
     return datetime.strptime(match.group(), FORMAT_DATA).date()
 
 
-def add_value_to_array(date, type_attribute, name, simbol, preu):
-    data_set.append([date, type_attribute.strip(), name.strip(), simbol.strip(), preu])
+def add_value_to_array(date, type_attribute, name, simbol, price, type_price):
+    data_set.append([date, type_attribute.strip(), name.strip(), simbol.strip(), price, type_price])
 
 
 def get_csv_paths(ruta):
@@ -86,12 +86,25 @@ def process_row(data, row, callback):
 
 
 def add_value_to_array_crypto_currency(match, row):
-    add_value_to_array(get_date_value(match), CRYPTO_MONEDA, row[1], row[2], format(get_value_euros(row[4][1:]), PREC))
+    price = format(get_value_euros(row[4][1:]), PREC)
+    add_value_to_array(get_date_value(match), CRYPTO_MONEDA, row[1], row[2], price, get_type_value(price))
+
+
+def get_type_value(value):
+    value = float(value)
+    if value <= 1:
+        return 'baixa'
+    if 1 < value <= 100:
+        return 'normal'
+    if 100 < value <= 1000:
+        return 'alta'
+    else:
+        return 'molt_alta'
 
 
 def add_value_to_array_stock_index(match, row):
-    add_value_to_array(get_date_value(match), STOCK_INDEX, row[0], row[0][:3],
-                       format(float(clear_currency_data(row[1])), PREC))
+    price = format(float(clear_currency_data(row[1])), PREC)
+    add_value_to_array(get_date_value(match), STOCK_INDEX, row[0], row[0][:3], price,  get_type_value(price))
 
 
 add_header_data_set()
