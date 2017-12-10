@@ -5,7 +5,16 @@
 #instal·lem la libreria arules i importem llibreries necesaries
 install.packages("devtools", type = "source",  dep = T)
 install.packages("arulesViz",  dep = T)
+install.packages("gdtools",  dep = T)
+install.packages("dplyr",  dep = T)
+install.packages("ggplot2",  dep = T)
 install.packages("arules", dep = T)
+install.packages("NbClust", dep = T)
+install.packages("factoextra", dep = T)
+library(factoextra)
+library(NbClust)
+library(ggplot2)
+library(dplyr)
 library(arulesViz)
 library(arules)
 library(xlsx)
@@ -19,38 +28,51 @@ View(dataset)
 #resum per veure el domini de les dades
 summary(dataset)
 
+summary(dataset$Tipus_cotitzacio)
+
 ##############################
-# Cerquem els valors extrems #
+# CERQUEM ELS VALORS EXTREMS #
 ##############################
 
-#cryptomoneda densitat
-criptomoneda_menor_1 = subset(x = dataset, 
-               subset = dataset$Tipus == "crypto_moneda" &  dataset$Preu..Euros. <= 1)
-boxplot( x= criptomoneda$Preu..Euros., main = "Preu CryptoMonedes menors 1 euro" )
-d <- density(criptomoneda$Preu..Euros.)
-plot(x= d, main = "Preus Cryptomonedes cotització inferior a 1 euro")
+##############################
+#        Densitat            #
+##############################
+
+
+cotitizacio_baixa = subset(x = dataset, 
+               subset = dataset$Tipus_cotitzacio == "baixa")
+boxplot( x= cotitizacio_baixa$Preu..Euros., main = "Preu cotització baixa" )
+d <- density(cotitizacio_baixa$Preu..Euros.)
+plot(x= d, main = "Preu cotització baixa")
 polygon(d, col="blue", border="black") 
 
-criptomoneda_mayor_1_inferior_100 = subset(x = dataset, 
-                              subset = dataset$Tipus == "crypto_moneda" &  dataset$Preu..Euros. >= 1 & dataset$Preu..Euros. <= 100)
-boxplot( x= criptomoneda_mayor_1$Preu..Euros., main = "Preu CryptoMonedes mayors a 1 euro" )
-d <- density(criptomoneda_mayor_1$Preu..Euros.)
-plot(x= d, main = "Preus Cryptomonedes cotització superior a 1 euro e inferior a 100")
+cotitizacio_normal = subset(x = dataset, 
+                           subset = dataset$Tipus_cotitzacio == "normal")
+boxplot( x= cotitizacio_normal$Preu..Euros., main = "Preu cotització normal" )
+d <- density(cotitizacio_normal$Preu..Euros.)
+plot(x= d, main = "Preu cotització normal")
 polygon(d, col="blue", border="black") 
 
-criptomoneda_mayor_100 = subset(x = dataset, 
-                                           subset = dataset$Tipus == "crypto_moneda" & dataset$Preu..Euros. >= 100)
-boxplot( x= criptomoneda_mayor_1$Preu..Euros., main = "Preu CryptoMonedes mayors a 100 euro" )
-d <- density(criptomoneda_mayor_1$Preu..Euros.)
-plot(x= d, main = "Preus Cryptomonedes cotització superior a 1 euro")
+
+cotitizacio_alta = subset(x = dataset, 
+                           subset = dataset$Tipus_cotitzacio == "alta")
+boxplot( x= cotitizacio_alta$Preu..Euros., main = "Preu cotització alta" )
+d <- density(cotitizacio_alta$Preu..Euros.)
+plot(x= d, main = "Preu cotització alta")
 polygon(d, col="blue", border="black") 
 
-#stock index densitat
-stock_index = subset(x = dataset, 
-                      subset = dataset$Tipus == "index_borsatil" )
-boxplot( x= stock_index$Preu..Euros., main = "Preu Stock index" )
-d <- density(stock_index$Preu..Euros.)
-plot(x= d, main = "Preu Stock Index")
+
+cotitizacio_molt_alta = subset(x = dataset, 
+                           subset = dataset$Tipus_cotitzacio == "molt_alta")
+boxplot( x= cotitizacio_molt_alta$Preu..Euros., main = "Preu cotització molt alta" )
+d <- density(cotitizacio_molt_alta$Preu..Euros.)
+plot(x= d, main = "Preu cotització molt alta")
+polygon(d, col="blue", border="black") 
+
+
+##############################
+#   Altres observacions      #
+##############################
 
 #observem bitcoin
 bitcoin = subset(x = dataset, 
@@ -67,3 +89,38 @@ miota = subset(x = dataset,
 d <- density(miota$Preu..Euros.)
 plot(x= d, main = "MIOTA")
 polygon(d, col="blue", border="black") 
+
+
+########################################
+#   Test de Levene # Homogeneitat      #
+########################################
+
+with(dataset, tapply(Preu..Euros., list(Tipus), var, na.rm=TRUE))
+leveneTest(Preu..Euros. ~ Tipus, data=dataset, center="mean")
+
+with(dataset, tapply(Preu..Euros., list(Tipus, Tipus_cotitzacio), var, na.rm=TRUE))
+leveneTest(Preu..Euros. ~ Tipus*Tipus_cotitzacio, data=dataset, center="mean")
+
+###############################################
+#  Kmeans creació cluster # Homogeneitat      #
+###############################################
+
+#normalitzem els preus
+price_norm = scale(dataset$Preu..Euros.)
+
+#per obtenir la partició mes optima
+nb <- NbClust(price_norm, distance = "euclidean", min.nc = 2,
+              max.nc = 4, method = "kmeans")
+
+#The result of NbClust using the function fviz_nbclust() [in factoextra], as follow:
+
+fviz_nbclust(nb)
+
+#k-means amb 2 particions segons la major distancia dels centroides
+clusters_2 <- kmeans(price_norm,2, 15)
+print(clusters_2)
+
+#graficament
+plot(price_norm, col =(clusters_2$cluster) , main="K-Means result with 2 clusters", pch=20, cex=2)
+
+

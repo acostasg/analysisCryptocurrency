@@ -44250,6 +44250,332 @@ Data,Tipus,Nom,Simbol,Preu (Euros),Tipus_cotitzacio
 2017-10-27,index_borsatil,TECNICAS REUNIDAS,TEC,26.500000000,normal
 2017-10-27,index_borsatil,TELEFONICA,TEL,8.690000000,normal
 2017-10-27,index_borsatil,ZARDOYA OTIS,ZAR,9.150000000,normal
+2017-12-10,index_borsatil,ABERTIS,ABE,18.900000000,normal
+2017-12-10,index_borsatil,ACCIONA,ACC,69.300000000,normal
+2017-12-10,index_borsatil,ACERINOX,ACE,11.450000000,normal
+2017-12-10,index_borsatil,ACS,ACS,32.420000000,normal
+2017-12-10,index_borsatil,AENA,AEN,168.700000000,alta
+2017-12-10,index_borsatil,AMADEUS,AMA,60.790000000,normal
+2017-12-10,index_borsatil,ARCELORMITTAL,ARC,26.430000000,normal
+2017-12-10,index_borsatil,BANKIA,BAN,4.150000000,normal
+2017-12-10,index_borsatil,BANKINTER,BAN,7.990000000,normal
+2017-12-10,index_borsatil,BBVA,BBV,7.210000000,normal
+2017-12-10,index_borsatil,CAIXABANK,CAI,4.040000000,normal
+2017-12-10,index_borsatil,CELLNEX TELECOM,CEL,21.080000000,normal
+2017-12-10,index_borsatil,DIA,DIA,4.180000000,normal
+2017-12-10,index_borsatil,ENAGAS,ENA,25.090000000,normal
+2017-12-10,index_borsatil,ENDESA,END,19.100000000,normal
+2017-12-10,index_borsatil,FERROVIAL,FER,18.640000000,normal
+2017-12-10,index_borsatil,GAS NATURAL,GAS,19.510000000,normal
+2017-12-10,index_borsatil,GRIFOLS,GRI,24.080000000,normal
+2017-12-10,index_borsatil,IAG (IBERIA),IAG,7.250000000,normal
+2017-12-10,index_borsatil,IBERDROLA,IBE,6.720000000,normal
+2017-12-10,index_borsatil,INDITEX,IND,31.080000000,normal
+2017-12-10,index_borsatil,INDRA,IND,11.020000000,normal
+2017-12-10,index_borsatil,INM. COLONIAL,INM,8.300000000,normal
+2017-12-10,index_borsatil,MAPFRE,MAP,2.720000000,normal
+2017-12-10,index_borsatil,MEDIASET,MED,9.890000000,normal
+2017-12-10,index_borsatil,MELIA HOTELS INTL,MEL,11.500000000,normal
+2017-12-10,index_borsatil,MERLIN PROP.,MER,11.240000000,normal
+2017-12-10,index_borsatil,REE,REE,19.150000000,normal
+2017-12-10,index_borsatil,REPSOL,REP,15.480000000,normal
+2017-12-10,index_borsatil,SABADELL,SAB,1.700000000,normal
+2017-12-10,index_borsatil,SANTANDER,SAN,5.630000000,normal
+2017-12-10,index_borsatil,SIEMENS GAMESA,SIE,10.960000000,normal
+2017-12-10,index_borsatil,TECNICAS REUNIDAS,TEC,25.760000000,normal
+2017-12-10,index_borsatil,TELEFONICA,TEL,8.630000000,normal
+2017-12-10,index_borsatil,VISCOFAN,VIS,54.370000000,normal
+2017-12-10,index_borsatil,A DOMINGUEZ,A D,5.120000000,normal
+2017-12-10,index_borsatil,ABENGOA,ABE,0.030000000,baixa
+2017-12-10,index_borsatil,ABENGOA CL.B,ABE,0.010000000,baixa
+2017-12-10,index_borsatil,ABERTIS,ABE,18.900000000,normal
+2017-12-10,index_borsatil,ACCIONA,ACC,69.300000000,normal
+2017-12-10,index_borsatil,ACERINOX,ACE,11.450000000,normal
+2017-12-10,index_borsatil,ACS,ACS,32.420000000,normal
+2017-12-10,index_borsatil,ADVEO,ADV,2.630000000,normal
+2017-12-10,index_borsatil,AENA,AEN,168.700000000,alta
+2017-12-10,index_borsatil,AIRBUS,AIR,88.200000000,normal
+2017-12-10,index_borsatil,ALANTRA,ALA,13.600000000,normal
+2017-12-10,index_borsatil,ALBA,ALB,48.850000000,normal
+2017-12-10,index_borsatil,ALMIRALL,ALM,8.320000000,normal
+2017-12-10,index_borsatil,AMADEUS,AMA,60.790000000,normal
+2017-12-10,index_borsatil,AMPER,AMP,0.200000000,baixa
+2017-12-10,index_borsatil,APERAM,APE,42.370000000,normal
+2017-12-10,index_borsatil,APPLUS SERVICES,APP,10.850000000,normal
+2017-12-10,index_borsatil,ARCELORMITTAL,ARC,26.430000000,normal
+2017-12-10,index_borsatil,AXIA REAL ESTATE,AXI,18.290000000,normal
+2017-12-10,index_borsatil,AZKOYEN,AZK,7.980000000,normal
+2017-12-10,index_borsatil,Atresmedia,Atr,9.720000000,normal
+2017-12-10,index_borsatil,BANKIA,BAN,4.150000000,normal
+2017-12-10,index_borsatil,BANKINTER,BAN,7.990000000,normal
+2017-12-10,index_borsatil,BARON DE LEY,BAR,111.700000000,alta
+2017-12-10,index_borsatil,BAYER,BAY,105.000000000,alta
+2017-12-10,index_borsatil,BBVA,BBV,7.210000000,normal
+2017-12-10,index_borsatil,BIOSEARCH,BIO,0.510000000,baixa
+2017-12-10,index_borsatil,BME,BME,27.195000000,normal
+2017-12-10,index_borsatil,CAIXABANK,CAI,4.040000000,normal
+2017-12-10,index_borsatil,CELLNEX TELECOM,CEL,21.080000000,normal
+2017-12-10,index_borsatil,CEMENTOS PORTLAND,CEM,5.970000000,normal
+2017-12-10,index_borsatil,CIE AUTOMOTIVE,CIE,23.880000000,normal
+2017-12-10,index_borsatil,CLEOP,CLE,1.150000000,normal
+2017-12-10,index_borsatil,CLINICA BAVIERA,CLI,8.190000000,normal
+2017-12-10,index_borsatil,CODERE,COD,8.720000000,normal
+2017-12-10,index_borsatil,COEMAC,COE,0.450000000,baixa
+2017-12-10,index_borsatil,DEOLEO SA,DEO,0.180000000,baixa
+2017-12-10,index_borsatil,DIA,DIA,4.180000000,normal
+2017-12-10,index_borsatil,DOGI INTL FABRICS,DOG,3.500000000,normal
+2017-12-10,index_borsatil,DURO FELGUERA,DUR,0.400000000,baixa
+2017-12-10,index_borsatil,EBRO FOODS,EBR,19.470000000,normal
+2017-12-10,index_borsatil,EDREAMS ODIGEO REG,EDR,4.530000000,normal
+2017-12-10,index_borsatil,ELECNOR,ELE,13.860000000,normal
+2017-12-10,index_borsatil,ENAGAS,ENA,25.090000000,normal
+2017-12-10,index_borsatil,ENCE,ENC,5.735000000,normal
+2017-12-10,index_borsatil,ENDESA,END,19.100000000,normal
+2017-12-10,index_borsatil,ENEL GREEN POWER,ENE,1.930000000,normal
+2017-12-10,index_borsatil,ERCROS,ERC,2.820000000,normal
+2017-12-10,index_borsatil,EUROPAC,EUR,11.450000000,normal
+2017-12-10,index_borsatil,EUSKALTEL,EUS,7.500000000,normal
+2017-12-10,index_borsatil,FAES FARMA,FAE,3.005000000,normal
+2017-12-10,index_borsatil,FCC,FCC,8.920000000,normal
+2017-12-10,index_borsatil,FERGO AISA,FER,0.017000000,baixa
+2017-12-10,index_borsatil,FERROCARRILES,FER,35.650000000,normal
+2017-12-10,index_borsatil,FERROVIAL,FER,18.640000000,normal
+2017-12-10,index_borsatil,FERSA ENERGIAS,FER,0.490000000,baixa
+2017-12-10,index_borsatil,FLUIDRA,FLU,11.520000000,normal
+2017-12-10,index_borsatil,FUNESPANA,FUN,7.300000000,normal
+2017-12-10,index_borsatil,GAM,GAM,1.850000000,normal
+2017-12-10,index_borsatil,GAS NATURAL,GAS,19.510000000,normal
+2017-12-10,index_borsatil,GESTAMP AUTOM,GES,5.870000000,normal
+2017-12-10,index_borsatil,GLOBAL DOMINION,GLO,4.480000000,normal
+2017-12-10,index_borsatil,GR.EMPRES.SAN JOSE,GR.,3.240000000,normal
+2017-12-10,index_borsatil,GRIFOLS,GRI,24.080000000,normal
+2017-12-10,index_borsatil,GRUPO CATALANA OCC,GRU,37.350000000,normal
+2017-12-10,index_borsatil,GRUPO EZENTIS SA,GRU,0.600000000,baixa
+2017-12-10,index_borsatil,GRUPO PRISA,GRU,2.650000000,normal
+2017-12-10,index_borsatil,GRUPO TAVEX S.A,GRU,0.238000000,baixa
+2017-12-10,index_borsatil,HISPANIA ACTIVOS,HIS,15.440000000,normal
+2017-12-10,index_borsatil,IAG (IBERIA),IAG,7.250000000,normal
+2017-12-10,index_borsatil,IBERDROLA,IBE,6.720000000,normal
+2017-12-10,index_borsatil,IBERPAPEL GESTION,IBE,29.360000000,normal
+2017-12-10,index_borsatil,INDITEX,IND,31.080000000,normal
+2017-12-10,index_borsatil,INDRA,IND,11.020000000,normal
+2017-12-10,index_borsatil,INM. COLONIAL,INM,8.300000000,normal
+2017-12-10,index_borsatil,INMO DEL SUR,INM,10.950000000,normal
+2017-12-10,index_borsatil,INYPSA,INY,0.165000000,baixa
+2017-12-10,index_borsatil,LABORATORIOS FARMA,LAB,16.600000000,normal
+2017-12-10,index_borsatil,LAR ESPANA,LAR,8.870000000,normal
+2017-12-10,index_borsatil,LIBERBANK,LIB,0.440000000,baixa
+2017-12-10,index_borsatil,LINGOTES,LIN,17.890000000,normal
+2017-12-10,index_borsatil,LOGISTA,LOG,20.620000000,normal
+2017-12-10,index_borsatil,MEDIASET,MED,9.890000000,normal
+2017-12-10,index_borsatil,MELIA HOTELS INTL,MEL,11.500000000,normal
+2017-12-10,index_borsatil,MERLIN PROP.,MER,11.240000000,normal
+2017-12-10,index_borsatil,MIQUEL Y COSTAS,MIQ,36.800000000,normal
+2017-12-10,index_borsatil,NATRA,NAT,0.460000000,baixa
+2017-12-10,index_borsatil,NATURHOUSE HEALTH,NAT,4.170000000,normal
+2017-12-10,index_borsatil,NEINOR HOMES,NEI,18.570000000,normal
+2017-12-10,index_borsatil,NH HOTELES,NH,6.185000000,normal
+2017-12-10,index_borsatil,NICOLAS CORREA,NIC,2.710000000,normal
+2017-12-10,index_borsatil,NYESA VALORES CORP,NYE,0.170000000,baixa
+2017-12-10,index_borsatil,OHL,OHL,4.920000000,normal
+2017-12-10,index_borsatil,ORYZON GENOMICS,ORY,3.020000000,normal
+2017-12-10,index_borsatil,PARQUES REUNIDOS,PAR,14.520000000,normal
+2017-12-10,index_borsatil,PESCANOVA,PES,1.290000000,normal
+2017-12-10,index_borsatil,PHARMA MAR R,PHA,2.300000000,normal
+2017-12-10,index_borsatil,POPULAR,POP,0.320000000,baixa
+2017-12-10,index_borsatil,PRIM,PRI,10.700000000,normal
+2017-12-10,index_borsatil,PROSEGUR,PRO,6.800000000,normal
+2017-12-10,index_borsatil,QUABIT INMOBIL.,QUA,1.860000000,normal
+2017-12-10,index_borsatil,REALIA BUSINESS,REA,1.120000000,normal
+2017-12-10,index_borsatil,REE,REE,19.150000000,normal
+2017-12-10,index_borsatil,RENO DE MEDICI,REN,0.561000000,baixa
+2017-12-10,index_borsatil,RENTA 4 SERVICIOS,REN,6.100000000,normal
+2017-12-10,index_borsatil,RENTA CORPORACION,REN,2.805000000,normal
+2017-12-10,index_borsatil,REPSOL,REP,15.480000000,normal
+2017-12-10,index_borsatil,REYAL URBIS,REY,0.120000000,baixa
+2017-12-10,index_borsatil,RIOJANAS,RIO,5.910000000,normal
+2017-12-10,index_borsatil,Reig Jofre,Rei,2.610000000,normal
+2017-12-10,index_borsatil,SABADELL,SAB,1.700000000,normal
+2017-12-10,index_borsatil,SACYR,SAC,2.130000000,normal
+2017-12-10,index_borsatil,SAETA YIELD,SAE,9.450000000,normal
+2017-12-10,index_borsatil,SANTANDER,SAN,5.630000000,normal
+2017-12-10,index_borsatil,SEDA BARCELONA,SED,0.730000000,baixa
+2017-12-10,index_borsatil,SIEMENS GAMESA,SIE,10.960000000,normal
+2017-12-10,index_borsatil,SNIACE,SNI,0.210000000,baixa
+2017-12-10,index_borsatil,SOLARIA ENERGIA,SOL,1.690000000,normal
+2017-12-10,index_borsatil,SOTOGRANDE,SOT,3.050000000,normal
+2017-12-10,index_borsatil,SPS,SPS,0.910000000,baixa
+2017-12-10,index_borsatil,TALGO,TAL,3.950000000,normal
+2017-12-10,index_borsatil,TECNICAS REUNIDAS,TEC,25.760000000,normal
+2017-12-10,index_borsatil,TECNOCOM TEL ENERG,TEC,4.750000000,normal
+2017-12-10,index_borsatil,TELEFONICA,TEL,8.630000000,normal
+2017-12-10,index_borsatil,TELEPIZZA GROUP,TEL,4.800000000,normal
+2017-12-10,index_borsatil,TUBACEX,TUB,3.350000000,normal
+2017-12-10,index_borsatil,TUBOS REUNIDOS,TUB,0.820000000,baixa
+2017-12-10,index_borsatil,URBAS,URB,0.020000000,baixa
+2017-12-10,index_borsatil,VERTICE TRESCIENTO,VER,0.044000000,baixa
+2017-12-10,index_borsatil,VIDRALA,VID,85.900000000,normal
+2017-12-10,index_borsatil,VISCOFAN,VIS,54.370000000,normal
+2017-12-10,index_borsatil,VOCENTO,VOC,1.550000000,normal
+2017-12-10,index_borsatil,ZARDOYA OTIS,ZAR,9.420000000,normal
+2017-12-10,index_borsatil,A DOMINGUEZ,A D,5.120000000,normal
+2017-12-10,index_borsatil,ABENGOA,ABE,0.030000000,baixa
+2017-12-10,index_borsatil,ABENGOA CL.B,ABE,0.010000000,baixa
+2017-12-10,index_borsatil,ABERTIS,ABE,18.900000000,normal
+2017-12-10,index_borsatil,ACCIONA,ACC,69.300000000,normal
+2017-12-10,index_borsatil,ACERINOX,ACE,11.450000000,normal
+2017-12-10,index_borsatil,ACS,ACS,32.420000000,normal
+2017-12-10,index_borsatil,ADVEO,ADV,2.630000000,normal
+2017-12-10,index_borsatil,AENA,AEN,168.700000000,alta
+2017-12-10,index_borsatil,AIRBUS,AIR,88.200000000,normal
+2017-12-10,index_borsatil,ALANTRA,ALA,13.600000000,normal
+2017-12-10,index_borsatil,ALBA,ALB,48.850000000,normal
+2017-12-10,index_borsatil,ALMIRALL,ALM,8.320000000,normal
+2017-12-10,index_borsatil,AMADEUS,AMA,60.790000000,normal
+2017-12-10,index_borsatil,AMPER,AMP,0.200000000,baixa
+2017-12-10,index_borsatil,APPLUS SERVICES,APP,10.850000000,normal
+2017-12-10,index_borsatil,ARCELORMITTAL,ARC,26.430000000,normal
+2017-12-10,index_borsatil,AXIA REAL ESTATE,AXI,18.290000000,normal
+2017-12-10,index_borsatil,AZKOYEN,AZK,7.980000000,normal
+2017-12-10,index_borsatil,Atresmedia,Atr,9.720000000,normal
+2017-12-10,index_borsatil,BANKIA,BAN,4.150000000,normal
+2017-12-10,index_borsatil,BANKINTER,BAN,7.990000000,normal
+2017-12-10,index_borsatil,BARON DE LEY,BAR,111.700000000,alta
+2017-12-10,index_borsatil,BBVA,BBV,7.210000000,normal
+2017-12-10,index_borsatil,BIOSEARCH,BIO,0.510000000,baixa
+2017-12-10,index_borsatil,BME,BME,27.195000000,normal
+2017-12-10,index_borsatil,CAIXABANK,CAI,4.040000000,normal
+2017-12-10,index_borsatil,CELLNEX TELECOM,CEL,21.080000000,normal
+2017-12-10,index_borsatil,CEMENTOS PORTLAND,CEM,5.970000000,normal
+2017-12-10,index_borsatil,CIE AUTOMOTIVE,CIE,23.880000000,normal
+2017-12-10,index_borsatil,CLINICA BAVIERA,CLI,8.190000000,normal
+2017-12-10,index_borsatil,COCA-COLA EUR,COC,32.920000000,normal
+2017-12-10,index_borsatil,CODERE,COD,8.720000000,normal
+2017-12-10,index_borsatil,COEMAC,COE,0.450000000,baixa
+2017-12-10,index_borsatil,DEOLEO SA,DEO,0.180000000,baixa
+2017-12-10,index_borsatil,DIA,DIA,4.180000000,normal
+2017-12-10,index_borsatil,DOGI INTL FABRICS,DOG,3.500000000,normal
+2017-12-10,index_borsatil,DURO FELGUERA,DUR,0.400000000,baixa
+2017-12-10,index_borsatil,EBRO FOODS,EBR,19.470000000,normal
+2017-12-10,index_borsatil,EDREAMS ODIGEO REG,EDR,4.530000000,normal
+2017-12-10,index_borsatil,ELECNOR,ELE,13.860000000,normal
+2017-12-10,index_borsatil,ENAGAS,ENA,25.090000000,normal
+2017-12-10,index_borsatil,ENCE,ENC,5.735000000,normal
+2017-12-10,index_borsatil,ENDESA,END,19.100000000,normal
+2017-12-10,index_borsatil,ERCROS,ERC,2.820000000,normal
+2017-12-10,index_borsatil,EUROPAC,EUR,11.450000000,normal
+2017-12-10,index_borsatil,EUSKALTEL,EUS,7.500000000,normal
+2017-12-10,index_borsatil,FAES FARMA,FAE,3.005000000,normal
+2017-12-10,index_borsatil,FCC,FCC,8.920000000,normal
+2017-12-10,index_borsatil,FERROCARRILES,FER,35.650000000,normal
+2017-12-10,index_borsatil,FERSA ENERGIAS,FER,0.490000000,baixa
+2017-12-10,index_borsatil,FLUIDRA,FLU,11.520000000,normal
+2017-12-10,index_borsatil,GAM,GAM,1.850000000,normal
+2017-12-10,index_borsatil,GAS NATURAL,GAS,19.510000000,normal
+2017-12-10,index_borsatil,GLOBAL DOMINION,GLO,4.480000000,normal
+2017-12-10,index_borsatil,GR.EMPRES.SAN JOSE,GR.,3.240000000,normal
+2017-12-10,index_borsatil,GRIFOLS,GRI,24.080000000,normal
+2017-12-10,index_borsatil,GRIFOLS CL.B,GRI,18.550000000,normal
+2017-12-10,index_borsatil,GRUPO CATALANA OCC,GRU,37.350000000,normal
+2017-12-10,index_borsatil,GRUPO EZENTIS SA,GRU,0.600000000,baixa
+2017-12-10,index_borsatil,GRUPO FERROVIAL,GRU,30.830000000,normal
+2017-12-10,index_borsatil,GRUPO PRISA,GRU,2.650000000,normal
+2017-12-10,index_borsatil,HISPANIA ACTIVOS,HIS,15.440000000,normal
+2017-12-10,index_borsatil,IAG (IBERIA),IAG,7.250000000,normal
+2017-12-10,index_borsatil,IBERDROLA,IBE,6.720000000,normal
+2017-12-10,index_borsatil,IBERPAPEL GESTION,IBE,29.360000000,normal
+2017-12-10,index_borsatil,INDITEX,IND,31.080000000,normal
+2017-12-10,index_borsatil,INDRA,IND,11.020000000,normal
+2017-12-10,index_borsatil,INM. COLONIAL,INM,8.300000000,normal
+2017-12-10,index_borsatil,INMO DEL SUR,INM,10.950000000,normal
+2017-12-10,index_borsatil,INYPSA,INY,0.165000000,baixa
+2017-12-10,index_borsatil,LABORATORIOS FARMA,LAB,16.600000000,normal
+2017-12-10,index_borsatil,LAR ESPANA,LAR,8.870000000,normal
+2017-12-10,index_borsatil,LIBERBANK,LIB,0.440000000,baixa
+2017-12-10,index_borsatil,LINGOTES,LIN,17.890000000,normal
+2017-12-10,index_borsatil,LOGISTA,LOG,20.620000000,normal
+2017-12-10,index_borsatil,MAPFRE,MAP,2.720000000,normal
+2017-12-10,index_borsatil,MEDIASET,MED,9.890000000,normal
+2017-12-10,index_borsatil,MELIA HOTELS INTL,MEL,11.500000000,normal
+2017-12-10,index_borsatil,MERLIN PROP.,MER,11.240000000,normal
+2017-12-10,index_borsatil,MIQUEL Y COSTAS,MIQ,36.800000000,normal
+2017-12-10,index_borsatil,MONTEBALITO,MON,2.400000000,normal
+2017-12-10,index_borsatil,NATRA,NAT,0.460000000,baixa
+2017-12-10,index_borsatil,NATURHOUSE HEALTH,NAT,4.170000000,normal
+2017-12-10,index_borsatil,NH HOTELES,NH,6.185000000,normal
+2017-12-10,index_borsatil,NICOLAS CORREA,NIC,2.710000000,normal
+2017-12-10,index_borsatil,OHL,OHL,4.920000000,normal
+2017-12-10,index_borsatil,ORYZON GENOMICS,ORY,3.020000000,normal
+2017-12-10,index_borsatil,PARQUES REUNIDOS,PAR,14.520000000,normal
+2017-12-10,index_borsatil,PHARMA MAR R,PHA,2.300000000,normal
+2017-12-10,index_borsatil,POPULAR,POP,0.320000000,baixa
+2017-12-10,index_borsatil,PRIM,PRI,10.700000000,normal
+2017-12-10,index_borsatil,PROSEGUR,PRO,6.800000000,normal
+2017-12-10,index_borsatil,QUABIT INMOBIL.,QUA,1.860000000,normal
+2017-12-10,index_borsatil,REALIA BUSINESS,REA,1.120000000,normal
+2017-12-10,index_borsatil,REE,REE,19.150000000,normal
+2017-12-10,index_borsatil,RENTA 4 SERVICIOS,REN,6.100000000,normal
+2017-12-10,index_borsatil,RENTA CORPORACION,REN,2.805000000,normal
+2017-12-10,index_borsatil,REPSOL,REP,15.480000000,normal
+2017-12-10,index_borsatil,RIOJANAS,RIO,5.910000000,normal
+2017-12-10,index_borsatil,Reig Jofre,Rei,2.610000000,normal
+2017-12-10,index_borsatil,SABADELL,SAB,1.700000000,normal
+2017-12-10,index_borsatil,SACYR,SAC,2.130000000,normal
+2017-12-10,index_borsatil,SAETA YIELD,SAE,9.450000000,normal
+2017-12-10,index_borsatil,SANTANDER,SAN,5.630000000,normal
+2017-12-10,index_borsatil,SIEMENS GAMESA,SIE,10.960000000,normal
+2017-12-10,index_borsatil,SNIACE,SNI,0.210000000,baixa
+2017-12-10,index_borsatil,SOLARIA ENERGIA,SOL,1.690000000,normal
+2017-12-10,index_borsatil,TALGO,TAL,3.950000000,normal
+2017-12-10,index_borsatil,TECNICAS REUNIDAS,TEC,25.760000000,normal
+2017-12-10,index_borsatil,TECNOCOM TEL ENERG,TEC,4.750000000,normal
+2017-12-10,index_borsatil,TELEFONICA,TEL,8.630000000,normal
+2017-12-10,index_borsatil,TELEPIZZA GROUP,TEL,4.800000000,normal
+2017-12-10,index_borsatil,TUBACEX,TUB,3.350000000,normal
+2017-12-10,index_borsatil,TUBOS REUNIDOS,TUB,0.820000000,baixa
+2017-12-10,index_borsatil,URBAS,URB,0.020000000,baixa
+2017-12-10,index_borsatil,VIDRALA,VID,85.900000000,normal
+2017-12-10,index_borsatil,VISCOFAN,VIS,54.370000000,normal
+2017-12-10,index_borsatil,VOCENTO,VOC,1.550000000,normal
+2017-12-10,index_borsatil,ZARDOYA OTIS,ZAR,9.420000000,normal
+2017-12-10,index_borsatil,ACERINOX,ACE,11.450000000,normal
+2017-12-10,index_borsatil,ACS,ACS,32.420000000,normal
+2017-12-10,index_borsatil,DIA,DIA,4.180000000,normal
+2017-12-10,index_borsatil,FERROVIAL,FER,18.640000000,normal
+2017-12-10,index_borsatil,INDITEX,IND,31.080000000,normal
+2017-12-10,index_borsatil,REPSOL,REP,15.480000000,normal
+2017-12-10,index_borsatil,SANTANDER,SAN,5.630000000,normal
+2017-12-10,index_borsatil,SIEMENS GAMESA,SIE,10.960000000,normal
+2017-12-10,index_borsatil,TECNICAS REUNIDAS,TEC,25.760000000,normal
+2017-12-10,index_borsatil,TELEFONICA,TEL,8.630000000,normal
+2017-12-10,index_borsatil,ABERTIS,ABE,18.900000000,normal
+2017-12-10,index_borsatil,ACCIONA,ACC,69.300000000,normal
+2017-12-10,index_borsatil,ACS,ACS,32.420000000,normal
+2017-12-10,index_borsatil,ADVEO,ADV,2.630000000,normal
+2017-12-10,index_borsatil,Atresmedia,Atr,9.720000000,normal
+2017-12-10,index_borsatil,BBVA,BBV,7.210000000,normal
+2017-12-10,index_borsatil,BME,BME,27.195000000,normal
+2017-12-10,index_borsatil,CAIXABANK,CAI,4.040000000,normal
+2017-12-10,index_borsatil,DIA,DIA,4.180000000,normal
+2017-12-10,index_borsatil,ENAGAS,ENA,25.090000000,normal
+2017-12-10,index_borsatil,ENCE,ENC,5.735000000,normal
+2017-12-10,index_borsatil,ENDESA,END,19.100000000,normal
+2017-12-10,index_borsatil,FCC,FCC,8.920000000,normal
+2017-12-10,index_borsatil,FERROVIAL,FER,18.640000000,normal
+2017-12-10,index_borsatil,GAS NATURAL,GAS,19.510000000,normal
+2017-12-10,index_borsatil,IAG (IBERIA),IAG,7.250000000,normal
+2017-12-10,index_borsatil,IBERDROLA,IBE,6.720000000,normal
+2017-12-10,index_borsatil,MAPFRE,MAP,2.720000000,normal
+2017-12-10,index_borsatil,MEDIASET,MED,9.890000000,normal
+2017-12-10,index_borsatil,POPULAR,POP,0.320000000,baixa
+2017-12-10,index_borsatil,REE,REE,19.150000000,normal
+2017-12-10,index_borsatil,REPSOL,REP,15.480000000,normal
+2017-12-10,index_borsatil,SABADELL,SAB,1.700000000,normal
+2017-12-10,index_borsatil,SAETA YIELD,SAE,9.450000000,normal
+2017-12-10,index_borsatil,SANTANDER,SAN,5.630000000,normal
+2017-12-10,index_borsatil,TECNICAS REUNIDAS,TEC,25.760000000,normal
+2017-12-10,index_borsatil,TELEFONICA,TEL,8.630000000,normal
+2017-12-10,index_borsatil,ZARDOYA OTIS,ZAR,9.420000000,normal
 2017-10-13,index_borsatil,ABERTIS,ABE,17.480000000,normal
 2017-10-13,index_borsatil,ACCIONA,ACC,68.780000000,normal
 2017-10-13,index_borsatil,ACERINOX,ACE,12.280000000,normal
