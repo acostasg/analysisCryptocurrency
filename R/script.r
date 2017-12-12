@@ -11,6 +11,8 @@ install.packages("ggplot2",  dep = T)
 install.packages("arules", dep = T)
 install.packages("NbClust", dep = T)
 install.packages("factoextra", dep = T)
+install.packages("ggExtra", dep = T)
+library(ggExtra)
 library(factoextra)
 library(NbClust)
 library(ggplot2)
@@ -92,7 +94,7 @@ polygon(d, col="blue", border="black")
 
 
 ########################################
-#   Test de Levene # Homogeneitat      #
+#   Test de Levene #   Homogeneitat    #
 ########################################
 
 with(dataset, tapply(Preu..Euros., list(Tipus), var, na.rm=TRUE))
@@ -102,10 +104,10 @@ with(dataset, tapply(Preu..Euros., list(Tipus, Tipus_cotitzacio), var, na.rm=TRU
 leveneTest(Preu..Euros. ~ Tipus*Tipus_cotitzacio, data=dataset, center="mean")
 
 ###############################################
-#  Kmeans creació cluster # Homogeneitat      #
+#  Kmeans creació cluster #   Homogeneitat    #
 ###############################################
 
-#normalitzem els preus
+#normalitzem els preus, no ens intersa donar mes pes a les monedes amb preu elevat sin a les tendencies
 price_norm = scale(dataset$Preu..Euros.)
 
 #per obtenir la partició mes optima
@@ -120,7 +122,24 @@ fviz_nbclust(nb)
 clusters_2 <- kmeans(price_norm,2, 15)
 print(clusters_2)
 
+#k-means amb 4 particions segons la major distancia dels centroides
+clusters_4 <- kmeans(price_norm,4, 15)
+print(clusters_4)
+
+###############################################
+#         Grafics/Representació               #
+###############################################
+
 #graficament
 plot(price_norm, col =(clusters_2$cluster) , main="K-Means result with 2 clusters", pch=20, cex=2)
+
+#graficament
+plot(price_norm, col =(clusters_4$cluster) , main="K-Means result with 4 clusters", pch=20, cex=2)
+
+#comparació tipus de preus o rangs amb cryptomonedes/stock índex
+plot(dataset$Tipus_cotitzacio, dataset$Tipus, xlab = "Tipus de cotització", ylab = "Cryptomoneda/stock index")
+
+#inversa de la anterior comparació de cryptomondes i sotck index amb el tipus de preus
+plot(dataset$Tipus, dataset$Tipus_cotitzacio, xlab = "Cryptomoneda/stock index", ylab = "Tipus de cotització")
 
 

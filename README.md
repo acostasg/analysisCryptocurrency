@@ -52,8 +52,14 @@ scraping
 Repositori github: https://github.com/acostasg/scraping
 
 Repositori kaggle Open data: 
+* https://www.kaggle.com/acostasg/cryptocurrenciesvsstockindex
 * https://www.kaggle.com/acostasg/stock-index/
 * https://www.kaggle.com/acostasg/crypto-currencies
+
+# Grafics
+
+Kernel en kaggle Open data: 
+* https://www.kaggle.com/acostasg/grafic-distribucion-and-kmeans-algorim-group/output
 
 # Autors
 
