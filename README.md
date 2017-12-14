@@ -101,11 +101,14 @@ La comunitat podrà respondre, entre altres preguntes, a:
 
 # Camps
 
-* **Nom**: Nom empresa o cryptomoneda.
-* **Preu**: Valor en euros d’una acció o una cryptomoneda (transformarem la moneda a euros en el cas de estigui en dòlars amb l'última cotització (un dollar a 0,8501 euro)
-* **Símbol**: Símbol de la moneda o del index borsatil, per realizar grafic posteriorment d’una forma mes senzilla que el nom.
-* **Tipus**: Generarem aquest per agrupar identificar cryptomonedes de index de borsa, tindra 2 valors: cryptomoneda/borsa.
+* **Data**: Data de l’observació
+* **Nom**: Nom de l’empresa o cryptomoneda, per identificar de quina moneda o index estem representant.
+* **Símbol**: Símbol de la moneda o del index borsatil, per realitzar gràfic posteriorment d’una forma més senzilla que el nom.
+* **Preu**: Valor en euros d’una acció o una cryptomoneda (transformarem la moneda a euros en el cas que estigui en dòlars amb l'última cotització (un dollar a 0,8501 euro)
 * **Tipus_cotitzacio**: Valor nou que agregarem per discretitzar entre la cotització: baix (0 i 1), normal (1 i 100), alt (100 i 1000), molt_alt (>1000)
+* **Tipus**: Tipus de valor: «stock» índex o cryptomoneda.
+
+Tenim 2 grups cyptomoneda i «stock index», a més de 4 grups per tipus de preu en la cotització, posteriorment utilitzarem algorismes d’agrupació per veure similitud amb tipus de valor.
 
 # Referencies
 
