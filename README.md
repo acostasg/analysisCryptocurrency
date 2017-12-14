@@ -95,9 +95,9 @@ Hem seleccionat diferents fonts de dades per generar fitxers «csv», guardar di
 En aquest cas el «trading» en cryptomoneda és relativament nou, força popular per la seva formulació com a mitja digital d’intercanvi, utilitzant un protocol que garanteix la seguretat, integritat i equilibri del seu estat de compte per mitjà d’un entramat d’agents.
 
 La comunitat podrà respondre, entre altres preguntes, a:
-    • Està afectant o hi ha **patrons comuns en les cotitzacions de cryptomonedes i el mercat de valors** principals del país d'Espanya?
-    • Els efectes o agents externs **afecten per igual** a les accions o cryptomonedes 
-    • Hi ha **relacions** cause efecte entre les acciones i cryptomonedes?
+* Està afectant o hi ha **patrons comuns en les cotitzacions de cryptomonedes i el mercat de valors** principals del país d'Espanya?
+* Els efectes o agents externs **afecten per igual** a les accions o cryptomonedes 
+* Hi ha **relacions** cause efecte entre les acciones i cryptomonedes?
 
 # Camps
 

@@ -52,7 +52,7 @@ def get_value_euros(row):
     if value:
         return float(value) * EURO_VALUE_FROM_DOLAR
     else:
-        return 0
+        return None
 
 
 def clear_currency_data(row):
@@ -86,8 +86,10 @@ def process_row(data, row, callback):
 
 
 def add_value_to_array_crypto_currency(match, row):
-    price = format(get_value_euros(row[4][1:]), PREC)
-    add_value_to_array(get_date_value(match), CRYPTO_MONEDA, row[1], row[2], price, get_type_value(price))
+    price = get_value_euros(row[4][1:])
+    if price:
+        price = format(price, PREC)
+        add_value_to_array(get_date_value(match), CRYPTO_MONEDA, row[1], row[2], price, get_type_value(price))
 
 
 def get_type_value(value):

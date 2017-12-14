@@ -1295,7 +1295,6 @@ Data,Tipus,Nom,Simbol,Preu (Euros),Tipus_cotitzacio
 2017-11-19,crypto_moneda,ETXEtherx,ETX,0.725009772,baixa
 2017-11-19,crypto_moneda,EXLExcelcoin,EXL,0.000117265,baixa
 2017-11-19,crypto_moneda,MRCmicroCoin,MRC,0.000067980,baixa
-2017-11-19,crypto_moneda,MGCMergeCoin,MGC,0.000000000,baixa
 2017-11-19,crypto_moneda,AURSAureus,AURS,11.658537415,normal
 2017-11-19,crypto_moneda,KEXCOINKexCoin,KEXCOIN,15.975255350,normal
 2017-11-19,crypto_moneda,CTIC3Coimatic 3.0,CTIC3,19.068336705,normal
@@ -7485,7 +7484,1345 @@ Data,Tipus,Nom,Simbol,Preu (Euros),Tipus_cotitzacio
 2017-11-02,crypto_moneda,DMCDynamicCoin,DMC,0.849747625,baixa
 2017-11-02,crypto_moneda,MIUMIYUCoin,MIU,0.000060332,baixa
 2017-11-02,crypto_moneda,INFInfChain,INF,0.006176815,baixa
-2017-11-02,crypto_moneda,FORFORCE,FOR,0.000000000,baixa
+2017-12-10,crypto_moneda,BTCBitcoin,BTC,13245.016230875,molt_alta
+2017-12-10,crypto_moneda,ETHEthereum,ETH,384.272870978,alta
+2017-12-10,crypto_moneda,BCHBitcoin Cash,BCH,1126.977787656,molt_alta
+2017-12-10,crypto_moneda,MIOTAIOTA,MIOTA,3.611427406,normal
+2017-12-10,crypto_moneda,XRPRipple,XRP,0.202040244,baixa
+2017-12-10,crypto_moneda,LTCLitecoin,LTC,129.204126381,alta
+2017-12-10,crypto_moneda,DASHDash,DASH,590.226202849,alta
+2017-12-10,crypto_moneda,XMRMonero,XMR,211.740113197,alta
+2017-12-10,crypto_moneda,BTGBitcoin Gold,BTG,188.159616604,alta
+2017-12-10,crypto_moneda,XEMNEM,XEM,0.340146327,baixa
+2017-12-10,crypto_moneda,ADACardano,ADA,0.094504682,baixa
+2017-12-10,crypto_moneda,ETCEthereum Classic,ETC,22.875206065,normal
+2017-12-10,crypto_moneda,XLMStellar Lumens,XLM,0.104856308,baixa
+2017-12-10,crypto_moneda,NEONEO,NEO,28.661987391,normal
+2017-12-10,crypto_moneda,EOSEOS,EOS,3.271528356,normal
+2017-12-10,crypto_moneda,BCCBitConnect,BCC,323.813327459,alta
+2017-12-10,crypto_moneda,PPTPopulous,PPT,21.456127531,normal
+2017-12-10,crypto_moneda,WAVESWaves,WAVES,8.387009059,normal
+2017-12-10,crypto_moneda,LSKLisk,LSK,6.942438096,normal
+2017-12-10,crypto_moneda,MONAMonaCoin,MONA,13.774409001,normal
+2017-12-10,crypto_moneda,STRATStratis,STRAT,7.401301814,normal
+2017-12-10,crypto_moneda,ZECZcash,ZEC,259.410954960,alta
+2017-12-10,crypto_moneda,QTUMQtum,QTUM,9.763600211,normal
+2017-12-10,crypto_moneda,USDTTether,USDT,0.866742578,baixa
+2017-12-10,crypto_moneda,OMGOmiseGO,OMG,6.806478476,normal
+2017-12-10,crypto_moneda,NXTNxt,NXT,0.484960317,baixa
+2017-12-10,crypto_moneda,HSRHshare,HSR,11.335633317,normal
+2017-12-10,crypto_moneda,ARDRArdor,ARDR,0.427984739,baixa
+2017-12-10,crypto_moneda,BCNBytecoin,BCN,0.002118421,baixa
+2017-12-10,crypto_moneda,BTSBitShares,BTS,0.146414065,baixa
+2017-12-10,crypto_moneda,STEEMSteem,STEEM,1.478560867,normal
+2017-12-10,crypto_moneda,EMC2Einsteinium,EMC2,1.614520487,normal
+2017-12-10,crypto_moneda,SALTSALT,SALT,6.509066807,normal
+2017-12-10,crypto_moneda,DCRDecred,DCR,50.067130065,normal
+2017-12-10,crypto_moneda,ARKArk,ARK,3.016604069,normal
+2017-12-10,crypto_moneda,VTCVertcoin,VTC,6.611036523,normal
+2017-12-10,crypto_moneda,VERIVeritaseum,VERI,136.240036716,alta
+2017-12-10,crypto_moneda,REPAugur,REP,24.625686173,normal
+2017-12-10,crypto_moneda,KMDKomodo,KMD,2.540745399,normal
+2017-12-10,crypto_moneda,DOGEDogecoin,DOGE,0.002233987,baixa
+2017-12-10,crypto_moneda,TRXTRON,TRX,0.003749087,baixa
+2017-12-10,crypto_moneda,SCSiacoin,SC,0.006838769,baixa
+2017-12-10,crypto_moneda,QASHQASH,QASH,0.607918798,baixa
+2017-12-10,crypto_moneda,BNBBinance Coin,BNB,2.141364015,normal
+2017-12-10,crypto_moneda,GNTGolem,GNT,0.250663653,baixa
+2017-12-10,crypto_moneda,PIVXPIVX,PIVX,3.755884502,normal
+2017-12-10,crypto_moneda,PAYTenX,PAY,1.733485155,normal
+2017-12-10,crypto_moneda,MAIDMaidSafeCoin,MAID,0.390507469,baixa
+2017-12-10,crypto_moneda,DGDDigixDAO,DGD,85.561088361,normal
+2017-12-10,crypto_moneda,POWRPower Ledger,POWR,0.465426318,baixa
+2017-12-10,crypto_moneda,SNTStatus,SNT,0.046993593,baixa
+2017-12-10,crypto_moneda,GBYTEByteball Bytes,GBYTE,250.148705847,alta
+2017-12-10,crypto_moneda,XUCExchange Union,XUC,6.381604664,normal
+2017-12-10,crypto_moneda,MANADecentraland,MANA,0.069553543,baixa
+2017-12-10,crypto_moneda,SANSantiment Net...,SAN,2.600227733,normal
+2017-12-10,crypto_moneda,CNXCryptonex,CNX,3.458472834,normal
+2017-12-10,crypto_moneda,WTCWalton,WTC,6.228650091,normal
+2017-12-10,crypto_moneda,BATBasic Attenti...,BAT,0.154501963,baixa
+2017-12-10,crypto_moneda,BTCDBitcoinDark,BTCD,119.032647310,alta
+2017-12-10,crypto_moneda,FCTFactom,FCT,17.309359121,normal
+2017-12-10,crypto_moneda,KNCKyber Network,KNC,1.070682008,normal
+2017-12-10,crypto_moneda,SYSSyscoin,SYS,0.268712292,baixa
+2017-12-10,crypto_moneda,BTMBytom,BTM,0.140109787,baixa
+2017-12-10,crypto_moneda,PURAPura,PURA,0.754383848,baixa
+2017-12-10,crypto_moneda,XZCZCoin,XZC,35.111571865,normal
+2017-12-10,crypto_moneda,RDNRaiden Networ...,RDN,2.532247922,normal
+2017-12-10,crypto_moneda,GASGas,GAS,14.530684388,normal
+2017-12-10,crypto_moneda,AEAeternity,AE,0.516768920,baixa
+2017-12-10,crypto_moneda,MCOMonaco,MCO,11.046719125,normal
+2017-12-10,crypto_moneda,ICNIconomi,ICN,1.181149199,normal
+2017-12-10,crypto_moneda,GAMEGameCredits,GAME,1.809962441,normal
+2017-12-10,crypto_moneda,VENVeChain,VEN,0.402506756,baixa
+2017-12-10,crypto_moneda,FUNFunFair,FUN,0.025800887,baixa
+2017-12-10,crypto_moneda,DGBDigiByte,DGB,0.011367924,baixa
+2017-12-10,crypto_moneda,GNOGnosis,GNO,95.358678477,normal
+2017-12-10,crypto_moneda,XRBRaiBlocks,XRB,0.787733893,baixa
+2017-12-10,crypto_moneda,NXSNexus,NXS,1.903434680,normal
+2017-12-10,crypto_moneda,XVGVerge,XVG,0.007057154,baixa
+2017-12-10,crypto_moneda,BLOCKBlocknet,BLOCK,19.901089377,normal
+2017-12-10,crypto_moneda,ZRX0x,ZRX,0.193648986,baixa
+2017-12-10,crypto_moneda,BNTBancor,BNT,2.243333730,normal
+2017-12-10,crypto_moneda,CVCCivic,CVC,0.252278173,baixa
+2017-12-10,crypto_moneda,DRGNDragonchain,DRGN,0.355783382,baixa
+2017-12-10,crypto_moneda,REQRequest Network,REQ,0.131752520,baixa
+2017-12-10,crypto_moneda,NAVNAV Coin,NAV,1.334103771,normal
+2017-12-10,crypto_moneda,ETHOSEthos,ETHOS,1.087676960,normal
+2017-12-10,crypto_moneda,MTLMetal,MTL,4.180758315,normal
+2017-12-10,crypto_moneda,AIONAion,AION,1.954419537,normal
+2017-12-10,crypto_moneda,GXSGXShares,GXS,1.962917014,normal
+2017-12-10,crypto_moneda,EDGEdgeless,EDG,0.968712292,baixa
+2017-12-10,crypto_moneda,SKYSkycoin,SKY,12.440305230,normal
+2017-12-10,crypto_moneda,DATAStreamr DATAcoin,DATA,0.113954556,baixa
+2017-12-10,crypto_moneda,LINKChainLink,LINK,0.212639996,baixa
+2017-12-10,crypto_moneda,STORJStorj,STORJ,0.705460478,baixa
+2017-12-10,crypto_moneda,MNXMinexCoin,MNX,24.693665983,normal
+2017-12-10,crypto_moneda,ACTAchain,ACT,0.236731191,baixa
+2017-12-10,crypto_moneda,RHOCRChain,RHOC,0.382524090,baixa
+2017-12-10,crypto_moneda,RRevain,R,0.373117384,baixa
+2017-12-10,crypto_moneda,ETPMetaverse ETP,ETP,1.860947299,normal
+2017-12-10,crypto_moneda,SUBSubstratum,SUB,0.295749562,baixa
+2017-12-10,crypto_moneda,JINNJinn,JINN,1111.903264789,molt_alta
+2017-12-10,crypto_moneda,PPCPeercoin,PPC,2.651212590,normal
+2017-12-10,crypto_moneda,LKKLykke,LKK,0.240510868,baixa
+2017-12-10,crypto_moneda,PARTParticl,PART,7.885657960,normal
+2017-12-10,crypto_moneda,SNGLSSingularDTV,SNGLS,0.098931017,baixa
+2017-12-10,crypto_moneda,GRSGroestlcoin,GRS,0.849747625,baixa
+2017-12-10,crypto_moneda,BAYBitBay,BAY,0.058301185,baixa
+2017-12-10,crypto_moneda,UBQUbiq,UBQ,1.495555820,normal
+2017-12-10,crypto_moneda,PEPECASHPepe Cash,PEPECASH,0.081942863,baixa
+2017-12-10,crypto_moneda,FTCFeathercoin,FTC,0.311185228,baixa
+2017-12-10,crypto_moneda,QSPQuantstamp,QSP,0.091133733,baixa
+2017-12-10,crypto_moneda,ZENZenCash,ZEN,22.892201017,normal
+2017-12-10,crypto_moneda,ADXAdEx,ADX,0.900732483,baixa
+2017-12-10,crypto_moneda,YOYOWYOYOW,YOYOW,0.251479411,baixa
+2017-12-10,crypto_moneda,MGOMobileGo,MGO,0.541530565,baixa
+2017-12-10,crypto_moneda,QRLQuantum Resis...,QRL,1.011199674,normal
+2017-12-10,crypto_moneda,ANTAragon,ANT,1.614520487,normal
+2017-12-10,crypto_moneda,POTPotCoin,POT,0.238111181,baixa
+2017-12-10,crypto_moneda,ATMATMChain,ATM,0.013913768,baixa
+2017-12-10,crypto_moneda,COBCobinhood,COB,0.193643038,baixa
+2017-12-10,crypto_moneda,LRCLoopring,LRC,0.178601655,baixa
+2017-12-10,crypto_moneda,XASAsch,XAS,0.560457844,baixa
+2017-12-10,crypto_moneda,PPPPayPie,PPP,0.615655750,baixa
+2017-12-10,crypto_moneda,RCNRipio Credit ...,RCN,0.100821706,baixa
+2017-12-10,crypto_moneda,FAIRFairCoin,FAIR,0.892235006,baixa
+2017-12-10,crypto_moneda,XCPCounterparty,XCP,18.099624412,normal
+2017-12-10,crypto_moneda,INKInk,INK,0.259363369,baixa
+2017-12-10,crypto_moneda,OTNOpen Trading ...,OTN,10.689825123,normal
+2017-12-10,crypto_moneda,AGRSAgoras Tokens,AGRS,1.045189579,normal
+2017-12-10,crypto_moneda,VIAViacoin,VIA,1.903434680,normal
+2017-12-10,crypto_moneda,AEONAeon,AEON,2.897639401,normal
+2017-12-10,crypto_moneda,SNMSONM,SNM,0.109859622,baixa
+2017-12-10,crypto_moneda,MERMercury,MER,0.394717969,baixa
+2017-12-10,crypto_moneda,EDOEidoo,EDO,1.869444775,normal
+2017-12-10,crypto_moneda,WINGSWings,WINGS,0.432873337,baixa
+2017-12-10,crypto_moneda,KINKin,KIN,0.000050985,baixa
+2017-12-10,crypto_moneda,NEBLNeblio,NEBL,2.974116688,normal
+2017-12-10,crypto_moneda,MLNMelon,MLN,61.530225526,normal
+2017-12-10,crypto_moneda,TRSTWeTrust,TRST,0.390095342,baixa
+2017-12-10,crypto_moneda,TIPSFedoraCoin,TIPS,0.000080726,baixa
+2017-12-10,crypto_moneda,EMCEmercoin,EMC,0.866742578,baixa
+2017-12-10,crypto_moneda,TIXBlocktix,TIX,0.875240054,baixa
+2017-12-10,crypto_moneda,VOXVoxels,VOX,0.166819904,baixa
+2017-12-10,crypto_moneda,RLCiExec RLC,RLC,0.437690556,baixa
+2017-12-10,crypto_moneda,RDDReddCoin,RDD,0.001197294,baixa
+2017-12-10,crypto_moneda,KCSKuCoin Shares,KCS,0.377197872,baixa
+2017-12-10,crypto_moneda,DMDDiamond,DMD,13.426012475,normal
+2017-12-10,crypto_moneda,NMCNamecoin,NMC,2.328308493,normal
+2017-12-10,crypto_moneda,ENGEnigma,ENG,0.456078245,baixa
+2017-12-10,crypto_moneda,RISERise,RISE,0.300127462,baixa
+2017-12-10,crypto_moneda,SAFEXSafe Exchange...,SAFEX,0.015295457,baixa
+2017-12-10,crypto_moneda,VEEBLOCKv,VEE,0.024213559,baixa
+2017-12-10,crypto_moneda,ZSCZeusshield,ZSC,0.027616798,baixa
+2017-12-10,crypto_moneda,PLRPillar,PLR,0.139718054,baixa
+2017-12-10,crypto_moneda,ASTAirSwap,AST,0.209337027,baixa
+2017-12-10,crypto_moneda,TAASTaaS,TAAS,3.849356741,normal
+2017-12-10,crypto_moneda,CDTCoinDash,CDT,0.055632127,baixa
+2017-12-10,crypto_moneda,XWCWhiteCoin,XWC,0.124786288,baixa
+2017-12-10,crypto_moneda,SIBSIBCoin,SIB,1.920429632,normal
+2017-12-10,crypto_moneda,RMCRussian Miner...,RMC,20204.109380575,molt_alta
+2017-12-10,crypto_moneda,WGRWagerr,WGR,0.163101409,baixa
+2017-12-10,crypto_moneda,BTXBitcore,BTX,16.476606449,normal
+2017-12-10,crypto_moneda,CLOAKCloakCoin,CLOAK,5.803776279,normal
+2017-12-10,crypto_moneda,CFICofound.it,CFI,0.090369810,baixa
+2017-12-10,crypto_moneda,TNTTierion,TNT,0.069184752,baixa
+2017-12-10,crypto_moneda,NLC2NoLimitCoin,NLC2,0.138606584,baixa
+2017-12-10,crypto_moneda,IOCI/O Coin,IOC,1.716490202,normal
+2017-12-10,crypto_moneda,SMARTSmartCash,SMART,0.063906970,baixa
+2017-12-10,crypto_moneda,ENJEnjin Coin,ENJ,0.036539998,baixa
+2017-12-10,crypto_moneda,PREPresearch,PRE,0.177896365,baixa
+2017-12-10,crypto_moneda,DCTDECENT,DCT,0.536387893,baixa
+2017-12-10,crypto_moneda,NLGGulden,NLG,0.076221512,baixa
+2017-12-10,crypto_moneda,PAYXPaypex,PAYX,0.393999932,baixa
+2017-12-10,crypto_moneda,CRWCrown,CRW,1.640012916,normal
+2017-12-10,crypto_moneda,1STFirstBlood,1ST,0.312502337,baixa
+2017-12-10,crypto_moneda,MODModum,MOD,1.453068439,normal
+2017-12-10,crypto_moneda,NMRNumeraire,NMR,20.198501046,normal
+2017-12-10,crypto_moneda,TNBTime New Bank,TNB,0.022994171,baixa
+2017-12-10,crypto_moneda,SLSSaluS,SLS,25.500926226,normal
+2017-12-10,crypto_moneda,OKOKCash,OK,0.347266362,baixa
+2017-12-10,crypto_moneda,BQbitqy,BQ,0.009183223,baixa
+2017-12-10,crypto_moneda,IONION,ION,1.351098724,normal
+2017-12-10,crypto_moneda,CTRCentra,CTR,0.353466121,baixa
+2017-12-10,crypto_moneda,ZNYBitzeny,ZNY,0.316854744,baixa
+2017-12-10,crypto_moneda,CNDCindicator,CND,0.016417124,baixa
+2017-12-10,crypto_moneda,LBCLBRY Credits,LBC,0.208459238,baixa
+2017-12-10,crypto_moneda,GRIDGrid+,GRID,0.600562533,baixa
+2017-12-10,crypto_moneda,AMBAmbrosus,AMB,0.162414813,baixa
+2017-12-10,crypto_moneda,DIMEDimecoin,DIME,0.000043337,baixa
+2017-12-10,crypto_moneda,CSNOBitDice,CSNO,0.331179790,baixa
+2017-12-10,crypto_moneda,GRCGridCoin,GRC,0.058625788,baixa
+2017-12-10,crypto_moneda,DNTdistrict0x,DNT,0.037933584,baixa
+2017-12-10,crypto_moneda,MDAMoeda Loyalty...,MDA,1.155656770,normal
+2017-12-10,crypto_moneda,DPYDelphy,DPY,0.805833517,baixa
+2017-12-10,crypto_moneda,DCNDentacoin,DCN,0.000067980,baixa
+2017-12-10,crypto_moneda,TRIGTriggers,TRIG,0.674546660,baixa
+2017-12-10,crypto_moneda,SHIFTShift,SHIFT,1.877942251,normal
+2017-12-10,crypto_moneda,THCHempCoin,THC,0.093594602,baixa
+2017-12-10,crypto_moneda,SBDSteem Dollars,SBD,5.863258613,normal
+2017-12-10,crypto_moneda,UKGUnikoin Gold,UKG,0.159427950,baixa
+2017-12-10,crypto_moneda,BURSTBurst,BURST,0.011757108,baixa
+2017-12-10,crypto_moneda,GUPMatchpool,GUP,0.280620656,baixa
+2017-12-10,crypto_moneda,BLKBlackCoin,BLK,0.274215258,baixa
+2017-12-10,crypto_moneda,GCRGlobal Curren...,GCR,0.201707993,baixa
+2017-12-10,crypto_moneda,TXTransferCoin,TX,3.322513214,normal
+2017-12-10,crypto_moneda,BBRBoolberry,BBR,1.928927109,normal
+2017-12-10,crypto_moneda,AVTAventus,AVT,3.432980405,normal
+2017-12-10,crypto_moneda,GOLOSGolos,GOLOS,0.163865332,baixa
+2017-12-10,crypto_moneda,PLBTPolybius,PLBT,5.310922656,normal
+2017-12-10,crypto_moneda,DENTDent,DENT,0.001908533,baixa
+2017-12-10,crypto_moneda,XAURXaurum,XAUR,0.159199368,baixa
+2017-12-10,crypto_moneda,OMNIOmni,OMNI,36.097279110,normal
+2017-12-10,crypto_moneda,WCTWaves Communi...,WCT,2.005404395,normal
+2017-12-10,crypto_moneda,MUEMonetaryUnit,MUE,0.167011098,baixa
+2017-12-10,crypto_moneda,LEOLEOcoin,LEO,0.209979436,baixa
+2017-12-10,crypto_moneda,XBYXTRABYTES,XBY,0.046114954,baixa
+2017-12-10,crypto_moneda,POLLClearPoll,POLL,2.821162115,normal
+2017-12-10,crypto_moneda,FUELEtherparty,FUEL,0.040160772,baixa
+2017-12-10,crypto_moneda,RPXRed Pulse,RPX,0.035555140,baixa
+2017-12-10,crypto_moneda,HMQHumaniq,HMQ,0.118282320,baixa
+2017-12-10,crypto_moneda,LENDETHLend,LEND,0.020332761,baixa
+2017-12-10,crypto_moneda,ICOSICOS,ICOS,33.446066520,normal
+2017-12-10,crypto_moneda,XELElastic,XEL,0.211086657,baixa
+2017-12-10,crypto_moneda,XPAXPlay,XPA,0.018479462,baixa
+2017-12-10,crypto_moneda,AMPSynereo,AMP,0.223222753,baixa
+2017-12-10,crypto_moneda,RBYRubycoin,RBY,0.718776024,baixa
+2017-12-10,crypto_moneda,DNAEncrypGen,DNA,0.485090328,baixa
+2017-12-10,crypto_moneda,POEPo.et,POE,0.007906052,baixa
+2017-12-10,crypto_moneda,IXTiXledger,IXT,0.480838191,baixa
+2017-12-10,crypto_moneda,SPANKSpankChain,SPANK,0.057312078,baixa
+2017-12-10,crypto_moneda,TKNTokenCard,TKN,0.724067402,baixa
+2017-12-10,crypto_moneda,STXStox,STX,0.400863344,baixa
+2017-12-10,crypto_moneda,XDNDigitalNote,XDN,0.002442175,baixa
+2017-12-10,crypto_moneda,EVXEverex,EVX,0.985707245,baixa
+2017-12-10,crypto_moneda,DLTAgrello,DLT,0.189256641,baixa
+2017-12-10,crypto_moneda,ATBATBCoin,ATB,0.408805085,baixa
+2017-12-10,crypto_moneda,CLAMClams,CLAM,5.727298993,normal
+2017-12-10,crypto_moneda,PRGParagon,PRG,0.241061505,baixa
+2017-12-10,crypto_moneda,SLRSolarCoin,SLR,0.406897401,baixa
+2017-12-10,crypto_moneda,XRLRialto,XRL,0.182696589,baixa
+2017-12-10,crypto_moneda,GVTGenesis Vision,GVT,4.155265886,normal
+2017-12-10,crypto_moneda,HVNHive,HVN,0.041249299,baixa
+2017-12-10,crypto_moneda,MTHMonetha,MTH,0.071323567,baixa
+2017-12-10,crypto_moneda,ALISALIS,ALIS,0.400400231,baixa
+2017-12-10,crypto_moneda,OBITSOBITS,OBITS,0.977209769,baixa
+2017-12-10,crypto_moneda,VIBViberate,VIB,0.095177682,baixa
+2017-12-10,crypto_moneda,TGTTarget Coin,TGT,0.016081474,baixa
+2017-12-10,crypto_moneda,BSDBitSend,BSD,0.866742578,baixa
+2017-12-10,crypto_moneda,GAMGambit,GAM,12.652742136,normal
+2017-12-10,crypto_moneda,NETNimiq,NET,1.427576010,normal
+2017-12-10,crypto_moneda,SNCSunContract,SNC,0.137876651,baixa
+2017-12-10,crypto_moneda,TCCThe ChampCoin,TCC,0.090010367,baixa
+2017-12-10,crypto_moneda,DICEEtheroll,DICE,2.115871586,normal
+2017-12-10,crypto_moneda,DTBDatabits,DTB,0.635656260,baixa
+2017-12-10,crypto_moneda,SPHRSphere,SPHR,4.656616985,normal
+2017-12-10,crypto_moneda,CSCCasinoCoin,CSC,0.370779728,baixa
+2017-12-10,crypto_moneda,RADSRadium,RADS,4.155265886,normal
+2017-12-10,crypto_moneda,UNOUnobtanium,UNO,71.183358546,normal
+2017-12-10,crypto_moneda,BCOBridgeCoin,BCO,0.518364746,baixa
+2017-12-10,crypto_moneda,NVSTNVO,NVST,0.926224911,baixa
+2017-12-10,crypto_moneda,BITCNYbitCNY,BITCNY,0.120438980,baixa
+2017-12-10,crypto_moneda,ADTadToken,ADT,0.023098690,baixa
+2017-12-10,crypto_moneda,OCTOracleChain,OCT,0.459844326,baixa
+2017-12-10,crypto_moneda,PPYPeerplays,PPY,3.585934978,normal
+2017-12-10,crypto_moneda,PASCPascal Coin,PASC,0.866742578,baixa
+2017-12-10,crypto_moneda,NEOSNeosCoin,NEOS,3.755884502,normal
+2017-12-10,crypto_moneda,VRCVeriCoin,VRC,0.431486549,baixa
+2017-12-10,crypto_moneda,BDLBitdeal,BDL,0.074748900,baixa
+2017-12-10,crypto_moneda,SOARSoarcoin,SOAR,0.018442073,baixa
+2017-12-10,crypto_moneda,BCAPBCAP,BCAP,1.300113866,normal
+2017-12-10,crypto_moneda,BTMBitmark,BTM,1.741982631,normal
+2017-12-10,crypto_moneda,MSPMothership,MSP,0.091056406,baixa
+2017-12-10,crypto_moneda,EXPExpanse,EXP,1.606023011,normal
+2017-12-10,crypto_moneda,ONIONDeepOnion,ONION,2.761679781,normal
+2017-12-10,crypto_moneda,XVCVcash,XVC,0.799207186,baixa
+2017-12-10,crypto_moneda,NSRNuShares,NSR,0.004398294,baixa
+2017-12-10,crypto_moneda,PSTPrimas,PST,0.234458966,baixa
+2017-12-10,crypto_moneda,IFTInvestFeed,IFT,0.062294149,baixa
+2017-12-10,crypto_moneda,KICKKickCoin,KICK,0.037091484,baixa
+2017-12-10,crypto_moneda,OXYOxycoin,OXY,0.156482725,baixa
+2017-12-10,crypto_moneda,FLOFlorinCoin,FLO,0.083493652,baixa
+2017-12-10,crypto_moneda,XTOTao,XTO,0.358448191,baixa
+2017-12-10,crypto_moneda,XNNXenon,XNN,0.038937985,baixa
+2017-12-10,crypto_moneda,MYSTMysterium,MYST,0.594808892,baixa
+2017-12-10,crypto_moneda,ARTMaecenas,ART,0.382823202,baixa
+2017-12-10,crypto_moneda,FLDCFoldingCoin,FLDC,0.020551996,baixa
+2017-12-10,crypto_moneda,ENRGEnergycoin,ENRG,0.092798389,baixa
+2017-12-10,crypto_moneda,SWTSwarm City,SWT,1.427576010,normal
+2017-12-10,crypto_moneda,LMCLoMoCoin,LMC,0.050120664,baixa
+2017-12-10,crypto_moneda,TOAToaCoin,TOA,0.008193267,baixa
+2017-12-10,crypto_moneda,RVTRivetz,RVT,0.412442005,baixa
+2017-12-10,crypto_moneda,MCAPMCAP,MCAP,1.028194626,normal
+2017-12-10,crypto_moneda,HEATHEAT,HEAT,0.340653626,baixa
+2017-12-10,crypto_moneda,TIMEChronobank,TIME,14.743121294,normal
+2017-12-10,crypto_moneda,LUNLunyr,LUN,4.546149794,normal
+2017-12-10,crypto_moneda,NXCNexium,NXC,0.156616985,baixa
+2017-12-10,crypto_moneda,BMCBlackmoon Crypto,BMC,0.346391972,baixa
+2017-12-10,crypto_moneda,INCNTIncent,INCNT,0.224908652,baixa
+2017-12-10,crypto_moneda,PTOYPatientory,PTOY,0.146749715,baixa
+2017-12-10,crypto_moneda,BITBBitBean,BITB,0.004520657,baixa
+2017-12-10,crypto_moneda,MTNCMasternodecoin,MTNC,0.202191499,baixa
+2017-12-10,crypto_moneda,ECCECC,ECC,0.000398532,baixa
+2017-12-10,crypto_moneda,BTDXBitcloud,BTDX,0.620331062,baixa
+2017-12-10,crypto_moneda,HSTDecision Token,HST,0.316242926,baixa
+2017-12-10,crypto_moneda,DRTDomRaider,DRT,0.016627862,baixa
+2017-12-10,crypto_moneda,NVCNovacoin,NVC,5.072993321,normal
+2017-12-10,crypto_moneda,ODNObsidian,ODN,0.387802723,baixa
+2017-12-10,crypto_moneda,EBTCeBitcoin,EBTC,0.512981594,baixa
+2017-12-10,crypto_moneda,AIRAirToken,AIR,0.009190021,baixa
+2017-12-10,crypto_moneda,CAGChange,CAG,0.255981374,baixa
+2017-12-10,crypto_moneda,ACAsiaCoin,AC,0.008057307,baixa
+2017-12-10,crypto_moneda,DBETDecentBet,DBET,0.137073639,baixa
+2017-12-10,crypto_moneda,CURECurecoin,CURE,0.390073248,baixa
+2017-12-10,crypto_moneda,SEQSequence,SEQ,0.203518805,baixa
+2017-12-10,crypto_moneda,MOONMooncoin,MOON,0.000040788,baixa
+2017-12-10,crypto_moneda,DBIXDubaiCoin,DBIX,5.327917609,normal
+2017-12-10,crypto_moneda,CATBlockCAT,CAT,1.164154246,normal
+2017-12-10,crypto_moneda,BITUSDbitUSD,BITUSD,0.834617869,baixa
+2017-12-10,crypto_moneda,ETTEncryptoTel [...,ETT,0.135544943,baixa
+2017-12-10,crypto_moneda,CREDOCredo,CREDO,0.015301405,baixa
+2017-12-10,crypto_moneda,PZMPRIZM,PZM,0.716101018,baixa
+2017-12-10,crypto_moneda,OAXOAX,OAX,0.332360089,baixa
+2017-12-10,crypto_moneda,XBCBitcoin Plus,XBC,80.139698514,normal
+2017-12-10,crypto_moneda,AURAuroracoin,AUR,0.926224911,baixa
+2017-12-10,crypto_moneda,PINKPinkCoin,PINK,0.021509662,baixa
+2017-12-10,crypto_moneda,BLUBlueCoin,BLU,0.013719175,baixa
+2017-12-10,crypto_moneda,QAUQuantum,QAU,0.100355195,baixa
+2017-12-10,crypto_moneda,BCYBitcrystals,BCY,0.334310260,baixa
+2017-12-10,crypto_moneda,PLUPluton,PLU,8.964837444,normal
+2017-12-10,crypto_moneda,COSSCOSS,COSS,0.091814381,baixa
+2017-12-10,crypto_moneda,ONXOnix,ONX,0.270590235,baixa
+2017-12-10,crypto_moneda,BLUEBLUE,BLUE,0.219262079,baixa
+2017-12-10,crypto_moneda,IOPInternet of P...,IOP,3.976818885,normal
+2017-12-10,crypto_moneda,PINGCryptoPing,PING,0.720981968,baixa
+2017-12-10,crypto_moneda,XSTStealthcoin,XST,0.259324281,baixa
+2017-12-10,crypto_moneda,POSWPoSW Coin,POSW,0.161070512,baixa
+2017-12-10,crypto_moneda,BETDAO.Casino,BET,0.042306385,baixa
+2017-12-10,crypto_moneda,BCPTBlockMason Cr...,BCPT,0.156307677,baixa
+2017-12-10,crypto_moneda,DYNDynamic,DYN,3.934331504,normal
+2017-12-10,crypto_moneda,PTCPesetacoin,PTC,0.052900189,baixa
+2017-12-10,crypto_moneda,EDRE-Dinar Coin,EDR,0.007857616,baixa
+2017-12-10,crypto_moneda,MUSICMusicoin,MUSIC,0.014071821,baixa
+2017-12-10,crypto_moneda,VIBEVIBE,VIBE,0.036420183,baixa
+2017-12-10,crypto_moneda,EMVEthereum Movi...,EMV,1.036692102,normal
+2017-12-10,crypto_moneda,EACEarthCoin,EAC,0.000588875,baixa
+2017-12-10,crypto_moneda,SXCSexcoin,SXC,0.053521354,baixa
+2017-12-10,crypto_moneda,XMYMyriad,XMY,0.004344760,baixa
+2017-12-10,crypto_moneda,PBTPrimalbase Token,PBT,6594.814840339,molt_alta
+2017-12-10,crypto_moneda,DOVUDovu,DOVU,0.103281725,baixa
+2017-12-10,crypto_moneda,SYNXSyndicate,SYNX,0.393065210,baixa
+2017-12-10,crypto_moneda,TZCTrezarCoin,TZC,0.078651790,baixa
+2017-12-10,crypto_moneda,UNITUniversal Cur...,UNIT,0.529239816,baixa
+2017-12-10,crypto_moneda,NTRNNeutron,NTRN,0.190870312,baixa
+2017-12-10,crypto_moneda,PUTPutinCoin,PUT,0.019621522,baixa
+2017-12-10,crypto_moneda,KOREKore,KORE,3.050593974,normal
+2017-12-10,crypto_moneda,B@Bankcoin,B@,0.599110314,baixa
+2017-12-10,crypto_moneda,ABYArtByte,ABY,0.007676620,baixa
+2017-12-10,crypto_moneda,CVCOINCVCoin,CVCOIN,0.590846519,baixa
+2017-12-10,crypto_moneda,ZRCZrCoin,ZRC,1.580530583,normal
+2017-12-10,crypto_moneda,APXAPX,APX,8.140582247,normal
+2017-12-10,crypto_moneda,RICRiecoin,RIC,0.143246206,baixa
+2017-12-10,crypto_moneda,VOISEVoise,VOISE,0.008772794,baixa
+2017-12-10,crypto_moneda,LALAToken,LA,0.139739297,baixa
+2017-12-10,crypto_moneda,PHRPhore,PHR,0.566843697,baixa
+2017-12-10,crypto_moneda,ASTROAstro,ASTRO,1.648510392,normal
+2017-12-10,crypto_moneda,COVALCircuits of V...,COVAL,0.005443483,baixa
+2017-12-10,crypto_moneda,PIXLampix,PIX,0.047703132,baixa
+2017-12-10,crypto_moneda,HTML5HTMLCOIN,HTML5,0.000132561,baixa
+2017-12-10,crypto_moneda,DIVXDivi,DIVX,1.028194626,normal
+2017-12-10,crypto_moneda,XSPECSpectrecoin,XSPEC,0.253908839,baixa
+2017-12-10,crypto_moneda,BISBismuth,BIS,0.875240054,baixa
+2017-12-10,crypto_moneda,TRCTerracoin,TRC,0.240825275,baixa
+2017-12-10,crypto_moneda,DOPEDopeCoin,DOPE,0.046959603,baixa
+2017-12-10,crypto_moneda,EXCLExclusiveCoin,EXCL,1.189646675,normal
+2017-12-10,crypto_moneda,XPMPrimecoin,XPM,0.239107935,baixa
+2017-12-10,crypto_moneda,QWARKQwark,QWARK,0.121007461,baixa
+2017-12-10,crypto_moneda,EGCEverGreenCoin,EGC,0.385344403,baixa
+2017-12-10,crypto_moneda,SSSSharechain,SSS,0.003130470,baixa
+2017-12-10,crypto_moneda,MEMEMemetic,MEME,0.307527914,baixa
+2017-12-10,crypto_moneda,SNRGSynergy,SNRG,1.538043201,normal
+2017-12-10,crypto_moneda,CHCChainCoin,CHC,0.348595367,baixa
+2017-12-10,crypto_moneda,TRUSTTrustPlus,TRUST,0.152672456,baixa
+2017-12-10,crypto_moneda,GCCTheGCCcoin,GCC,0.009764450,baixa
+2017-12-10,crypto_moneda,SWIFTBitswift,SWIFT,1.189646675,normal
+2017-12-10,crypto_moneda,KRBKarbowanec,KRB,0.985707245,baixa
+2017-12-10,crypto_moneda,ELIXElixir,ELIX,0.185379242,baixa
+2017-12-10,crypto_moneda,BRXBreakout Stake,BRX,0.757077548,baixa
+2017-12-10,crypto_moneda,ERCEuropeCoin,ERC,0.471691508,baixa
+2017-12-10,crypto_moneda,GBXGoByte,GBX,21.847011439,normal
+2017-12-10,crypto_moneda,PIRLPirl,PIRL,0.866742578,baixa
+2017-12-10,crypto_moneda,2GIVE2GIVE,2GIVE,0.008891759,baixa
+2017-12-10,crypto_moneda,SUPERSuperCoin,SUPER,0.096732720,baixa
+2017-12-10,crypto_moneda,TFLTrueFlip,TFL,0.726795942,baixa
+2017-12-10,crypto_moneda,GLDGoldCoin,GLD,0.110578508,baixa
+2017-12-10,crypto_moneda,CRBCreditbit,CRB,0.269565439,baixa
+2017-12-10,crypto_moneda,DRPDCORP,DRP,0.544755358,baixa
+2017-12-10,crypto_moneda,DARDarcrus,DAR,0.321197804,baixa
+2017-12-10,crypto_moneda,PDCProject Decorum,PDC,0.087222345,baixa
+2017-12-10,crypto_moneda,VSLvSlice,VSL,0.130471950,baixa
+2017-12-10,crypto_moneda,B2BB2B,B2B,0.268571234,baixa
+2017-12-10,crypto_moneda,PROPropy,PRO,0.299558981,baixa
+2017-12-10,crypto_moneda,BELABela,BELA,0.107853368,baixa
+2017-12-10,crypto_moneda,GMTMercury Protocol,GMT,0.024700464,baixa
+2017-12-10,crypto_moneda,OCLOceanlab,OCL,0.089275335,baixa
+2017-12-10,crypto_moneda,CANNCannabisCoin,CANN,0.053099879,baixa
+2017-12-10,crypto_moneda,MYBMyBit Token,MYB,1.555038154,normal
+2017-12-10,crypto_moneda,VTRvTorrent,VTR,0.376105097,baixa
+2017-12-10,crypto_moneda,FLIXXFlixxo,FLIXX,0.058256148,baixa
+2017-12-10,crypto_moneda,BLITZBlitzcash,BLITZ,0.960214816,baixa
+2017-12-10,crypto_moneda,BRKBreakout,BRK,0.217331453,baixa
+2017-12-10,crypto_moneda,LIFELIFE,LIFE,0.000597373,baixa
+2017-12-10,crypto_moneda,PKBParkByte,PKB,0.816463011,baixa
+2017-12-10,crypto_moneda,CREACreativecoin,CREA,0.292813684,baixa
+2017-12-10,crypto_moneda,ATMSAtmos,ATMS,0.035844904,baixa
+2017-12-10,crypto_moneda,GEOGeoCoin,GEO,1.062184531,normal
+2017-12-10,crypto_moneda,STAStarta,STA,0.696269608,baixa
+2017-12-10,crypto_moneda,INXTInternxt,INXT,5.599836849,normal
+2017-12-10,crypto_moneda,NYCNewYorkCoin,NYC,0.000027192,baixa
+2017-12-10,crypto_moneda,DOTDotcoin,DOT,0.013011336,baixa
+2017-12-10,crypto_moneda,MXTMarteXcoin,MXT,1.240631532,normal
+2017-12-10,crypto_moneda,RUPRupee,RUP,0.155741745,baixa
+2017-12-10,crypto_moneda,CTXCarTaxi Token,CTX,0.056943288,baixa
+2017-12-10,crypto_moneda,IFLTInflationCoin,IFLT,0.000101120,baixa
+2017-12-10,crypto_moneda,INDIndorse Token,IND,0.073034959,baixa
+2017-12-10,crypto_moneda,MINTMintcoin,MINT,0.000135960,baixa
+2017-12-10,crypto_moneda,ARNAeron,ARN,0.279144644,baixa
+2017-12-10,crypto_moneda,HGTHelloGold,HGT,0.012472596,baixa
+2017-12-10,crypto_moneda,XSHSHIELD,XSH,0.006987475,baixa
+2017-12-10,crypto_moneda,BTCREDBitcoin Red,BTCRED,0.227017726,baixa
+2017-12-10,crypto_moneda,INNInnova,INN,3.390493024,normal
+2017-12-10,crypto_moneda,GBGoldBlocks,GB,0.211238762,baixa
+2017-12-10,crypto_moneda,REALREAL,REAL,0.320471270,baixa
+2017-12-10,crypto_moneda,LUXLUXCoin,LUX,5.582841896,normal
+2017-12-10,crypto_moneda,STARTStartcoin,START,0.070587685,baixa
+2017-12-10,crypto_moneda,EFLe-Gulden,EFL,0.198598766,baixa
+2017-12-10,crypto_moneda,HUCHunterCoin,HUC,0.153602080,baixa
+2017-12-10,crypto_moneda,KLNKolion,KLN,5.200455465,normal
+2017-12-10,crypto_moneda,CNTCenturion,CNT,0.042099047,baixa
+2017-12-10,crypto_moneda,YOCYocoin,YOC,0.028083309,baixa
+2017-12-10,crypto_moneda,TKSTokes,TKS,2.651212590,normal
+2017-12-10,crypto_moneda,HUSHHush,HUSH,1.325606295,normal
+2017-12-10,crypto_moneda,ZEPHZephyr,ZEPH,0.023416495,baixa
+2017-12-10,crypto_moneda,PROCProCurrency,PROC,0.030471950,baixa
+2017-12-10,crypto_moneda,ZENIZennies,ZENI,0.002909536,baixa
+2017-12-10,crypto_moneda,ZCLZClassic,ZCL,1.597525535,normal
+2017-12-10,crypto_moneda,IXCIxcoin,IXC,0.137273330,baixa
+2017-12-10,crypto_moneda,ATLATLANT,ATL,0.215506195,baixa
+2017-12-10,crypto_moneda,SPRSpreadCoin,SPR,0.306132629,baixa
+2017-12-10,crypto_moneda,BWKBulwark,BWK,5.089988274,normal
+2017-12-10,crypto_moneda,NIOAutonio,NIO,0.041196615,baixa
+2017-12-10,crypto_moneda,HDGHedge,HDG,0.726295440,baixa
+2017-12-10,crypto_moneda,BUZZBuzzCoin,BUZZ,0.000384936,baixa
+2017-12-10,crypto_moneda,PBLPublica,PBL,0.141044510,baixa
+2017-12-10,crypto_moneda,XMGMagi,XMG,0.338609133,baixa
+2017-12-10,crypto_moneda,CHIPSCHIPS,CHIPS,0.130236570,baixa
+2017-12-10,crypto_moneda,SCLSocial,SCL,0.151061335,baixa
+2017-12-10,crypto_moneda,VIVOVIVO,VIVO,3.042096498,normal
+2017-12-10,crypto_moneda,VRMVeriumReserve,VRM,1.775972536,normal
+2017-12-10,crypto_moneda,ADSTAdShares,ADST,0.206581295,baixa
+2017-12-10,crypto_moneda,XPXP,XP,0.000013596,baixa
+2017-12-10,crypto_moneda,ALTAltcoin,ALT,20.011556569,normal
+2017-12-10,crypto_moneda,CRAVECrave,CRAVE,1.674002821,normal
+2017-12-10,crypto_moneda,FLIKFLiK,FLIK,0.039454632,baixa
+2017-12-10,crypto_moneda,ZOIZoin,ZOI,0.150441869,baixa
+2017-12-10,crypto_moneda,QRKQuark,QRK,0.009341276,baixa
+2017-12-10,crypto_moneda,BASHLuckChain,BASH,0.003239238,baixa
+2017-12-10,crypto_moneda,ADCAudioCoin,ADC,0.002649513,baixa
+2017-12-10,crypto_moneda,NOTEDNotes,NOTE,0.016871739,baixa
+2017-12-10,crypto_moneda,RUSTBITSRustbits,RUSTBITS,0.061162285,baixa
+2017-12-10,crypto_moneda,PACPaccoin,PAC,0.000000663,baixa
+2017-12-10,crypto_moneda,HYPHyperStake,HYP,0.001928927,baixa
+2017-12-10,crypto_moneda,MECMegacoin,MEC,0.056763991,baixa
+2017-12-10,crypto_moneda,BTCZBitcoinZ,BTCZ,0.003115175,baixa
+2017-12-10,crypto_moneda,SMARTSmartBillions,SMART,0.321779032,baixa
+2017-12-10,crypto_moneda,XCNCryptonite,XCN,0.005304125,baixa
+2017-12-10,crypto_moneda,FCNFantomcoin,FCN,0.318620520,baixa
+2017-12-10,crypto_moneda,FYNFundYourselfNow,FYN,2.285821111,normal
+2017-12-10,crypto_moneda,UNYUnity Ingot,UNY,0.009483183,baixa
+2017-12-10,crypto_moneda,WDCWorldCoin,WDC,0.016265019,baixa
+2017-12-10,crypto_moneda,FSTFastcoin,FST,0.011797896,baixa
+2017-12-10,crypto_moneda,SUMOSumokoin,SUMO,0.722014412,baixa
+2017-12-10,crypto_moneda,PIPLPiplCoin,PIPL,0.021146819,baixa
+2017-12-10,crypto_moneda,GCNGCoin,GCN,0.000011896,baixa
+2017-12-10,crypto_moneda,TRCTTracto,TRCT,0.390632382,baixa
+2017-12-10,crypto_moneda,CBXCrypto Bullion,CBX,1.724987679,normal
+2017-12-10,crypto_moneda,EQTEquiTrader,EQT,0.174776941,baixa
+2017-12-10,crypto_moneda,EBSTeBoost,EBST,0.143113645,baixa
+2017-12-10,crypto_moneda,FYPFlypMe,FYP,0.096551724,baixa
+2017-12-10,crypto_moneda,PRIXPrivatix,PRIX,1.436073486,normal
+2017-12-10,crypto_moneda,RKCRoyal Kingdom...,RKC,0.622431638,baixa
+2017-12-10,crypto_moneda,DFTDraftCoin,DFT,0.750595673,baixa
+2017-12-10,crypto_moneda,ESPEspers,ESP,0.000080726,baixa
+2017-12-10,crypto_moneda,ELEElementrem,ELE,0.063724274,baixa
+2017-12-10,crypto_moneda,HBTHubii Network,HBT,0.125388760,baixa
+2017-12-10,crypto_moneda,REXREX,REX,0.186289322,baixa
+2017-12-10,crypto_moneda,CDNCanada eCoin,CDN,0.016457062,baixa
+2017-12-10,crypto_moneda,ELLAEllaism,ELLA,0.567808161,baixa
+2017-12-10,crypto_moneda,4242-coin,42,37926.105948525,molt_alta
+2017-12-10,crypto_moneda,LNKLink Platform,LNK,30.276507879,normal
+2017-12-10,crypto_moneda,MAXMaxCoin,MAX,0.023365510,baixa
+2017-12-10,crypto_moneda,BTABata,BTA,0.282099217,baixa
+2017-12-10,crypto_moneda,MBRSEmbers,MBRS,0.028098605,baixa
+2017-12-10,crypto_moneda,WTTGiga Watt Token,WTT,1.555038154,normal
+2017-12-10,crypto_moneda,WGOWavesGo,WGO,0.144651688,baixa
+2017-12-10,crypto_moneda,XFTFooty Cash,XFT,0.305477473,baixa
+2017-12-10,crypto_moneda,LGDLegends Room,LGD,0.689706157,baixa
+2017-12-10,crypto_moneda,13371337,1337,0.000057783,baixa
+2017-12-10,crypto_moneda,RAINCondensate,RAIN,0.015716932,baixa
+2017-12-10,crypto_moneda,HOLDInterstellar ...,HOLD,0.020551996,baixa
+2017-12-10,crypto_moneda,ANCAnoncoin,ANC,0.647828045,baixa
+2017-12-10,crypto_moneda,CNOCoin(O),CNO,0.012999439,baixa
+2017-12-10,crypto_moneda,SHORTYShorty,SHORTY,0.013408168,baixa
+2017-12-10,crypto_moneda,ARCArcticCoin,ARC,0.053762682,baixa
+2017-12-10,crypto_moneda,VISIOVisio,VISIO,0.025853571,baixa
+2017-12-10,crypto_moneda,ZERZero,ZER,0.659738958,baixa
+2017-12-10,crypto_moneda,ZETZetacoin,ZET,0.007813429,baixa
+2017-12-10,crypto_moneda,LINXLinx,LINX,0.101519349,baixa
+2017-12-10,crypto_moneda,ADLAdelphoi,ADL,0.055194507,baixa
+2017-12-10,crypto_moneda,MRTMiners&#39; Rewar...,MRT,0.129420812,baixa
+2017-12-10,crypto_moneda,XGOXXGOX,XGOX,0.001980762,baixa
+2017-12-10,crypto_moneda,ERC20ERC20,ERC20,0.000819157,baixa
+2017-12-10,crypto_moneda,SKINSkinCoin,SKIN,0.014507741,baixa
+2017-12-10,crypto_moneda,SIGTSignatum,SIGT,0.011789399,baixa
+2017-12-10,crypto_moneda,GIMGimli,GIM,0.015419520,baixa
+2017-12-10,crypto_moneda,MBIMonster Byte,MBI,0.073019663,baixa
+2017-12-10,crypto_moneda,GRWIGrowers Inter...,GRWI,1.070682008,normal
+2017-12-10,crypto_moneda,UNBUnbreakableCoin,UNB,0.531300454,baixa
+2017-12-10,crypto_moneda,ALQOALQO,ALQO,0.109946296,baixa
+2017-12-10,crypto_moneda,KOBOKobocoin,KOBO,0.048637855,baixa
+2017-12-10,crypto_moneda,XMCCMonacoCoin,XMCC,0.450619466,baixa
+2017-12-10,crypto_moneda,DNRDenarius,DNR,0.604377900,baixa
+2017-12-10,crypto_moneda,CCRBCryptoCarbon,CCRB,0.334639112,baixa
+2017-12-10,crypto_moneda,XHIHiCoin,XHI,0.006238847,baixa
+2017-12-10,crypto_moneda,BYCBytecent,BYC,0.621708503,baixa
+2017-12-10,crypto_moneda,QVTQvolta,QVT,0.169672507,baixa
+2017-12-10,crypto_moneda,POSPoSToken,POS,1.291616390,normal
+2017-12-10,crypto_moneda,CCOCcore,CCO,1.104671912,normal
+2017-12-10,crypto_moneda,RNSRenos,RNS,0.032756071,baixa
+2017-12-10,crypto_moneda,XLRSolaris,XLR,1.325606295,normal
+2017-12-10,crypto_moneda,PNDPandacoin,PND,0.000033140,baixa
+2017-12-10,crypto_moneda,DEMDeutsche eMark,DEM,0.031812002,baixa
+2017-12-10,crypto_moneda,INFXInfluxcoin,INFX,0.610795194,baixa
+2017-12-10,crypto_moneda,NDCNEVERDIE,NDC,0.024863616,baixa
+2017-12-10,crypto_moneda,UISUnitus,UIS,0.021752689,baixa
+2017-12-10,crypto_moneda,MAGMagnet,MAG,0.228610153,baixa
+2017-12-10,crypto_moneda,ITNSIntenseCoin,ITNS,0.003717646,baixa
+2017-12-10,crypto_moneda,PUREPure,PURE,0.358315630,baixa
+2017-12-10,crypto_moneda,KEKKekCoin,KEK,0.095453850,baixa
+2017-12-10,crypto_moneda,INSNInsaneCoin,INSN,0.053642018,baixa
+2017-12-10,crypto_moneda,MACMachinecoin,MAC,0.048371884,baixa
+2017-12-10,crypto_moneda,GREGreencoin,GRE,0.000269370,baixa
+2017-12-10,crypto_moneda,FJCFujiCoin,FJC,0.000798763,baixa
+2017-12-10,crypto_moneda,PRLOyster Pearl,PRL,0.032083071,baixa
+2017-12-10,crypto_moneda,BTBBitBar,BTB,27.140939143,normal
+2017-12-10,crypto_moneda,ADZAdzcoin,ADZ,0.021926888,baixa
+2017-12-10,crypto_moneda,DPDigitalPrice,DP,0.054568243,baixa
+2017-12-10,crypto_moneda,ETBSEthbits,ETBS,0.660943900,baixa
+2017-12-10,crypto_moneda,MAOMao Zedong,MAO,0.146300199,baixa
+2017-12-10,crypto_moneda,AHTBowhead,AHT,0.112061318,baixa
+2017-12-10,crypto_moneda,ELTCOINELTCOIN,ELTCOIN,0.009875767,baixa
+2017-12-10,crypto_moneda,RLTRouletteToken,RLT,0.086319913,baixa
+2017-12-10,crypto_moneda,VSXVsync,VSX,0.008749851,baixa
+2017-12-10,crypto_moneda,LINDALinda,LINDA,0.000142758,baixa
+2017-12-10,crypto_moneda,XPDPetroDollar,XPD,0.013265410,baixa
+2017-12-10,crypto_moneda,USNBTNuBits,USNBT,0.849747625,baixa
+2017-12-10,crypto_moneda,ZEITZeitcoin,ZEIT,0.000022093,baixa
+2017-12-10,crypto_moneda,BRITBritCoin,BRIT,0.037954827,baixa
+2017-12-10,crypto_moneda,MNEMinereum,MNE,0.493151034,baixa
+2017-12-10,crypto_moneda,XIOSXios,XIOS,0.368478612,baixa
+2017-12-10,crypto_moneda,MOINMoin,MOIN,0.105762988,baixa
+2017-12-10,crypto_moneda,EPYEmphy,EPY,0.099446814,baixa
+2017-12-10,crypto_moneda,RMCRemicoin,RMC,0.375645383,baixa
+2017-12-10,crypto_moneda,CPCCapricoin,CPC,0.372081542,baixa
+2017-12-10,crypto_moneda,BBPBiblePay,BBP,0.002655461,baixa
+2017-12-10,crypto_moneda,MZCMazaCoin,MZC,0.000542989,baixa
+2017-12-10,crypto_moneda,UNIFYUnify,UNIFY,0.040604341,baixa
+2017-12-10,crypto_moneda,TKRCryptoInsight,TKR,0.057206710,baixa
+2017-12-10,crypto_moneda,BITBTCbitBTC,BITBTC,15297.411669537,molt_alta
+2017-12-10,crypto_moneda,BTCRBitcurrency,BTCR,0.004187556,baixa
+2017-12-10,crypto_moneda,ZZCZoZoCoin,ZZC,1.300113866,normal
+2017-12-10,crypto_moneda,OPALOpal,OPAL,0.045856631,baixa
+2017-12-10,crypto_moneda,SMCSmartCoin,SMC,0.029218572,baixa
+2017-12-10,crypto_moneda,LDOGELiteDoge,LDOGE,0.000045886,baixa
+2017-12-10,crypto_moneda,DSHDashcoin,DSH,0.038934586,baixa
+2017-12-10,crypto_moneda,HEROSovereign Hero,HERO,143.250454623,alta
+2017-12-10,crypto_moneda,FC2FuelCoin,FC2,0.006638228,baixa
+2017-12-10,crypto_moneda,NTOFujinto,NTO,0.010209718,baixa
+2017-12-10,crypto_moneda,PFRPayfair,PFR,0.011655988,baixa
+2017-12-10,crypto_moneda,BROBitradio,BRO,0.109840078,baixa
+2017-12-10,crypto_moneda,PXCPhoenixcoin,PXC,0.010202070,baixa
+2017-12-10,crypto_moneda,ALTCOMAltCommunity ...,ALTCOM,4.248738125,normal
+2017-12-10,crypto_moneda,TESTeslaCoin,TES,0.008079400,baixa
+2017-12-10,crypto_moneda,WHLWhaleCoin,WHL,0.138004113,baixa
+2017-12-10,crypto_moneda,CRMCream,CRM,0.013142197,baixa
+2017-12-10,crypto_moneda,ACCAccelerator N...,ACC,3.449975357,normal
+2017-12-10,crypto_moneda,BTCSBitcoin Scrypt,BTCS,0.034792917,baixa
+2017-12-10,crypto_moneda,TALKBTCtalkcoin,TALK,0.008629187,baixa
+2017-12-10,crypto_moneda,ATSAuthorship,ATS,0.007010418,baixa
+2017-12-10,crypto_moneda,HPCHappycoin,HPC,0.042761000,baixa
+2017-12-10,crypto_moneda,XJOJoulecoin,XJO,0.016123961,baixa
+2017-12-10,crypto_moneda,CCNCannaCoin,CCN,0.117226084,baixa
+2017-12-10,crypto_moneda,SMLYSmileyCoin,SMLY,0.000020394,baixa
+2017-12-10,crypto_moneda,CCTCrystal Clear,CCT,0.202742136,baixa
+2017-12-10,crypto_moneda,TYCHOTychocoin,TYCHO,0.103020853,baixa
+2017-12-10,crypto_moneda,BOLIBolivarcoin,BOLI,0.060759504,baixa
+2017-12-10,crypto_moneda,HNCHelleniccoin,HNC,0.007987628,baixa
+2017-12-10,crypto_moneda,SDRNSenderon,SDRN,0.013279856,baixa
+2017-12-10,crypto_moneda,BCFBitcoin Fast,BCF,0.103279176,baixa
+2017-12-10,crypto_moneda,TITTitcoin,TIT,0.009733009,baixa
+2017-12-10,crypto_moneda,PAKPakcoin,PAK,0.010264102,baixa
+2017-12-10,crypto_moneda,BLNBolenum,BLN,0.043707619,baixa
+2017-12-10,crypto_moneda,TRUMPTrumpCoin,TRUMP,0.065747523,baixa
+2017-12-10,crypto_moneda,BUCKSSwagBucks,BUCKS,1.325606295,normal
+2017-12-10,crypto_moneda,DGCDigitalcoin,DGC,0.015337095,baixa
+2017-12-10,crypto_moneda,ELElcoin,EL,0.037266532,baixa
+2017-12-10,crypto_moneda,BLOCKPAYBlockPay,BLOCKPAY,0.076907259,baixa
+2017-12-10,crypto_moneda,NEWBNewbium,NEWB,0.008245101,baixa
+2017-12-10,crypto_moneda,UNICUniCoin,UNIC,0.137880899,baixa
+2017-12-10,crypto_moneda,UNIUniverse,UNI,0.034902534,baixa
+2017-12-10,crypto_moneda,EMBEmberCoin,EMB,0.000004249,baixa
+2017-12-10,crypto_moneda,GUNGuncoin,GUN,0.001981611,baixa
+2017-12-10,crypto_moneda,8BIT8Bit,8BIT,0.265942965,baixa
+2017-12-10,crypto_moneda,GLCGlobalCoin,GLC,0.005841165,baixa
+2017-12-10,crypto_moneda,BBTBitBoost,BBT,0.076504478,baixa
+2017-12-10,crypto_moneda,SAGASagaCoin,SAGA,1.631515440,normal
+2017-12-10,crypto_moneda,XBLBillionaire T...,XBL,0.107136181,baixa
+2017-12-10,crypto_moneda,BITSBitstar,BITS,0.015257219,baixa
+2017-12-10,crypto_moneda,DALCDalecoin,DALC,0.858245101,baixa
+2017-12-10,crypto_moneda,COLXColossusCoinXT,COLX,0.000086674,baixa
+2017-12-10,crypto_moneda,LTBLiteBar,LTB,0.425072653,baixa
+2017-12-10,crypto_moneda,BTWTYBit20,BTWTY,336.534049405,alta
+2017-12-10,crypto_moneda,ETGEthereum Gold,ETG,0.027087405,baixa
+2017-12-10,crypto_moneda,IETHiEthereum,IETH,0.017956017,baixa
+2017-12-10,crypto_moneda,BTGBitgem,BTG,5.395897419,normal
+2017-12-10,crypto_moneda,ATOMAtomic Coin,ATOM,0.023727503,baixa
+2017-12-10,crypto_moneda,KUSHKushCoin,KUSH,0.057243249,baixa
+2017-12-10,crypto_moneda,MUTMutual Coin,MUT,0.000929624,baixa
+2017-12-10,crypto_moneda,808808Coin,808,0.000075628,baixa
+2017-12-10,crypto_moneda,GAPGapcoin,GAP,0.024560256,baixa
+2017-12-10,crypto_moneda,ECAElectra,ECA,0.000013596,baixa
+2017-12-10,crypto_moneda,ECASHEthereum Cash,ECASH,0.020391394,baixa
+2017-12-10,crypto_moneda,BRIABriaCoin,BRIA,0.469060689,baixa
+2017-12-10,crypto_moneda,ICEiDice,ICE,0.180820346,baixa
+2017-12-10,crypto_moneda,888OctoCoin,888,0.005400996,baixa
+2017-12-10,crypto_moneda,LCPLitecoin Plus,LCP,0.360769701,baixa
+2017-12-10,crypto_moneda,LANALanaCoin,LANA,0.000322054,baixa
+2017-12-10,crypto_moneda,ETHDEthereum Dark,ETHD,0.177715369,baixa
+2017-12-10,crypto_moneda,POSTPostCoin,POST,0.016600670,baixa
+2017-12-10,crypto_moneda,XLCLeviarCoin,XLC,0.025930049,baixa
+2017-12-10,crypto_moneda,ZCGZCash Gold,ZCG,0.119624072,baixa
+2017-12-10,crypto_moneda,BLASBlakeStar,BLAS,0.000965313,baixa
+2017-12-10,crypto_moneda,EUCEurocoin,EUC,0.018380891,baixa
+2017-12-10,crypto_moneda,XCRECreatio,XCRE,0.010901412,baixa
+2017-12-10,crypto_moneda,MOJOMojoCoin,MOJO,0.017854047,baixa
+2017-12-10,crypto_moneda,RBIESRubies,RBIES,0.020795024,baixa
+2017-12-10,crypto_moneda,MEOWKittehcoin,MEOW,0.000009347,baixa
+2017-12-10,crypto_moneda,XVPVirtacoinplus,XVP,0.019618123,baixa
+2017-12-10,crypto_moneda,KLCKiloCoin,KLC,0.001062185,baixa
+2017-12-10,crypto_moneda,CFDConfido,CFD,0.022723101,baixa
+2017-12-10,crypto_moneda,FUNCFUNCoin,FUNC,0.033017794,baixa
+2017-12-10,crypto_moneda,ECOEcoCoin,ECO,0.164647950,baixa
+2017-12-10,crypto_moneda,SRCSecureCoin,SRC,0.022569297,baixa
+2017-12-10,crypto_moneda,CMPCOCampusCoin,CMPCO,0.000629663,baixa
+2017-12-10,crypto_moneda,ACOINAcoin,ACOIN,0.141851770,baixa
+2017-12-10,crypto_moneda,SPRTSSprouts,SPRTS,0.000000119,baixa
+2017-12-10,crypto_moneda,ARIAricoin,ARI,0.001197294,baixa
+2017-12-10,crypto_moneda,BTPLBitcoin Planet,BTPL,0.029636648,baixa
+2017-12-10,crypto_moneda,CORGCorgiCoin,CORG,0.000132561,baixa
+2017-12-10,crypto_moneda,BITSILVERbitSilver,BITSILVER,20.419435429,normal
+2017-12-10,crypto_moneda,HONEYHoney,HONEY,0.472900699,baixa
+2017-12-10,crypto_moneda,DBTCDebitcoin,DBTC,0.008906205,baixa
+2017-12-10,crypto_moneda,CACHCacheCoin,CACH,0.037772981,baixa
+2017-12-10,crypto_moneda,REEReeCoin,REE,0.000060332,baixa
+2017-12-10,crypto_moneda,TAGTagCoin,TAG,0.025801737,baixa
+2017-12-10,crypto_moneda,COALBitCoal,COAL,0.034119067,baixa
+2017-12-10,crypto_moneda,KAYIKayicoin,KAYI,0.000535341,baixa
+2017-12-10,crypto_moneda,USDEUSDe,USDE,0.000132561,baixa
+2017-12-10,crypto_moneda,XCTC-Bit,XCT,0.000927075,baixa
+2017-12-10,crypto_moneda,AERMAerium,AERM,0.198212981,baixa
+2017-12-10,crypto_moneda,SCOREScorecoin,SCORE,0.004630275,baixa
+2017-12-10,crypto_moneda,PXIPrime-XI,PXI,0.007627335,baixa
+2017-12-10,crypto_moneda,EBCHeBitcoinCash,EBCH,0.014510290,baixa
+2017-12-10,crypto_moneda,PHOPhoton,PHO,0.000006798,baixa
+2017-12-10,crypto_moneda,CJCryptojacks,CJ,0.000320355,baixa
+2017-12-10,crypto_moneda,HXXHexx,HXX,0.087064292,baixa
+2017-12-10,crypto_moneda,GLTGlobalToken,GLT,0.004832515,baixa
+2017-12-10,crypto_moneda,CMTComet,CMT,0.134286467,baixa
+2017-12-10,crypto_moneda,PIEPIECoin,PIE,0.008496627,baixa
+2017-12-10,crypto_moneda,ACPAnarchistsPrime,ACP,0.025489880,baixa
+2017-12-10,crypto_moneda,EGASETHGAS,EGAS,0.010817287,baixa
+2017-12-10,crypto_moneda,DRMDreamcoin,DRM,0.044341531,baixa
+2017-12-10,crypto_moneda,CRDNCCredence Coin,CRDNC,0.030413317,baixa
+2017-12-10,crypto_moneda,TAJTajCoin,TAJ,0.012828640,baixa
+2017-12-10,crypto_moneda,UNITSGameUnits,UNITS,0.029373226,baixa
+2017-12-10,crypto_moneda,GPGoldPieces,GP,0.083349195,baixa
+2017-12-10,crypto_moneda,MARMarijuanacoin,MAR,0.065725430,baixa
+2017-12-10,crypto_moneda,VUCVirta Unique ...,VUC,0.001547390,baixa
+2017-12-10,crypto_moneda,BITEURbitEUR,BITEUR,1.053687055,normal
+2017-12-10,crypto_moneda,SGRSugar Exchange,SGR,0.026628541,baixa
+2017-12-10,crypto_moneda,MSTMustangCoin,MST,0.145741065,baixa
+2017-12-10,crypto_moneda,SCRTSecretCoin,SCRT,0.021507112,baixa
+2017-12-10,crypto_moneda,RPCRonPaulCoin,RPC,0.095630598,baixa
+2017-12-10,crypto_moneda,MONKMonkey Project,MONK,0.806509067,baixa
+2017-12-10,crypto_moneda,EAGLEEagleCoin,EAGLE,0.039893951,baixa
+2017-12-10,crypto_moneda,EOTEOT Token,EOT,0.009950545,baixa
+2017-12-10,crypto_moneda,XCOX-Coin,XCO,0.006503119,baixa
+2017-12-10,crypto_moneda,QCNQuazarCoin,QCN,0.013275607,baixa
+2017-12-10,crypto_moneda,WOMENWomenCoin,WOMEN,0.001615370,baixa
+2017-12-10,crypto_moneda,KRONEKronecoin,KRONE,0.018402984,baixa
+2017-12-10,crypto_moneda,KURTKurrent,KURT,0.006537958,baixa
+2017-12-10,crypto_moneda,MRJAGanjaCoin,MRJA,0.014556177,baixa
+2017-12-10,crypto_moneda,WORMHealthyWormCoin,WORM,0.000531092,baixa
+2017-12-10,crypto_moneda,LTCULiteCoin Ultra,LTCU,0.065779813,baixa
+2017-12-10,crypto_moneda,ERYEryllium,ERY,0.010016825,baixa
+2017-12-10,crypto_moneda,EREALeREAL,EREAL,0.000726534,baixa
+2017-12-10,crypto_moneda,PRXPrinterium,PRX,0.003619075,baixa
+2017-12-10,crypto_moneda,LTCRLitecred,LTCR,0.001390187,baixa
+2017-12-10,crypto_moneda,ICONIconic,ICON,0.069300318,baixa
+2017-12-10,crypto_moneda,ITZInterzone,ITZ,0.021071192,baixa
+2017-12-10,crypto_moneda,LUNALuna Coin,LUNA,0.020093982,baixa
+2017-12-10,crypto_moneda,VPRCVapersCoin,VPRC,0.000041638,baixa
+2017-12-10,crypto_moneda,RBTRimbit,RBT,0.000272769,baixa
+2017-12-10,crypto_moneda,MSCNMaster Swiscoin,MSCN,0.000691695,baixa
+2017-12-10,crypto_moneda,LBTCLiteBitcoin,LBTC,0.008545912,baixa
+2017-12-10,crypto_moneda,FRAZFrazcoin,FRAZ,0.002760830,baixa
+2017-12-10,crypto_moneda,CRTMCorethum,CRTM,0.008989480,baixa
+2017-12-10,crypto_moneda,GSRGeyserCoin,GSR,0.444609201,baixa
+2017-12-10,crypto_moneda,XOCXonecoin,XOC,0.043677878,baixa
+2017-12-10,crypto_moneda,GRIMGrimcoin,GRIM,0.000823405,baixa
+2017-12-10,crypto_moneda,CREVACrevaCoin,CREVA,0.000424874,baixa
+2017-12-10,crypto_moneda,LVPSLevoPlus,LVPS,0.008230655,baixa
+2017-12-10,crypto_moneda,HMCHarmonyCoin,HMC,0.009427100,baixa
+2017-12-10,crypto_moneda,UNITYSuperNET,UNITY,39.156370560,normal
+2017-12-10,crypto_moneda,STCNStakecoin,STCN,1.869444775,normal
+2017-12-10,crypto_moneda,ECNE-coin,ECN,1.232134056,normal
+2017-12-10,crypto_moneda,YASHYashCoin,YASH,0.570331062,baixa
+2017-12-10,crypto_moneda,ECOBEcobit,ECOB,0.010938801,baixa
+2017-12-10,crypto_moneda,PGLProspectors Gold,PGL,0.067308509,baixa
+2017-12-10,crypto_moneda,XCXCurrency,XC,0.677069560,baixa
+2017-12-10,crypto_moneda,ARCArcade Token,ARC,1.920429632,normal
+2017-12-10,crypto_moneda,FIMKFIMKrypto,FIMK,0.004961676,baixa
+2017-12-10,crypto_moneda,CRYPTCryptCoin,CRYPT,0.371591237,baixa
+2017-12-10,crypto_moneda,OPTOpus,OPT,0.014734624,baixa
+2017-12-10,crypto_moneda,LOGWoodcoin,LOG,0.254366003,baixa
+2017-12-10,crypto_moneda,RCRussiaCoin,RC,0.224569603,baixa
+2017-12-10,crypto_moneda,UFOUFO Coin,UFO,0.000531092,baixa
+2017-12-10,crypto_moneda,CADASTRALBitland,CADASTRAL,0.061062864,baixa
+2017-12-10,crypto_moneda,ICOOICO OpenLedger,ICOO,3.713397121,normal
+2017-12-10,crypto_moneda,SIFTSmart Investm...,SIFT,2.260328682,normal
+2017-12-10,crypto_moneda,ITTIntelligent T...,ITT,0.153009806,baixa
+2017-12-10,crypto_moneda,HTCHitCoin,HTC,0.000132561,baixa
+2017-12-10,crypto_moneda,NKAIncaKoin,NKA,0.000108768,baixa
+2017-12-10,crypto_moneda,JNSJanus,JNS,0.048456858,baixa
+2017-12-10,crypto_moneda,SDCShadowCash,SDC,0.164222226,baixa
+2017-12-10,crypto_moneda,STRCStarCredits,STRC,0.236675957,baixa
+2017-12-10,crypto_moneda,ORBOrbitcoin,ORB,0.332451012,baixa
+2017-12-10,crypto_moneda,BTSRBTSR,BTSR,0.294024575,baixa
+2017-12-10,crypto_moneda,DCYDinastycoin,DCY,0.000663653,baixa
+2017-12-10,crypto_moneda,NOBLNobleCoin,NOBL,0.000393433,baixa
+2017-12-10,crypto_moneda,METALMetalCoin,METAL,0.011815741,baixa
+2017-12-10,crypto_moneda,INPAYInPay,INPAY,0.087222345,baixa
+2017-12-10,crypto_moneda,NETNetCoin,NET,0.001051138,baixa
+2017-12-10,crypto_moneda,UTCUltraCoin,UTC,0.018019748,baixa
+2017-12-10,crypto_moneda,HBNHoboNickels,HBN,0.012744515,baixa
+2017-12-10,crypto_moneda,EBETEthBet,EBET,0.082886933,baixa
+2017-12-10,crypto_moneda,CV2Colossuscoin V2,CV2,0.000029741,baixa
+2017-12-10,crypto_moneda,VALValorbit,VAL,0.000117265,baixa
+2017-12-10,crypto_moneda,OTXOctanox,OTX,0.071689808,baixa
+2017-12-10,crypto_moneda,TGCTigercoin,TGC,0.013806699,baixa
+2017-12-10,crypto_moneda,TROLLTrollcoin,TROLL,0.001046889,baixa
+2017-12-10,crypto_moneda,GOODGoodomy,GOOD,0.001329005,baixa
+2017-12-10,crypto_moneda,RIYAEtheriya,RIYA,0.358581601,baixa
+2017-12-10,crypto_moneda,USCUltimate Secu...,USC,0.052970718,baixa
+2017-12-10,crypto_moneda,BPCBitpark Coin,BPC,0.007186316,baixa
+2017-12-10,crypto_moneda,CARBONCarboncoin,CARBON,0.000033990,baixa
+2017-12-10,crypto_moneda,VLTVeltor,VLT,0.934722388,baixa
+2017-12-10,crypto_moneda,CASINOCasino,CASINO,0.508313081,baixa
+2017-12-10,crypto_moneda,VVersion,V,0.001065584,baixa
+2017-12-10,crypto_moneda,AUAurumCoin,AU,1.665505345,normal
+2017-12-10,crypto_moneda,FNCFinCoin,FNC,0.036787274,baixa
+2017-12-10,crypto_moneda,JETJetcoin,JET,0.096903520,baixa
+2017-12-10,crypto_moneda,JJoincoin,J,0.192441495,baixa
+2017-12-10,crypto_moneda,ITIiTicoin,ITI,14.471202054,normal
+2017-12-10,crypto_moneda,CHESSChessCoin,CHESS,0.008275692,baixa
+2017-12-10,crypto_moneda,SACSACoin,SAC,0.063724274,baixa
+2017-12-10,crypto_moneda,NETKONetko,NETKO,0.099569178,baixa
+2017-12-10,crypto_moneda,SLGSterlingcoin,SLG,0.101642562,baixa
+2017-12-10,crypto_moneda,SPEXSproutsExtreme,SPEX,0.000148706,baixa
+2017-12-10,crypto_moneda,ABJAbjcoin,ABJ,0.049784164,baixa
+2017-12-10,crypto_moneda,ICNiCoin,ICN,0.013840689,baixa
+2017-12-10,crypto_moneda,FLTFlutterCoin,FLT,0.001239782,baixa
+2017-12-10,crypto_moneda,WAYWayGuide,WAY,0.003982767,baixa
+2017-12-10,crypto_moneda,DAXXDaxxCoin,DAXX,0.000796214,baixa
+2017-12-10,crypto_moneda,FUCKFuckToken,FUCK,0.007534712,baixa
+2017-12-10,crypto_moneda,PIGGYPiggycoin,PIGGY,0.000788566,baixa
+2017-12-10,crypto_moneda,I0CI0Coin,I0C,0.017789467,baixa
+2017-12-10,crypto_moneda,STVSativacoin,STV,0.052584083,baixa
+2017-12-10,crypto_moneda,FUNKThe Cypherfunks,FUNK,0.000007648,baixa
+2017-12-10,crypto_moneda,CFTCryptoForecast,CFT,0.007627335,baixa
+2017-12-10,crypto_moneda,XGRGoldReserve,XGR,0.020178957,baixa
+2017-12-10,crypto_moneda,SWINGSwing,SWING,0.124407301,baixa
+2017-12-10,crypto_moneda,VIDZPureVidz,VIDZ,0.002723441,baixa
+2017-12-10,crypto_moneda,NYANNyancoin,NYAN,0.001064734,baixa
+2017-12-10,crypto_moneda,UFRUpfiring,UFR,0.022646624,baixa
+2017-12-10,crypto_moneda,BERNBERNcash,BERN,0.004534253,baixa
+2017-12-10,crypto_moneda,C2Coin2.1,C2,0.003163610,baixa
+2017-12-10,crypto_moneda,ZURZurcoin,ZUR,0.003581686,baixa
+2017-12-10,crypto_moneda,FLYFlycoin,FLY,1.461565915,normal
+2017-12-10,crypto_moneda,DDFDigitalDevelo...,DDF,0.058655529,baixa
+2017-12-10,crypto_moneda,STSStress,STS,0.000531092,baixa
+2017-12-10,crypto_moneda,PRPrototanium,PR,1.512550773,normal
+2017-12-10,crypto_moneda,ROCRasputin Onli...,ROC,0.269296919,baixa
+2017-12-10,crypto_moneda,BXTBitTokens,BXT,0.515516392,baixa
+2017-12-10,crypto_moneda,XPTXPlatinumBAR,XPTX,0.673164970,baixa
+2017-12-10,crypto_moneda,FRCFreicoin,FRC,0.009558811,baixa
+2017-12-10,crypto_moneda,SHShilling,SH,0.007035910,baixa
+2017-12-10,crypto_moneda,CUBEDigiCube,CUBE,0.000114716,baixa
+2017-12-10,crypto_moneda,CATCatcoin,CAT,0.044208970,baixa
+2017-12-10,crypto_moneda,MADSatoshiMadness,MAD,0.000132561,baixa
+2017-12-10,crypto_moneda,Q2CQubitCoin,Q2C,0.001062185,baixa
+2017-12-10,crypto_moneda,TRITriangles,TRI,3.534950120,normal
+2017-12-10,crypto_moneda,BSTYGlobalBoost-Y,BSTY,0.019200048,baixa
+2017-12-10,crypto_moneda,LOTLottoCoin,LOT,0.000016995,baixa
+2017-12-10,crypto_moneda,BLCBlakecoin,BLC,0.016179195,baixa
+2017-12-10,crypto_moneda,WMCWMCoin,WMC,0.020843459,baixa
+2017-12-10,crypto_moneda,MNMMineum,MNM,0.024826227,baixa
+2017-12-10,crypto_moneda,PASLPascal Lite,PASL,0.054032902,baixa
+2017-12-10,crypto_moneda,SPACESpaceCoin,SPACE,0.010997434,baixa
+2017-12-10,crypto_moneda,ENTEternity,ENT,0.056157271,baixa
+2017-12-10,crypto_moneda,EVOEvotion,EVO,0.072321171,baixa
+2017-12-10,crypto_moneda,TRKTruckcoin,TRK,0.001450519,baixa
+2017-12-10,crypto_moneda,YACYacoin,YAC,0.001858398,baixa
+2017-12-10,crypto_moneda,PHSPhilosopher S...,PHS,0.035446372,baixa
+2017-12-10,crypto_moneda,WYVWyvern,WYV,0.119615574,baixa
+2017-12-10,crypto_moneda,BIGUPBigUp,BIGUP,0.000100270,baixa
+2017-12-10,crypto_moneda,GAIAGAIA,GAIA,0.008746452,baixa
+2017-12-10,crypto_moneda,4CHNChanCoin,4CHN,0.029216023,baixa
+2017-12-10,crypto_moneda,GRTGrantcoin,GRT,0.004513859,baixa
+2017-12-10,crypto_moneda,EVILEvil Coin,EVIL,0.009180673,baixa
+2017-12-10,crypto_moneda,XBTC21Bitcoin 21,XBTC21,0.240956986,baixa
+2017-12-10,crypto_moneda,GTCGlobal Tour Coin,GTC,0.006372257,baixa
+2017-12-10,crypto_moneda,FIREFirecoin,FIRE,1.886439728,normal
+2017-12-10,crypto_moneda,HMPHempCoin,HMP,0.000132561,baixa
+2017-12-10,crypto_moneda,REDRedCoin,RED,0.002426879,baixa
+2017-12-10,crypto_moneda,SHDWShadow Token,SHDW,0.025674275,baixa
+2017-12-10,crypto_moneda,BUMBABumbaCoin,BUMBA,0.007965534,baixa
+2017-12-10,crypto_moneda,BUNBunnyCoin,BUN,0.000001699,baixa
+2017-12-10,crypto_moneda,IMSIndependent M...,IMS,0.031456807,baixa
+2017-12-10,crypto_moneda,MNCMincoin,MNC,0.041702214,baixa
+2017-12-10,crypto_moneda,HALHalcyon,HAL,0.031597016,baixa
+2017-12-10,crypto_moneda,HODLHOdlcoin,HODL,0.001062185,baixa
+2017-12-10,crypto_moneda,OHMOHM,OHM,0.005576044,baixa
+2017-12-10,crypto_moneda,XRERevolverCoin,XRE,0.007434442,baixa
+2017-12-10,crypto_moneda,CONPayCon,CON,0.007187165,baixa
+2017-12-10,crypto_moneda,VCVirtualCoin,VC,0.016404378,baixa
+2017-12-10,crypto_moneda,CYPCypher,CYP,0.025923251,baixa
+2017-12-10,crypto_moneda,TTCTittieCoin,TTC,0.000128312,baixa
+2017-12-10,crypto_moneda,CNNCCannation,CNNC,0.064472902,baixa
+2017-12-10,crypto_moneda,MCRNMACRON,MCRN,0.000394283,baixa
+2017-12-10,crypto_moneda,XRARatecoin,XRA,0.001361296,baixa
+2017-12-10,crypto_moneda,E4ROWE4ROW,E4ROW,0.026585204,baixa
+2017-12-10,crypto_moneda,DLCDollarcoin,DLC,0.016594721,baixa
+2017-12-10,crypto_moneda,TEKTEKcoin,TEK,0.000107068,baixa
+2017-12-10,crypto_moneda,FRKFranko,FRK,0.159945446,baixa
+2017-12-10,crypto_moneda,RBXRipto Bux,RBX,0.000387485,baixa
+2017-12-10,crypto_moneda,DRXNEDROXNE,DRXNE,0.002294319,baixa
+2017-12-10,crypto_moneda,ISLIslaCoin,ISL,0.093969341,baixa
+2017-12-10,crypto_moneda,ANTIAntiBitcoin,ANTI,0.007965534,baixa
+2017-12-10,crypto_moneda,ARCOAquariusCoin,ARCO,0.091758298,baixa
+2017-12-10,crypto_moneda,URCUnrealcoin,URC,0.019515304,baixa
+2017-12-10,crypto_moneda,KEDDarsek,KED,0.009292840,baixa
+2017-12-10,crypto_moneda,NEVANevaCoin,NEVA,0.053087983,baixa
+2017-12-10,crypto_moneda,SLINGSling,SLING,0.121511361,baixa
+2017-12-10,crypto_moneda,SOONSoonCoin,SOON,0.010355025,baixa
+2017-12-10,crypto_moneda,CTOCrypto,CTO,0.010487585,baixa
+2017-12-10,crypto_moneda,DUOParallelCoin,DUO,0.421178260,baixa
+2017-12-10,crypto_moneda,QTLQuatloo,QTL,0.016460461,baixa
+2017-12-10,crypto_moneda,EMDEmerald Crypto,EMD,0.006604239,baixa
+2017-12-10,crypto_moneda,LEALeaCoin,LEA,0.000399381,baixa
+2017-12-10,crypto_moneda,VOTVoteCoin,VOT,0.007434442,baixa
+2017-12-10,crypto_moneda,BIPBipCoin,BIP,0.074344420,baixa
+2017-12-10,crypto_moneda,BOSTBoostCoin,BOST,0.010089903,baixa
+2017-12-10,crypto_moneda,BASBitAsean,BAS,0.023215955,baixa
+2017-12-10,crypto_moneda,AMBERAmberCoin,AMBER,0.002655461,baixa
+2017-12-10,crypto_moneda,JINJin Coin,JIN,0.011683180,baixa
+2017-12-10,crypto_moneda,XPYPayCoin,XPY,0.009642086,baixa
+2017-12-10,crypto_moneda,PXPX,PX,0.001178600,baixa
+2017-12-10,crypto_moneda,UROUro,URO,0.091603644,baixa
+2017-12-10,crypto_moneda,MTLMC3Metal Music Coin,MTLMC3,0.001327306,baixa
+2017-12-10,crypto_moneda,COXSTCoExistCoin,COXST,0.003894393,baixa
+2017-12-10,crypto_moneda,611SixEleven,611,0.244457096,baixa
+2017-12-10,crypto_moneda,MARSMarscoin,MARS,0.003676008,baixa
+2017-12-10,crypto_moneda,GPUGPU Coin,GPU,0.002427729,baixa
+2017-12-10,crypto_moneda,BITGOLDbitGold,BITGOLD,1197.217926339,molt_alta
+2017-12-10,crypto_moneda,ARGArgentum,ARG,0.010971941,baixa
+2017-12-10,crypto_moneda,BSTARBlackstar,BSTAR,0.000147856,baixa
+2017-12-10,crypto_moneda,CFCalifornium,CF,0.038234394,baixa
+2017-12-10,crypto_moneda,ALLAllion,ALL,0.014822998,baixa
+2017-12-10,crypto_moneda,VEC2VectorAI,VEC2,0.005443483,baixa
+2017-12-10,crypto_moneda,BRATBRAT,BRAT,0.000552336,baixa
+2017-12-10,crypto_moneda,PRCPRCoin,PRC,0.005443483,baixa
+2017-12-10,crypto_moneda,XCXTCoinonatX,XCXT,0.005288829,baixa
+2017-12-10,crypto_moneda,CAGECageCoin,CAGE,0.000000841,baixa
+2017-12-10,crypto_moneda,ICOBICOBID,ICOB,0.000769871,baixa
+2017-12-10,crypto_moneda,ARBARbit,ARB,0.010447647,baixa
+2017-12-10,crypto_moneda,NRONeuro,NRO,0.002124369,baixa
+2017-12-10,crypto_moneda,BLRYBillaryCoin,BLRY,0.009027719,baixa
+2017-12-10,crypto_moneda,BVCBeaverCoin,BVC,0.025622440,baixa
+2017-12-10,crypto_moneda,ZMCZetaMicron,ZMC,0.000132561,baixa
+2017-12-10,crypto_moneda,BITZBitz,BITZ,0.039756292,baixa
+2017-12-10,crypto_moneda,JWLJewels,JWL,0.003920736,baixa
+2017-12-10,crypto_moneda,GCCGuccioneCoin,GCC,0.003850206,baixa
+2017-12-10,crypto_moneda,MNDMindCoin,MND,0.004912391,baixa
+2017-12-10,crypto_moneda,ADCNAsiadigicoin,ADCN,0.003045495,baixa
+2017-12-10,crypto_moneda,FXEFuturXe,FXE,0.318886491,baixa
+2017-12-10,crypto_moneda,TSETattoocoin (S...,TSE,0.000807260,baixa
+2017-12-10,crypto_moneda,SOILSOILcoin,SOIL,0.012797199,baixa
+2017-12-10,crypto_moneda,AMMOAmmo Rewards,AMMO,0.000929624,baixa
+2017-12-10,crypto_moneda,300300 Token,300,238.966027103,alta
+2017-12-10,crypto_moneda,ASAFE2AllSafe,ASAFE2,0.008810183,baixa
+2017-12-10,crypto_moneda,XBTSBeatcoin,XBTS,0.045820091,baixa
+2017-12-10,crypto_moneda,SLMSlimcoin,SLM,0.004628575,baixa
+2017-12-10,crypto_moneda,BTQBitQuark,BTQ,0.007567003,baixa
+2017-12-10,crypto_moneda,POPPopularCoin,POP,0.000020394,baixa
+2017-12-10,crypto_moneda,DRSDigital Rupees,DRS,0.000132561,baixa
+2017-12-10,crypto_moneda,CRXChronos,CRX,0.000910080,baixa
+2017-12-10,crypto_moneda,MAYTheresa May Coin,MAY,0.002655461,baixa
+2017-12-10,crypto_moneda,WARPWARP,WARP,0.061112999,baixa
+2017-12-10,crypto_moneda,PONZIPonziCoin,PONZI,0.076336228,baixa
+2017-12-10,crypto_moneda,CPNCompuCoin,CPN,0.003257083,baixa
+2017-12-10,crypto_moneda,$$$Money,$$$,0.001361296,baixa
+2017-12-10,crypto_moneda,FLAXFlaxscript,FLAX,0.011155487,baixa
+2017-12-10,crypto_moneda,EMPEMoneyPower,EMP,0.006770789,baixa
+2017-12-10,crypto_moneda,RUPXRupaya,RUPX,0.009465339,baixa
+2017-12-10,crypto_moneda,GPLGold Pressed ...,GPL,0.218868646,baixa
+2017-12-10,crypto_moneda,BLZBlazeCoin,BLZ,0.000090073,baixa
+2017-12-10,crypto_moneda,SPTSpots,SPT,0.002382692,baixa
+2017-12-10,crypto_moneda,TAGRTAGRcoin,TAGR,0.001354498,baixa
+2017-12-10,crypto_moneda,CWXTCryptoWorldX ...,CWXT,0.000874390,baixa
+2017-12-10,crypto_moneda,CNCCHNCoin,CNC,0.001039241,baixa
+2017-12-10,crypto_moneda,CXTCoinonat,CXT,0.005924440,baixa
+2017-12-10,crypto_moneda,BSCBowsCoin,BSC,0.009160279,baixa
+2017-12-10,crypto_moneda,CRTCRTCoin,CRT,0.637241889,baixa
+2017-12-10,crypto_moneda,NTWKNetwork Token,NTWK,0.004207100,baixa
+2017-12-10,crypto_moneda,ORLYOrlycoin,ORLY,0.001327306,baixa
+2017-12-10,crypto_moneda,EGOEGO,EGO,0.000796214,baixa
+2017-12-10,crypto_moneda,SONGSongCoin,SONG,0.001456467,baixa
+2017-12-10,crypto_moneda,DIBCDIBCOIN,DIBC,0.008984382,baixa
+2017-12-10,crypto_moneda,ATXArtex Coin,ATX,0.002368247,baixa
+2017-12-10,crypto_moneda,VIPVIP Tokens,VIP,0.000531092,baixa
+2017-12-10,crypto_moneda,G3NG3N,G3N,0.005841165,baixa
+2017-12-10,crypto_moneda,BENJIBenjiRolls,BENJI,0.002153260,baixa
+2017-12-10,crypto_moneda,IMPSImpulseCoin,IMPS,0.001979912,baixa
+2017-12-10,crypto_moneda,DLISKDAPPSTER,DLISK,0.000398532,baixa
+2017-12-10,crypto_moneda,KICKibiCoin,KIC,0.002655461,baixa
+2017-12-10,crypto_moneda,BRAINBraincoin,BRAIN,0.003850206,baixa
+2017-12-10,crypto_moneda,CESCCryptoEscudo,CESC,0.000265121,baixa
+2017-12-10,crypto_moneda,PULSEPulse,PULSE,0.002655461,baixa
+2017-12-10,crypto_moneda,UETUseless Ether...,UET,0.009180673,baixa
+2017-12-10,crypto_moneda,PEXPosEx,PEX,0.014470352,baixa
+2017-12-10,crypto_moneda,SFCSolarflarecoin,SFC,0.002507605,baixa
+2017-12-10,crypto_moneda,XCSCybCSec,XCS,0.002920583,baixa
+2017-12-10,crypto_moneda,BOATBOAT,BOAT,0.001858398,baixa
+2017-12-10,crypto_moneda,OS76OsmiumCoin,OS76,0.036774528,baixa
+2017-12-10,crypto_moneda,AGLCAgrolifeCoin,AGLC,0.004313319,baixa
+2017-12-10,crypto_moneda,HVCOHigh Voltage,HVCO,0.021772234,baixa
+2017-12-10,crypto_moneda,ZYDZayedcoin,ZYD,0.005177512,baixa
+2017-12-10,crypto_moneda,STEPSSteps,STEPS,0.001725837,baixa
+2017-12-10,crypto_moneda,FUZZFuzzBalls,FUZZ,0.006638228,baixa
+2017-12-10,crypto_moneda,MTMMTMGaming,MTM,0.010575109,baixa
+2017-12-10,crypto_moneda,DPAYDPAY,DPAY,0.000398532,baixa
+2017-12-10,crypto_moneda,OFFCthulhu Offer...,OFF,0.011948301,baixa
+2017-12-10,crypto_moneda,CASHCashcoin,CASH,0.000677249,baixa
+2017-12-10,crypto_moneda,FLVRFlavorCoin,FLVR,0.001476861,baixa
+2017-12-10,crypto_moneda,EXNExchangeN,EXN,0.005823320,baixa
+2017-12-10,crypto_moneda,PLNCPLNcoin,PLNC,0.001702894,baixa
+2017-12-10,crypto_moneda,IMXImpact,IMX,0.000265121,baixa
+2017-12-10,crypto_moneda,BNXBnrtxCoin,BNX,0.001061335,baixa
+2017-12-10,crypto_moneda,SLEVINSlevin,SLEVIN,0.000393433,baixa
+2017-12-10,crypto_moneda,RIDERide My Car,RIDE,0.000265121,baixa
+2017-12-10,crypto_moneda,DIXDix Asset,DIX,0.000000263,baixa
+2017-12-10,crypto_moneda,SDPSydPak,SDP,0.157982529,baixa
+2017-12-10,crypto_moneda,TORTorcoin,TOR,0.079655342,baixa
+2017-12-10,crypto_moneda,ALTCAntilitecoin,ALTC,0.000796214,baixa
+2017-12-10,crypto_moneda,BIOSBiosCrypto,BIOS,0.001178600,baixa
+2017-12-10,crypto_moneda,VLTCVault Coin,VLTC,0.000801312,baixa
+2017-12-10,crypto_moneda,SCSSpeedcash,SCS,0.092002175,baixa
+2017-12-10,crypto_moneda,VRSVeros,VRS,0.000048436,baixa
+2017-12-10,crypto_moneda,CABCabbage,CAB,0.002222090,baixa
+2017-12-10,crypto_moneda,WBBWild Beast Block,WBB,0.136741388,baixa
+2017-12-10,crypto_moneda,MILOMiloCoin,MILO,0.002137115,baixa
+2017-12-10,crypto_moneda,ZNEZonecoin,ZNE,0.008895158,baixa
+2017-12-10,crypto_moneda,KNCKingN Coin,KNC,11.361125746,normal
+2017-12-10,crypto_moneda,DOLLARDollar Online,DOLLAR,0.029065618,baixa
+2017-12-10,crypto_moneda,DESDestiny,DES,0.013667341,baixa
+2017-12-10,crypto_moneda,LIRLetItRide,LIR,0.000587176,baixa
+2017-12-10,crypto_moneda,TRADETradecoin,TRADE,0.002386941,baixa
+2017-12-10,crypto_moneda,PLACOPlayerCoin,PLACO,0.000531092,baixa
+2017-12-10,crypto_moneda,IBANKiBank,IBANK,0.004115328,baixa
+2017-12-10,crypto_moneda,ROOFSRoofs,ROOFS,0.000132561,baixa
+2017-12-10,crypto_moneda,RSGPRSGPcoin,RSGP,9.160279398,normal
+2017-12-10,crypto_moneda,JSJavaScript Token,JS,0.001950171,baixa
+2017-12-10,crypto_moneda,ELSElysium,ELS,0.003850206,baixa
+2017-12-10,crypto_moneda,GBCGBCGoldCoin,GBC,0.001307762,baixa
+2017-12-10,crypto_moneda,SLFISelfiecoin,SLFI,0.000132561,baixa
+2017-12-10,crypto_moneda,CTIC2Coimatic 2.0,CTIC2,0.001047739,baixa
+2017-12-10,crypto_moneda,JOBSJobsCoin,JOBS,0.000132561,baixa
+2017-12-10,crypto_moneda,P7CP7Coin,P7C,0.000398532,baixa
+2017-12-10,crypto_moneda,XRCRawcoin,XRC,0.019874747,baixa
+2017-12-10,crypto_moneda,QBKQibuck Asset,QBK,0.008193267,baixa
+2017-12-10,crypto_moneda,BIOBBioBar,BIOB,0.014470352,baixa
+2017-12-10,crypto_moneda,GBTGameBet Coin,GBT,0.000587176,baixa
+2017-12-10,crypto_moneda,SOCCSocialCoin,SOCC,0.008761748,baixa
+2017-12-10,crypto_moneda,DASDAS,DAS,0.003988715,baixa
+2017-12-10,crypto_moneda,ARGUSArgus,ARGUS,0.009043864,baixa
+2017-12-10,crypto_moneda,VTAVirtacoin,VTA,0.000001699,baixa
+2017-12-10,crypto_moneda,ULAUlatech,ULA,0.045137744,baixa
+2017-12-10,crypto_moneda,SANDGSave and Gain,SANDG,0.002819463,baixa
+2017-12-10,crypto_moneda,GEERTGeertCoin,GEERT,0.001664656,baixa
+2017-12-10,crypto_moneda,VOLTBitvolt,VOLT,0.000531092,baixa
+2017-12-10,crypto_moneda,TSTRTristar Coin,TSTR,0.001460716,baixa
+2017-12-10,crypto_moneda,NODCNodeCoin,NODC,0.003564691,baixa
+2017-12-10,crypto_moneda,CCM100CCMiner,CCM100,0.001764926,baixa
+2017-12-10,crypto_moneda,OCEANBurstOcean,OCEAN,0.027593005,baixa
+2017-12-10,crypto_moneda,CONXConcoin,CONX,0.007301881,baixa
+2017-12-10,crypto_moneda,MRNGMorningStar,MRNG,0.000153804,baixa
+2017-12-10,crypto_moneda,WBCWalletBuilder...,WBC,0.251596676,baixa
+2017-12-10,crypto_moneda,PIZZAPizzaCoin,PIZZA,0.002655461,baixa
+2017-12-10,crypto_moneda,MGMMagnum,MGM,0.000796214,baixa
+2017-12-10,crypto_moneda,LEXLex4All,LEX,0.003039547,baixa
+2017-12-10,crypto_moneda,XNGEnigma,XNG,0.164222226,baixa
+2017-12-10,crypto_moneda,TOKENSwapToken,TOKEN,0.000000178,baixa
+2017-12-10,crypto_moneda,DGCSDigital Credits,DGCS,0.000398532,baixa
+2017-12-10,crypto_moneda,NANOXProject-X,NANOX,26551.724139325,molt_alta
+2017-12-10,crypto_moneda,EBTEbittree Coin,EBT,0.001092775,baixa
+2017-12-10,crypto_moneda,ABNAbncoin,ABN,0.010886117,baixa
+2017-12-10,crypto_moneda,SOJSojourn,SOJ,0.000953417,baixa
+2017-12-10,crypto_moneda,MNCMantraCoin,MNC,0.000094322,baixa
+2017-12-10,crypto_moneda,DMBDigital Money...,DMB,0.000910929,baixa
+2017-12-10,crypto_moneda,ENVEnviron,ENV,0.000000850,baixa
+2017-12-10,crypto_moneda,CALCCaliphCoin,CALC,0.001093625,baixa
+2017-12-10,crypto_moneda,FDCFuture Digita...,FDC,0.000022093,baixa
+2017-12-10,crypto_moneda,FALFalcoin,FAL,0.000265121,baixa
+2017-12-10,crypto_moneda,APWAppleCoin,APW,0.000132561,baixa
+2017-12-10,crypto_moneda,ATMCATMCoin,ATMC,3.186553594,normal
+2017-12-10,crypto_moneda,BCDBitcoin Diamo...,BCD,35.493958296,normal
+2017-12-10,crypto_moneda,CMTCyberMiles,CMT,0.198144151,baixa
+2017-12-10,crypto_moneda,ORMEOrmeus Coin,ORME,2.821162115,normal
+2017-12-10,crypto_moneda,ITCIoT Chain,ITC,0.786502609,baixa
+2017-12-10,crypto_moneda,AIPOLY AI,AI,15.941265445,normal
+2017-12-10,crypto_moneda,ETNElectroneum,ETN,0.092800938,baixa
+2017-12-10,crypto_moneda,NULSNuls,NULS,0.683462212,baixa
+2017-12-10,crypto_moneda,FRGCFargocoin,FRGC,8.794887919,normal
+2017-12-10,crypto_moneda,RECRegalcoin,REC,24.719158411,normal
+2017-12-10,crypto_moneda,FRSTFirstCoin,FRST,13.944358526,normal
+2017-12-10,crypto_moneda,EROEroscoin,ERO,0.129786204,baixa
+2017-12-10,crypto_moneda,GRXGOLD Reward T...,GRX,4.333712887,normal
+2017-12-10,crypto_moneda,CLUBClubCoin,CLUB,2.948624259,normal
+2017-12-10,crypto_moneda,WCWINCOIN,WC,0.518419130,baixa
+2017-12-10,crypto_moneda,XTZTezos (Pre-La...,XTZ,3.084583879,normal
+2017-12-10,crypto_moneda,TSLEnergo,TSL,0.025922401,baixa
+2017-12-10,crypto_moneda,B2XSegWit2x [Fut...,B2X,181.871484179,alta
+2017-12-10,crypto_moneda,STCSanta Coin,STC,0.529707177,baixa
+2017-12-10,crypto_moneda,THSTechShares,THS,0.765610714,baixa
+2017-12-10,crypto_moneda,RYZANRYZE,RYZ,0.016828402,baixa
+2017-12-10,crypto_moneda,ADKAidos Kuneen,ADK,37.303920738,normal
+2017-12-10,crypto_moneda,BTEBitSerial,BTE,5.599836849,normal
+2017-12-10,crypto_moneda,GBGGolos Gold,GBG,0.146821944,baixa
+2017-12-10,crypto_moneda,XINInfinity Econ...,XIN,0.023232950,baixa
+2017-12-10,crypto_moneda,BT2BT2 [CST],BT2,67.300011900,normal
+2017-12-10,crypto_moneda,VASHVPNCoin,VASH,0.007301881,baixa
+2017-12-10,crypto_moneda,BOTBodhi,BOT,0.345983243,baixa
+2017-12-10,crypto_moneda,SBCStrikeBitClub,SBC,0.977209769,baixa
+2017-12-10,crypto_moneda,UGTUG Token,UGT,0.391546711,baixa
+2017-12-10,crypto_moneda,XCPOCopico,XCPO,0.017382437,baixa
+2017-12-10,crypto_moneda,SURSuretly,SUR,2.081881681,normal
+2017-12-10,crypto_moneda,CAPPCappasity,CAPP,0.017967064,baixa
+2017-12-10,crypto_moneda,TERTerraNova,TER,24.914600365,normal
+2017-12-10,crypto_moneda,LLTLLToken,LLT,0.299899730,baixa
+2017-12-10,crypto_moneda,XIDSphre AIR,XID,0.145033225,baixa
+2017-12-10,crypto_moneda,BSRBitSoar,BSR,0.176569059,baixa
+2017-12-10,crypto_moneda,INFInfChain,INF,0.010487585,baixa
+2017-12-10,crypto_moneda,XYLOXYLO,XYLO,0.704935334,baixa
+2017-12-10,crypto_moneda,ICXICON,ICX,1.529545725,normal
+2017-12-10,crypto_moneda,QBTQbao,QBT,0.179072416,baixa
+2017-12-10,crypto_moneda,MKRMaker,MKR,348.099114581,alta
+2017-12-10,crypto_moneda,DSRDesire,DSR,0.287523156,baixa
+2017-12-10,crypto_moneda,BTCMBTCMoon,BTCM,0.031131354,baixa
+2017-12-10,crypto_moneda,SNOVSnovio,SNOV,0.003634371,baixa
+2017-12-10,crypto_moneda,SENDSocial Send,SEND,0.069698000,baixa
+2017-12-10,crypto_moneda,ZENGOLDZenGold,ZENGOLD,0.057355415,baixa
+2017-12-10,crypto_moneda,B3B3Coin,B3,0.000092622,baixa
+2017-12-10,crypto_moneda,MSDMSD,MSD,0.007564453,baixa
+2017-12-10,crypto_moneda,BT1BT1 [CST],BT1,12810.710219738,molt_alta
+2017-12-10,crypto_moneda,BCDNBlockCDN,BCDN,0.073826923,baixa
+2017-12-10,crypto_moneda,AIBAdvanced Inte...,AIB,0.014321646,baixa
+2017-12-10,crypto_moneda,FORFORCE,FOR,0.009120341,baixa
+2017-12-10,crypto_moneda,VIUViuly,VIU,0.009702418,baixa
+2017-12-10,crypto_moneda,EVREverus,EVR,1.189646675,normal
+2017-12-10,crypto_moneda,MCRMacro,MCR,1.359596200,normal
+2017-12-10,crypto_moneda,BOSBOScoin,BOS,0.875240054,baixa
+2017-12-10,crypto_moneda,SIGMASIGMAcoin,SIGMA,0.038252239,baixa
+2017-12-10,crypto_moneda,DEUSDeusCoin,DEUS,0.253967472,baixa
+2017-12-10,crypto_moneda,WISHMyWish,WISH,0.115139953,baixa
+2017-12-10,crypto_moneda,AKYAkuya Coin,AKY,0.099569178,baixa
+2017-12-10,crypto_moneda,HATHawala.Today,HAT,0.225689570,baixa
+2017-12-10,crypto_moneda,SKRSakuracoin,SKR,0.007860166,baixa
+2017-12-10,crypto_moneda,BONBonpay,BON,1.257626485,normal
+2017-12-10,crypto_moneda,GLSGlassCoin,GLS,0.504615829,baixa
+2017-12-10,crypto_moneda,NEOGNEO GOLD,NEOG,0.002431978,baixa
+2017-12-10,crypto_moneda,NUKONekonium,NUKO,0.065051580,baixa
+2017-12-10,crypto_moneda,PLCPlusCoin,PLC,0.000615217,baixa
+2017-12-10,crypto_moneda,SNDSand Coin,SND,0.667515848,baixa
+2017-12-10,crypto_moneda,DAYChronologic,DAY,3.101578831,normal
+2017-12-10,crypto_moneda,BPLBlockpool,BPL,0.139423191,baixa
+2017-12-10,crypto_moneda,BTCSBitcoin Silver,BTCS,0.003940280,baixa
+2017-12-10,crypto_moneda,BTC2XBitcoin2x,BTC2X,0.004320117,baixa
+2017-12-10,crypto_moneda,CORCORION,COR,0.597417617,baixa
+2017-12-10,crypto_moneda,BITCFFirst Bitcoin...,BITCF,0.103153413,baixa
+2017-12-10,crypto_moneda,MOTOMotocoin,MOTO,0.006656073,baixa
+2017-12-10,crypto_moneda,PLXPlexCoin,PLX,0.026204517,baixa
+2017-12-10,crypto_moneda,MGCMergeCoin,MGC,0.010089903,baixa
+2017-12-10,crypto_moneda,BTUBitcoin Unlim...,BTU,68.846552577,normal
+2017-12-10,crypto_moneda,ELITEEthereum Lite,ELITE,0.243493482,baixa
+2017-12-10,crypto_moneda,DFSDFSCoin,DFS,0.004607332,baixa
+2017-12-10,crypto_moneda,MGCGulfCoin,MGC,0.002655461,baixa
+2017-12-10,crypto_moneda,LTGLiteCoin Gold,LTG,0.003446576,baixa
+2017-12-10,crypto_moneda,STUbitJob,STU,0.026935300,baixa
+2017-12-10,crypto_moneda,WILDWild Crypto,WILD,0.109783994,baixa
+2017-12-10,crypto_moneda,ELCElacoin,ELC,0.091372512,baixa
+2017-12-10,crypto_moneda,XOTInternet of T...,XOT,1857.293383962,molt_alta
+2017-12-10,crypto_moneda,TESLATeslaCoilCoin,TESLA,3.823864313,normal
+2017-12-10,crypto_moneda,ABCAlphabit,ABC,20.181506094,normal
+2017-12-10,crypto_moneda,BUBBubble,BUB,0.013939260,baixa
+2017-12-10,crypto_moneda,PNXPhantomx,PNX,0.016042385,baixa
+2017-12-10,crypto_moneda,DUTCHDutch Coin,DUTCH,0.000265121,baixa
+2017-12-10,crypto_moneda,ACCAdCoin,ACC,0.091491477,baixa
+2017-12-10,crypto_moneda,DMCDynamicCoin,DMC,0.002375894,baixa
+2017-12-10,crypto_moneda,ONGonG.social,ONG,0.144254856,baixa
+2017-12-10,crypto_moneda,PECPeacecoin,PEC,0.053766931,baixa
+2017-12-10,crypto_moneda,HYTVHyper TV,HYTV,0.002921432,baixa
+2017-12-10,crypto_moneda,MENPeopleCoin,MEN,0.000132561,baixa
+2017-12-10,crypto_moneda,GARYPresident Joh...,GARY,0.132626060,baixa
+2017-12-10,crypto_moneda,CTIC3Coimatic 3.0,CTIC3,0.008330076,baixa
+2017-12-10,crypto_moneda,RUNNERSRunners,RUNNERS,0.000132561,baixa
+2017-12-10,crypto_moneda,PRESPresident Trump,PRES,0.004507061,baixa
+2017-12-10,crypto_moneda,FRDFarad,FRD,0.074263694,baixa
+2017-12-10,crypto_moneda,IBTCiBTC,IBTC,0.007506671,baixa
+2017-12-10,crypto_moneda,DGPTDigiPulse,DGPT,0.943219864,baixa
+2017-12-10,crypto_moneda,BATBatCoin,BAT,0.000003399,baixa
+2017-12-10,crypto_moneda,SISASISA,SISA,0.008212811,baixa
+2017-12-10,crypto_moneda,SHNDStrongHands,SHND,0.000000020,baixa
+2017-12-10,crypto_moneda,HNCHuncoin,HNC,0.001858398,baixa
+2017-12-10,crypto_moneda,PRIMUPrimulon,PRIMU,0.000265121,baixa
+2017-12-10,crypto_moneda,TRIATriaconta,TRIA,7.724205911,normal
+2017-12-10,crypto_moneda,UAHPAYUAHPay,UAHPAY,0.000353495,baixa
+2017-12-10,crypto_moneda,EDOGEEtherDoge,EDOGE,0.000000850,baixa
+2017-12-10,crypto_moneda,ACNAvoncoin,ACN,0.000398532,baixa
+2017-12-10,crypto_moneda,OXOX Fina,OX,0.000166551,baixa
+2017-12-10,crypto_moneda,ZBCZilbercoin,ZBC,0.022544654,baixa
+2017-12-10,crypto_moneda,APCAlpaCoin,APC,0.022431638,baixa
+2017-12-10,crypto_moneda,WICWi Coin,WIC,0.002121820,baixa
+2017-12-10,crypto_moneda,QBTCubits,QBT,0.003300420,baixa
+2017-12-10,crypto_moneda,TIETIES Network,TIE,0.091805884,baixa
+2017-12-10,crypto_moneda,ANIAnimecoin,ANI,0.000132561,baixa
+2017-12-10,crypto_moneda,SKULLPirate Blocks,SKULL,0.002009653,baixa
+2017-12-10,crypto_moneda,NAMONamoCoin,NAMO,0.000203090,baixa
+2017-12-10,crypto_moneda,EGOLDeGold,EGOLD,0.015185840,baixa
+2017-12-10,crypto_moneda,URUR,UR,0.000924525,baixa
+2017-12-10,crypto_moneda,LDCNLandCoin,LDCN,0.001208341,baixa
+2017-12-10,crypto_moneda,LAZLazaruscoin,LAZ,0.001858398,baixa
+2017-12-10,crypto_moneda,TCRTheCreed,TCR,0.000398532,baixa
+2017-12-10,crypto_moneda,FLASHFlash,FLASH,0.005443483,baixa
+2017-12-10,crypto_moneda,BTBcBitbase,BTBc,0.003982767,baixa
+2017-12-10,crypto_moneda,EAGEA Coin,EAG,2.047891776,normal
+2017-12-10,crypto_moneda,BESTBestChain,BEST,0.001221087,baixa
+2017-12-10,crypto_moneda,PCSPabyosi Coin ...,PCS,0.081066773,baixa
+2017-12-10,crypto_moneda,RHFCRHFCoin,RHFC,0.001194745,baixa
+2017-12-10,crypto_moneda,STARSStarCash Network,STARS,0.144263354,baixa
+2017-12-10,crypto_moneda,MCIMusiconomi,MCI,0.026673578,baixa
+2017-12-10,crypto_moneda,NTCNatcoin,NTC,0.102223790,baixa
+2017-12-10,crypto_moneda,FRNFrancs,FRN,0.026706718,baixa
+2017-12-10,crypto_moneda,MAVROMavro,MAVRO,0.026286093,baixa
+2017-12-10,crypto_moneda,HALLOHalloween Coin,HALLO,0.000132561,baixa
+2017-12-10,crypto_moneda,TCOINT-coin,TCOIN,0.000188644,baixa
+2017-12-10,crypto_moneda,PCNPeepCoin,PCN,0.000132561,baixa
+2017-12-10,crypto_moneda,PRNProtean,PRN,0.000063731,baixa
+2017-12-10,crypto_moneda,EDRCEDRCoin,EDRC,0.050641559,baixa
+2017-12-10,crypto_moneda,ETTEncryptoTel [...,ETT,0.075882463,baixa
+2017-12-10,crypto_moneda,NBITnetBit,NBIT,0.063724274,baixa
+2017-12-10,crypto_moneda,WAWA Space,WA,0.021241141,baixa
+2017-12-10,crypto_moneda,EBITeBIT,EBIT,0.003017454,baixa
+2017-12-10,crypto_moneda,CASHCash Poker Pro,CASH,0.045902517,baixa
+2017-12-10,crypto_moneda,SKCSkeincoin,SKC,0.019382743,baixa
+2017-12-10,crypto_moneda,RCNRcoin,RCN,0.000132561,baixa
+2017-12-10,crypto_moneda,VULCVulcano,VULC,0.005689060,baixa
+2017-12-10,crypto_moneda,RBBTRabbitCoin,RBBT,0.000003399,baixa
+2017-12-10,crypto_moneda,XRYRoyalties,XRY,0.000130861,baixa
+2017-12-10,crypto_moneda,10MT10M Token,10MT,0.001869445,baixa
+2017-12-10,crypto_moneda,MONETAMoneta,MONETA,0.000398532,baixa
+2017-12-10,crypto_moneda,MINEXMinex,MINEX,0.016106116,baixa
+2017-12-10,crypto_moneda,QORAQora,QORA,0.185861899,baixa
+2017-12-10,crypto_moneda,FUDDDimonCoin,FUDD,0.000799613,baixa
+2017-12-10,crypto_moneda,CCCyberCoin,CC,0.000132561,baixa
+2017-12-10,crypto_moneda,FAPFAPcoin,FAP,0.009588552,baixa
+2017-12-10,crypto_moneda,INDIAIndia Coin,INDIA,0.000265121,baixa
+2017-12-10,crypto_moneda,ZSEZSEcoin,ZSE,0.011284648,baixa
+2017-12-10,crypto_moneda,EUSDeUSD,EUSD,0.000218385,baixa
+2017-12-10,crypto_moneda,XQNQuotient,XQN,0.006638228,baixa
+2017-12-10,crypto_moneda,AMSAmsterdamCoin,AMS,0.004115328,baixa
+2017-12-10,crypto_moneda,BLXBlockchain Index,BLX,2.489760541,normal
+2017-12-10,crypto_moneda,BITOKBitok,BITOK,0.000132561,baixa
+2017-12-10,crypto_moneda,CBDCBD Crystals,CBD,0.002389490,baixa
+2017-12-10,crypto_moneda,MAGNMagnetcoin,MAGN,0.542982784,baixa
+2017-12-10,crypto_moneda,GRNGranite,GRN,0.013541578,baixa
+2017-12-10,crypto_moneda,HIGHHigh Gain,HIGH,0.000265121,baixa
+2017-12-10,crypto_moneda,DBGDigital Bulli...,DBG,0.005841165,baixa
+2017-12-10,crypto_moneda,BSNBastonet,BSN,0.000796214,baixa
+2017-12-10,crypto_moneda,COUPECoupecoin,COUPE,0.000120664,baixa
+2017-12-10,crypto_moneda,RUBITRubleBit,RUBIT,0.004513859,baixa
+2017-12-10,crypto_moneda,QBCQuebecoin,QBC,0.002124369,baixa
+2017-12-10,crypto_moneda,WOWWowcoin,WOW,0.000132561,baixa
+2017-12-10,crypto_moneda,FFCFireFlyCoin,FFC,0.000132561,baixa
+2017-12-10,crypto_moneda,EVCEventChain,EVC,0.114753318,baixa
+2017-12-10,crypto_moneda,WSXWeAreSatoshi,WSX,0.002655461,baixa
+2017-12-10,crypto_moneda,PRMPrismChain,PRM,0.001460716,baixa
+2017-12-10,crypto_moneda,ACESAces,ACES,0.000132561,baixa
+2017-12-10,crypto_moneda,BITFirst Bitcoin,BIT,0.009027719,baixa
+2017-12-10,crypto_moneda,LKCLinkedCoin,LKC,0.000265121,baixa
+2017-12-10,crypto_moneda,GAYGAY Money,GAY,0.010044017,baixa
+2017-12-10,crypto_moneda,CYDERCyder,CYDER,0.000265121,baixa
+2017-12-10,crypto_moneda,YESYescoin,YES,0.000132561,baixa
+2017-12-10,crypto_moneda,IPYInfinity Pay,IPY,0.001683350,baixa
+2017-12-10,crypto_moneda,LEPENLePen,LEPEN,0.000130861,baixa
+2017-12-10,crypto_moneda,VOYAVoyacoin,VOYA,2.124369063,normal
+2017-12-10,crypto_moneda,TODAYTodayCoin,TODAY,0.000796214,baixa
+2017-12-10,crypto_moneda,TOPAZTopaz Coin,TOPAZ,0.087620877,baixa
+2017-12-10,crypto_moneda,ELTC2eLTC,ELTC2,0.000152955,baixa
+2017-12-10,crypto_moneda,SAKSharkcoin,SAK,0.001778522,baixa
+2017-12-10,crypto_moneda,BLAZRBlazerCoin,BLAZR,0.001247430,baixa
+2017-12-10,crypto_moneda,TLETattoocoin (L...,TLE,0.103153413,baixa
+2017-12-10,crypto_moneda,MARXMarxCoin,MARX,0.001334954,baixa
+2017-12-10,crypto_moneda,ASNAseancoin,ASN,0.007301881,baixa
+2017-12-10,crypto_moneda,IQTiQuant,IQT,0.134245679,baixa
+2017-12-10,crypto_moneda,SWPSwapcoin,SWP,0.053553645,baixa
+2017-12-10,crypto_moneda,VGCVegasCoin,VGC,0.000132561,baixa
+2017-12-10,crypto_moneda,PIPiCoin,PI,0.001991808,baixa
+2017-12-10,crypto_moneda,TELLTellurion,TELL,0.000243878,baixa
+2017-12-10,crypto_moneda,KASHHKashhCoin,KASHH,0.000132561,baixa
+2017-12-10,crypto_moneda,AXIOMAxiom,AXIOM,0.019515304,baixa
+2017-12-10,crypto_moneda,BXCBitcedi,BXC,0.002707296,baixa
+2017-12-10,crypto_moneda,TOPTopCoin,TOP,0.000281266,baixa
+2017-12-10,crypto_moneda,KARMAKarmacoin,KARMA,0.000132561,baixa
+2017-12-10,crypto_moneda,EXRNEXRNchain,EXRN,0.000000382,baixa
+2017-12-10,crypto_moneda,YELYellow Token,YEL,0.004437382,baixa
+2017-12-10,crypto_moneda,X2X2,X2,0.000132561,baixa
+2017-12-10,crypto_moneda,CHEAPCheapcoin,CHEAP,0.000265121,baixa
+2017-12-10,crypto_moneda,GMXGoldMaxCoin,GMX,0.001062185,baixa
+2017-12-10,crypto_moneda,WINKWink,WINK,0.000265121,baixa
+2017-12-10,crypto_moneda,9COIN9COIN,9COIN,0.003186554,baixa
+2017-12-10,crypto_moneda,FUTCFutCoin,FUTC,0.002655461,baixa
+2017-12-10,crypto_moneda,GAINUGAIN,GAIN,0.001858398,baixa
+2017-12-10,crypto_moneda,TURBOTurboCoin,TURBO,0.000132561,baixa
+2017-12-10,crypto_moneda,XTDXTD Coin,XTD,0.000132561,baixa
+2017-12-10,crypto_moneda,DASHSDashs,DASHS,0.045137744,baixa
+2017-12-10,crypto_moneda,FRWCFrankyWillCoin,FRWC,0.002256930,baixa
+2017-12-10,crypto_moneda,DONDonationcoin,DON,0.000543838,baixa
+2017-12-10,crypto_moneda,HCCHappy Creator...,HCC,0.000531092,baixa
+2017-12-10,crypto_moneda,EGGEggCoin,EGG,0.050182696,baixa
+2017-12-10,crypto_moneda,REGARegacoin,REGA,0.001062185,baixa
+2017-12-10,crypto_moneda,TEAMTeamUp,TEAM,0.000265121,baixa
+2017-12-10,crypto_moneda,TRICKTrickyCoin,TRICK,0.017125814,baixa
+2017-12-10,crypto_moneda,LTHLAthaan,LTH,0.000663653,baixa
+2017-12-10,crypto_moneda,RUPXRupaya [OLD],RUPX,0.003186554,baixa
+2017-12-10,crypto_moneda,AVAvatarCoin,AV,0.047793205,baixa
+2017-12-10,crypto_moneda,BGRBongger,BGR,0.000144457,baixa
+2017-12-10,crypto_moneda,MBLMobileCash,MBL,0.000531092,baixa
+2017-12-10,crypto_moneda,HYPERHyper,HYPER,0.028675583,baixa
+2017-12-10,crypto_moneda,SNAKESnakeEyes,SNAKE,0.044774052,baixa
+2017-12-10,crypto_moneda,IVZInvisibleCoin,IVZ,0.410490134,baixa
+2017-12-10,crypto_moneda,DISKDarkLisk,DISK,0.001062185,baixa
+2017-12-10,crypto_moneda,SPORTSportsCoin,SPORT,0.001194745,baixa
+2017-12-10,crypto_moneda,MONEYMoneyCoin,MONEY,0.000132561,baixa
+2017-12-10,crypto_moneda,SFESafeCoin,SFE,0.000132561,baixa
+2017-12-10,crypto_moneda,STEXSTEX,STEX,0.960214816,baixa
+2017-12-10,crypto_moneda,FLAPFlappyCoin,FLAP,0.000000850,baixa
+2017-12-10,crypto_moneda,IFCInfinitecoin,IFC,0.000017845,baixa
+2017-12-10,crypto_moneda,BETBetaCoin,BET,0.001259326,baixa
+2017-12-10,crypto_moneda,SYNCSync,SYNC,645.867677334,alta
+2017-12-10,crypto_moneda,SHASHACoin,SHA,0.000651756,baixa
+2017-12-10,crypto_moneda,GMLGameLeagueCoin,GML,0.010457844,baixa
+2017-12-10,crypto_moneda,SJCXStorjcoin X,SJCX,0.215795959,baixa
+2017-12-10,crypto_moneda,NBEBitCentavo,NBE,0.000000280,baixa
+2017-12-10,crypto_moneda,XAUXaucoin,XAU,0.034516749,baixa
+2017-12-10,crypto_moneda,SHELLShellCoin,SHELL,0.036721844,baixa
+2017-12-10,crypto_moneda,DUBDubstep,DUB,0.002488911,baixa
+2017-12-10,crypto_moneda,IRLIrishCoin,IRL,0.002398838,baixa
+2017-12-10,crypto_moneda,CYCCycling Coin,CYC,0.001075780,baixa
+2017-12-10,crypto_moneda,DCREDeltaCredits,DCRE,0.197377679,baixa
+2017-12-10,crypto_moneda,FONZFonziecoin,FONZ,0.000726534,baixa
+2017-12-10,crypto_moneda,CMECashme,CME,0.000117265,baixa
+2017-12-10,crypto_moneda,OPESOpescoin,OPES,0.002377594,baixa
+2017-12-10,crypto_moneda,BACBitAlphaCoin,BAC,0.002946075,baixa
+2017-12-10,crypto_moneda,MMXVIMMXVI,MMXVI,0.003363301,baixa
+2017-12-10,crypto_moneda,PSYPsilocybin,PSY,0.018074132,baixa
+2017-12-10,crypto_moneda,PAYPPayPeer,PAYP,0.000127462,baixa
+2017-12-10,crypto_moneda,OPOperand,OP,0.000831903,baixa
+2017-12-10,crypto_moneda,OCOWOCOW,OCOW,0.000699342,baixa
+2017-12-10,crypto_moneda,CLINTClinton,CLINT,0.012148842,baixa
+2017-12-10,crypto_moneda,RICHXRichCoin,RICHX,0.007334172,baixa
+2017-12-10,crypto_moneda,XIDInternational...,XID,0.008004623,baixa
+2017-12-10,crypto_moneda,POKEPokeCoin,POKE,0.000118115,baixa
+2017-12-10,crypto_moneda,GOLFGolfcoin,GOLF,0.000115566,baixa
+2017-12-10,crypto_moneda,OMCOmicron,OMC,0.130459204,baixa
+2017-12-10,crypto_moneda,ROYALRoyalCoin,ROYAL,0.002330008,baixa
+2017-12-10,crypto_moneda,GBRCGlobal Busine...,GBRC,0.000244727,baixa
+2017-12-10,crypto_moneda,XSTCSafe Trade Coin,XSTC,0.000119814,baixa
+2017-12-10,crypto_moneda,PDGPinkDog,PDG,0.000253225,baixa
+2017-12-10,crypto_moneda,TERATeraCoin,TERA,0.000119814,baixa
+2017-12-10,crypto_moneda,UTAUtaCoin,UTA,0.002269676,baixa
+2017-12-10,crypto_moneda,XDE2XDE II,XDE2,1.750480108,normal
+2017-12-10,crypto_moneda,XVEThe Vegan Ini...,XVE,0.000390884,baixa
+2017-12-10,crypto_moneda,FAZZFazzcoin,FAZZ,0.007685118,baixa
+2017-12-10,crypto_moneda,BIXCBIXC,BIXC,5.302425180,normal
+2017-12-10,crypto_moneda,GUCGoldUnionCoin,GUC,0.056177665,baixa
+2017-12-10,crypto_moneda,TYCTyrocoin,TYC,0.001504053,baixa
+2017-12-10,crypto_moneda,ANTXAntimatter,ANTX,0.000116415,baixa
+2017-12-10,crypto_moneda,EFYTErgo,EFYT,12.559269898,normal
+2017-12-10,crypto_moneda,BIRDSBirds,BIRDS,0.000118965,baixa
+2017-12-10,crypto_moneda,FIDBITFID,FID,0.121219898,baixa
+2017-12-10,crypto_moneda,HDLBHODL Bucks,HDLB,0.043191822,baixa
+2017-12-10,crypto_moneda,BCCSBitcoinCashSc...,BCCS,0.011971245,baixa
+2017-12-10,crypto_moneda,MAGEMagicCoin,MAGE,11.573562652,normal
+2017-12-10,crypto_moneda,UNCUNCoin,UNC,0.000126612,baixa
+2017-12-10,crypto_moneda,WECWowecoin,WEC,0.086674258,baixa
+2017-12-10,crypto_moneda,UNRCUniversalRoya...,UNRC,0.000644109,baixa
+2017-12-10,crypto_moneda,FCFacecoin,FC,0.002957122,baixa
+2017-12-10,crypto_moneda,SICSwisscoin,SIC,0.000104519,baixa
+2017-12-10,crypto_moneda,FBLFaceblock,FBL,0.001405483,baixa
 2017-12-05,crypto_moneda,BTCBitcoin,BTC,10149.640557287,molt_alta
 2017-12-05,crypto_moneda,ETHEthereum,ETH,395.727468962,alta
 2017-12-05,crypto_moneda,BCHBitcoin Cash,BCH,1304.660016044,molt_alta

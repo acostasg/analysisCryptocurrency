@@ -12,6 +12,8 @@ install.packages("arules", dep = T)
 install.packages("NbClust", dep = T)
 install.packages("factoextra", dep = T)
 install.packages("ggExtra", dep = T)
+install.packages("agricolae", dep = T)
+library(agricolae)
 library(ggExtra)
 library(factoextra)
 library(NbClust)
@@ -84,9 +86,15 @@ d <- density(bitcoin$Preu..Euros.)
 plot(x= d, main = "Bitcoin")
 polygon(d, col="blue", border="black") 
 
+#tendencia del bitcoin durant l'estudi
+bitcoin= bitcoin[order(bitcoin$Data),]
+plot(bitcoin$Preu..Euros.,type="l")
+
 #observem IOTA molt experts la anomen com la moneda que reemplaçara al bitcoin
 miota = subset(x = dataset, 
                  subset = dataset$Simbol == "MIOTA" )
+bitcoin= miota[order(bitcoin$Data),]
+plot(miota$Preu..Euros.,type="l")
 
 d <- density(miota$Preu..Euros.)
 plot(x= d, main = "MIOTA")
@@ -127,6 +135,27 @@ clusters_4 <- kmeans(price_norm,4, 15)
 print(clusters_4)
 
 ###############################################
+#        Frecuencies                          #
+###############################################
+
+F_baixa=table.freq(hist(cotitizacio_baixa$Preu..Euros.,plot=FALSE))
+F_baixa
+plot(F_baixa$Frequency,type="l")
+
+F_normal=table.freq(hist(cotitizacio_normal$Preu..Euros.,plot=FALSE))
+F_normal
+plot(F_normal$Frequency ,type="l")
+
+F_alta=table.freq(hist(cotitizacio_alta$Preu..Euros.,plot=FALSE))
+F_alta
+plot(F_alta$Frequency,type="l")
+
+F_molt_alta=table.freq(hist(cotitizacio_molt_alta$Preu..Euros.,plot=FALSE))
+F_molt_alta
+plot(F_molt_alta$Frequency,type="l")
+
+
+###############################################
 #         Grafics/Representació               #
 ###############################################
 
@@ -141,5 +170,3 @@ plot(dataset$Tipus_cotitzacio, dataset$Tipus, xlab = "Tipus de cotització", yla
 
 #inversa de la anterior comparació de cryptomondes i sotck index amb el tipus de preus
 plot(dataset$Tipus, dataset$Tipus_cotitzacio, xlab = "Cryptomoneda/stock index", ylab = "Tipus de cotització")
-
-
