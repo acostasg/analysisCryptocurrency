@@ -108,7 +108,7 @@ La comunitat podrà respondre, entre altres preguntes, a:
 * **Tipus_cotitzacio**: Valor nou que agregarem per discretitzar entre la cotització: baix (0 i 1), normal (1 i 100), alt (100 i 1000), molt_alt (>1000)
 * **Tipus**: Tipus de valor: «stock» índex o cryptomoneda.
 
-Tenim 2 grups cyptomoneda i «stock index», a més de 4 grups per tipus de preu en la cotització, posteriorment utilitzarem algorismes d’agrupació per veure similitud amb tipus de valor.
+Tenim 2 grups cyptomoneda i «stock index», a més de 4 grups per tipus de preu en la cotització, posteriorment utilitzarem algorismes d’agrupació per veure similitud amb aquests tipus de valor.
 
 # Referencies
 
