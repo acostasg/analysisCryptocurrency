@@ -113,12 +113,11 @@ Tenim 2 grups cyptomoneda i «stock index», a més de 4 grups per tipus de preu
 
 # Conclucions 
 
-   Finalment els resultats han permès de respondre al problema, les diferents regressions lineals dels index borsatils, hem eliminat alguns dels més correlacionats, envers una de les criptomoneda HBT amb més diferencia entre els mesos d’octubre i nombres, ha permès primer veure que la hipòtesi que la tendència d’algunes index borsatils ha sigut igual que la moneda en qüestió, i que posterior ens ha permès predir la tendència, amb les poques dades de la distribució normal.
-   
-   Per tant hem pogut veure que si els canvis produïts en algunes cryptomonedes també s’ha replicat alguns index borsatils del Ibex35 en el mes de novembre i octubre, tot i que en pesos diferents, hem vist que els models que ni tots els index borsatils ni en el mateix pes.
-   
-   I finalment, la tendència de creixement o decreixement tenen el mateixos valors o pesos, clarament també afecten molts altres factors, no es possible predir el valor.
+Finalment els resultats han permès de respondre al problema, les diferents regressions lineals dels index borsatils (s'han eliminat índexs borsatis del més correlacionats), envers una de les criptomoneda HBT amb més diferencia entre els mesos d'octubre i nombres (test de contrast d'hipòtesis de variables dependents Wilcoxon), ha permès primer veure que la hipòtesi que la tendència d'algunes index borsatils ha sigut igual que la moneda en qüestió, i que posterior el model de regressió ha permès predir la tendència, amb les poques dades de la distribució normal que disposem.
 
+Per tant hem pogut veure que si els canvis produïts en algunes cryptomonedes també s'ha replicat i s'ha vist afectat per la tendencia d'alguns index borsatils de l'Ibex35 en el mes de novembre i octubre, tot i que en pesos diferents. Amb les diferents models de cada index borsatil sobre la moenda HBT hem vist que ni tots els indexs borsatils ni en el mateix pes.
+
+En conclusió, la tendència de creixement o decreixement d'algunes criptomònades estan relacionades amb la mateixa tendència dels index borsatils duran el temps de la mostra, clarament també afecten molts altres factors.
 # Referencies
 
 * https://stackoverflow.com/questions/6159900/correct-way-to-write-line-to-file-in-python
