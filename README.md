@@ -1,4 +1,4 @@
-# Scraping
+# Comparative analysis between criptomoneda  and stock indices
 
 ## UOC practica 2. Tipologia i cicle de vida.
 
