@@ -179,7 +179,7 @@ bitcoin_novembre = subset(x = dataset,
 x1 = rnorm(bitcoin_october$Preu..Euros.)
 x2 = rnorm(bitcoin_novembre$Preu..Euros.)
 test <- wilcox.test(x1,x2)
-print(test)ç
+print(test)
 # W = 112, p-value = 0.767
 boxplot(x1,x2, names=c("X1","X2"))
 
