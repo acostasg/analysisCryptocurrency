@@ -38,6 +38,7 @@ scraping
 │   ├── scraping_stock_indexs.py # scraping url el economista
 │   └── cleanAndTransform.py # script para limpiar i unificar en un dataset
 ├── R
+│     ├── matriu_de_correlacio_index_borsatils.xlsx #matriu de correlació dels index borsatils
 │     └── script.r ### script R  i amb correlació d’atributs i model
 │ 
 ├── README.md
@@ -109,6 +110,14 @@ La comunitat podrà respondre, entre altres preguntes, a:
 * **Tipus**: Tipus de valor: «stock» índex o cryptomoneda.
 
 Tenim 2 grups cyptomoneda i «stock index», a més de 4 grups per tipus de preu en la cotització, posteriorment utilitzarem algorismes d’agrupació per veure similitud amb aquests tipus de valor.
+
+# Conclucions 
+
+   Finalment els resultats han permès de respondre al problema, les diferents regressions lineals dels index borsatils, hem eliminat alguns dels més correlacionats, envers una de les criptomoneda HBT amb més diferencia entre els mesos d’octubre i nombres, ha permès primer veure que la hipòtesi que la tendència d’algunes index borsatils ha sigut igual que la moneda en qüestió, i que posterior ens ha permès predir la tendència, amb les poques dades de la distribució normal.
+   
+   Per tant hem pogut veure que si els canvis produïts en algunes cryptomonedes també s’ha replicat alguns index borsatils del Ibex35 en el mes de novembre i octubre, tot i que en pesos diferents, hem vist que els models que ni tots els index borsatils ni en el mateix pes.
+   
+   I finalment, la tendència de creixement o decreixement tenen el mateixos valors o pesos, clarament també afecten molts altres factors, no es possible predir el valor.
 
 # Referencies
 
