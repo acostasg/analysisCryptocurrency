@@ -1,4 +1,4 @@
-# Comparative analysis between criptomoneda  and stock indices
+# Comparative analysis between cryptocurrency  and stock indices
 
 ## UOC practica 2. Tipologia i cicle de vida.
 
