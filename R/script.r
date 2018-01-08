@@ -1,6 +1,6 @@
-###############
-# PRACTICA 2  #
-###############
+################
+#  PRACTICA 2  #
+################
 
 #instal·lem la libreria arules i importem llibreries necesaries
 install.packages("devtools", type = "source",  dep = T)
@@ -176,11 +176,27 @@ bitcoin_novembre = subset(x = dataset,
                    subset = dataset$Simbol == "BTC" 
                    & dataset$Data > as.Date("2017-11-012")
                    )
+
+
+########################
+# Test de Shapiro-Wilk #
+########################
+# comprobació hipotesis per saber si es una distribucion normal, si p > 0.05 no podem refusar que sigui una distribució normal
+
+test <- wilcox.test(bitcoin_october$Preu..Euros., bitcoin_novembre$Preu..Euros.)
+print(test)
+# Wilcoxon rank sum test
+# 
+# data:  bitcoin_october$Preu..Euros. and bitcoin_novembre$Preu..Euros.
+# W = 0, p-value = 3.661e-08
+# alternative hypothesis: true location shift is not equal to 0
+#Com es compleix p < 0.05  refusem que sigui uns distribució normal
+
+
+### normalitzem ###
 x1 = rnorm(bitcoin_october$Preu..Euros.)
 x2 = rnorm(bitcoin_novembre$Preu..Euros.)
-test <- wilcox.test(x1,x2)
-print(test)
-# W = 112, p-value = 0.767
+
 boxplot(x1,x2, names=c("X1","X2"))
 
 #MIOTA
@@ -193,11 +209,24 @@ miota_novembre = subset(x = dataset,
                  & dataset$Data > as.Date("2017-11-01")
                  )
 
-x1 = rnorm(miota_octuber$Preu..Euros.)
-x2 = rnorm(miota_novembre$Preu..Euros.)
-test <- wilcox.test(x1,x2)
+########################
+# Test de Shapiro-Wilk #
+########################
+#comprobació hipotesis per saber si es una distribucion normal, si p > 0.05 no podem refusar que sigui una distribució normal
+test <- wilcox.test(miota_octuber$Preu..Euros., miota_octuber$Preu..Euros.)
 print(test)
-#W = 91, p-value = 0.5816
+# Wilcoxon rank sum test with continuity correction
+# 
+# data:  miota_octuber$Preu..Euros. and miota_octuber$Preu..Euros.
+# W = 180.5, p-value = 1
+# alternative hypothesis: true location shift is not equal to 0
+#Com es compleix p > 0.05 no  refusem que sigui uns distribució normal
+
+
+x1 = miota_octuber$Preu..Euros.
+x2 = miota_novembre$Preu..Euros.
+
+
 boxplot(x1,x2, names=c("X1","X2"))
 
 monedes <- distinct(dataset,Simbol)
@@ -214,8 +243,19 @@ for ( moneda in monedes$Simbol ) {
                           & dataset$Data > as.Date("2017-11-01")
                     )
   
-  x1 = rnorm(octuber$Preu..Euros.)
-  x2 = rnorm(novembre$Preu..Euros.)
+  ########################
+  # Test de Shapiro-Wilk #
+  ########################
+  test <- wilcox.test(octuber$Preu..Euros., novembre$Preu..Euros.)
+  
+  if (test$p.value < 0.05){
+    x1 = rnorm(octuber$Preu..Euros.)
+    x2 = rnorm(novembre$Preu..Euros.)
+  } else {
+    x1 = octuber$Preu..Euros.
+    x2 = novembre$Preu..Euros.
+  }
+
 
     if (length(x1)>0 && length(x2)>0 ) {
       test <- wilcox.test(x1,x2)
@@ -226,6 +266,7 @@ for ( moneda in monedes$Simbol ) {
         p_value = paste(test$p.value)
         moneda_mes_diferencia = paste(moneda)
       }
+      
       #la tendencia central de las muestras no es la misma.
       if (test$p.value < 0.05) {
         print(paste("Moneda:", moneda,", p-valor:",test$p.value))
@@ -313,8 +354,6 @@ novembre_clear_index_data = subset(x = clear_index_data,
                       dataset$Data > as.Date("2017-11-01")
                       )
 
-octrubre_norm_HBT = rnorm(octuber_HBT$Preu..Euros.)
-
 lmp <- function (modelobject) {
   if (class(modelobject) != "lm") stop("Not an object of class 'lm' ")
   f <- summary(modelobject)$fstatistic
@@ -326,35 +365,58 @@ lmp <- function (modelobject) {
 nom_indexs_borsatils <- distinct(index_borsatils,Nom)
 millor_model <- NA
 millor_p_value <- 1
+millor_coeficient <- 0
 for ( octuber_inedx_data_name in nom_indexs_borsatils$Nom) {
   
   index_data_octuber = subset(octuber_clear_index_data, subset = octuber_clear_index_data$Nom == octuber_inedx_data_name )
-  index_octuber_norma = rnorm(index_data_octuber$Preu..Euros.)
   
-  if (length(index_octuber_norma)>0) {
+  ########################
+  # Test de Shapiro-Wilk #
+  ########################
+  if (length(index_data_octuber$Preu..Euros.)>0 && length(octuber_HBT$Preu..Euros.)>0 ) {
+      test <- wilcox.test(octuber_HBT$Preu..Euros.,index_data_octuber$Preu..Euros.)
+      
+      if (test$p.value > 0.05){
+        index_octuber_norma = index_data_octuber$Preu..Euros.
+        octrubre_norm_HBT = octuber_HBT$Preu..Euros.
+      } else {
+        index_octuber_norma = rnorm(index_data_octuber$Preu..Euros.)
+        octrubre_norm_HBT = rnorm(octuber_HBT$Preu..Euros.)
+      }
+    }
+
+  
+  if (length(index_octuber_norma)>0 || length(octrubre_norm_HBT)>0 ) {
+  #valor HBT es al valor resposta o dependent (y) i la variable regresora o indepent es el valor del index borsatil (x)
   regresio = lm(octrubre_norm_HBT[1:16] ~ index_octuber_norma[1:16])
-  p_value = lmp(regresio)
   
-  if (p_value < 0.05) {
+  p_value = lmp(regresio)
+  coeficient = summary(regresio)$r.squared
+  
+  #fem check del p-valor i el coficient de correlació al cuadrado 
+  if (p_value < 0.05 && coeficient > 0.1) {
     
-    if(p_value < millor_p_value){
-      millor_p_value = p_value
+    if(p_value < millor_p_value && coeficient > millor_coeficient ){
+      millor_p_value = millor_p_value
+      millor_coeficient = summary(regresio)$r.squared
       millor_model = regresio
       millor_index = octuber_inedx_data_name
     }
     
-    print(paste("Hi ha relació en la moneda HBT amb index borsatil:", octuber_inedx_data_name,", p-valor:",p_value))
+    print(paste("Hi ha relació en la moneda HBT amb index borsatil:", octuber_inedx_data_name,", p-valor:",p_value," coeficient:",summary(regresio)$r.squared))
   }
   }
   
 }
 
-#[1] "Hi ha relació en la moneda HBT amb index borsatil: FUNESPANA , p-valor: 0.0380989010567089"
-#[1] "Hi ha relació en la moneda HBT amb index borsatil: GRUPO PRISA , p-valor: 0.00627180926584772"
-#[1] "Hi ha relació en la moneda HBT amb index borsatil: ORYZON GENOMICS , p-valor: 0.0269072098667691"
-#[1] "Hi ha relació en la moneda HBT amb index borsatil: Reig Jofre , p-valor: 0.00217669767591883"
-#[1] "Hi ha relació en la moneda HBT amb index borsatil: URBAS , p-valor: 0.0122987380270188"
-#[1] "Hi ha relació en la moneda HBT amb index borsatil: MONTEBALITO , p-valor: 0.0423629291066837"
+# [1] "Hi ha relació en la moneda HBT amb index borsatil: INDRA , p-valor: 0.0434609672780196  coeficient: 0.260323716766937"
+# [1] "Hi ha relació en la moneda HBT amb index borsatil: INM. COLONIAL , p-valor: 0.0434609672780196  coeficient: 0.260323716766937"
+# [1] "Hi ha relació en la moneda HBT amb index borsatil: MAPFRE , p-valor: 0.0434609672780196  coeficient: 0.260323716766937"
+# [1] "Hi ha relació en la moneda HBT amb index borsatil: TELEFONICA , p-valor: 0.0474524776129201  coeficient: 0.252184486301504"
+# [1] "Hi ha relació en la moneda HBT amb index borsatil: DEOLEO SA , p-valor: 0.0111645758523162  coeficient: 0.378697822890058"
+# [1] "Hi ha relació en la moneda HBT amb index borsatil: NEINOR HOMES , p-valor: 0.0256928264826268  coeficient: 0.307860428807496"
+# [1] "Hi ha relació en la moneda HBT amb index borsatil: PESCANOVA , p-valor: 0.042581510272475  coeficient: 0.262209968180317"
+# [1] "Hi ha relació en la moneda HBT amb index borsatil: PHARMA MAR R , p-valor: 0.0268530122596045  coeficient: 0.303947075395628"
 
 #La respota a la nostra pregunta, es que si hi ha relació entre les monedes i els index borsatils del IBEX-35, en aquest entre la cryptomoneda
 #HBT i diferents index borsatils.
@@ -363,12 +425,33 @@ for ( octuber_inedx_data_name in nom_indexs_borsatils$Nom) {
 #        Validació del model                 #
 ###############################################
 
+summary(millor_model)
+# Call:
+#   lm(formula = octrubre_norm_HBT[1:16] ~ index_octuber_norma[1:16])
+# 
+# Residuals:
+#   Min       1Q   Median       3Q      Max 
+# -1.36465 -0.58417 -0.03334  0.56504  1.80891 
+# 
+# Coefficients:
+#   Estimate Std. Error t value Pr(>|t|)   
+# (Intercept)                -0.5667     0.2433   -2.33  0.03530 * 
+#   index_octuber_norma[1:16]  -0.9315     0.2511   -3.71  0.00233 **
+#   ---
+#   Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+# 
+# Residual standard error: 0.8479 on 14 degrees of freedom
+# Multiple R-squared:  0.4958,	Adjusted R-squared:  0.4598 
+# F-statistic: 13.77 on 1 and 14 DF,  p-value: 0.00233
+
+
+
 novembre_clear_index_data = subset(octuber_clear_index_data, subset = octuber_clear_index_data$Nom == millor_index )
 novembre_clear_index_data
 
 data_test = data.frame( HBT =  novembre_clear_index_data$Preu..Euros.[1:16])
 
-prediccio <- predict(regresio, newdata = data_test, interval="prediction")
+prediccio <- predict(millor_model, newdata = data_test, interval="prediction")
 
 #         fit       lwr      upr
 #1  -0.056610475 -2.438385 2.325164

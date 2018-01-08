@@ -100,6 +100,21 @@ La comunitat podrà respondre, entre altres preguntes, a:
 * Els efectes o agents externs **afecten per igual** a les accions o cryptomonedes 
 * Hi ha **relacions** cause efecte entre les acciones i cryptomonedes?
 
+# Script R
+
+* Anàlisis de les observacions i el domini de les dades
+* Anàlisis en especial de Bitcoin i la IOTA.
+* Test de Levene per veure la homogeneitat
+* Kmeans per creació de cluster per veure la homegeneitat
+* Freqüències de les distribucions
+* Test de contrast d'hipòtesis de variables dependents (Wilcoxon)
+* Test de Shapiro-Wilk per veure la normalitat de les dades, per normalitzar-les o no
+* Correlació d'índexs borsatils, per eliminar complexitat dels índexs amb grau més alt de correlació
+* Iteració de Regressions lineals per obtenir el model amb més qualitat, observa'n el p-valor i l'índex de correlació
+* Validació de la qualitat del model
+* Representació gràcia
+
+
 # Camps
 
 * **Data**: Data de l’observació
@@ -118,6 +133,7 @@ Finalment els resultats han permès de respondre al problema, les diferents regr
 Per tant hem pogut veure que si els canvis produïts en algunes cryptomonedes també s'ha replicat i s'ha vist afectat per la tendencia d'alguns index borsatils de l'Ibex35 en el mes de novembre i octubre, tot i que en pesos diferents. Amb les diferents models de cada index borsatil sobre la moenda HBT hem vist que ni tots els indexs borsatils ni en el mateix pes.
 
 En conclusió, la tendència de creixement o decreixement d'algunes criptomònades estan relacionades amb la mateixa tendència dels index borsatils duran el temps de la mostra, clarament també afecten molts altres factors.
+
 # Referencies
 
 * https://stackoverflow.com/questions/6159900/correct-way-to-write-line-to-file-in-python
