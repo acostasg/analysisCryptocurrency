@@ -21,9 +21,6 @@ Hem seleccionat diferents fonts de dades per generar fitxers «csv», guardar di
 
 ```
 scraping
-├── pdf
-│   ├── acostasg-PRACTICA_1.pdf  # Document pdf de la practica 1, components grup
-│   └── acostasg-PRACTICA_2.pdf  # Document pdf de la practica 2, components grup
 │
 ├── csv  # datasets
 │   ├── cypto_currencies
@@ -61,10 +58,6 @@ Repositori kaggle Open data:
 
 Kernel en kaggle Open data: 
 * https://www.kaggle.com/acostasg/grafic-distribucion-and-kmeans-algorim-group/output
-
-# Autors
-
-Albert Costas Gutierrez acostasg@uoc.edu
 
 # Llicència
 

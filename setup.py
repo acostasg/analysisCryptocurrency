@@ -6,7 +6,7 @@ setup(
     packages=[''],
     url='https://github.com/acostasg/scraping',
     license='Database released under Open Database License, individual contents under Database Contents License.',
-    author='albert.costas',
+    author='albert',
     author_email='acostasg@uoc.edu',
     description='UOC practica 1. Tipologia i cicle de vida.  ',
     install_requires=[
